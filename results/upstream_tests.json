@@ -1,7 +1,7 @@
 {
   "starlette": {
     "command": "PYTHONPATH=. python -m pytest tests -q --no-header -p no:cacheprovider",
-    "pristine": "4 failed, 1419 passed, 2 xfailed in 11.74s",
+    "pristine": "4 failed, 1419 passed, 2 xfailed in 13.73s (re-run with the weakref-correct trees)",
     "patched": "4 failed, 1419 passed, 2 xfailed in 13.59s (re-run with __weakref__ slot)",
     "verdict": "0 new failures. The same four websocket-header assertions fail in the pristine tree (httpx2 version drift, test_websockets.py:102 and three peers)."
   },
@@ -19,7 +19,7 @@
     "command": "PYTHONPATH=src python -m pytest tests/test_datastructures.py -q --no-header -p no:cacheprovider",
     "pristine": "100 passed in 0.32s",
     "patched": "100 passed in 0.37s (re-run with __weakref__ slot)",
-    "verdict": "Focused module covering every patched class; the full werkzeug suite exceeds the time budget on this box."
+    "verdict": "Focused module covering every patched class; the full werkzeug suite exceeded the 240 s budget on this box (killed, no result claimed)."
   },
   "pyparsing_rejected": {
     "command": "PYTHONPATH=. python -m pytest tests -q --no-header -p no:cacheprovider",
