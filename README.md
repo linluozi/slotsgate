@@ -11,7 +11,7 @@ Upstream: none
 
 This repository is the tool plus a measured trial on four real PyPI projects.
 Targets:
-- `Kludex/starlette` @ `271c277` (BSD-3-Clause): 6 classes
+- `Kludex/starlette` @ `271c277` (BSD-3-Clause): 5 measured classes + `BaseRoute` patched as required base
 - `more-itertools/more-itertools` @ `e3f79f4` (MIT): 5 classes
 - `pallets/werkzeug` @ `0f43c6e` (BSD-3-Clause): 5 classes
 - `hukkin/tomli` @ `43a86ad` (MIT): 4 classes
