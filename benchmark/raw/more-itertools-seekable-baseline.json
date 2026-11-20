@@ -1,0 +1,29 @@
+{
+  "spec": {
+    "module": "more_itertools.more",
+    "attr": "seekable",
+    "factory": "cls([1, 2, 3])",
+    "touch": [],
+    "n": 10000,
+    "repeats": 2,
+    "setup": "def key(x):\n    return x"
+  },
+  "samples": [
+    {
+      "heap_bytes": 2967936,
+      "per_instance_bytes": 296.7936,
+      "peak_bytes": 2996757,
+      "rss_kb": 23160,
+      "create_seconds": 0.12664811871945858,
+      "ns_per_instance": 12664.811871945858
+    },
+    {
+      "heap_bytes": 2965176,
+      "per_instance_bytes": 296.5176,
+      "peak_bytes": 2993997,
+      "rss_kb": 23228,
+      "create_seconds": 0.12544811237603426,
+      "ns_per_instance": 12544.811237603426
+    }
+  ]
+}

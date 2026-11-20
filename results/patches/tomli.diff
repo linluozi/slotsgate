@@ -1,0 +1,38 @@
+--- a/src/tomli/_parser.py
++++ b/src/tomli/_parser.py
+@@ -86,6 +86,8 @@
+ class DEPRECATED_DEFAULT:
+     """Sentinel to be used as default arg during deprecation
+     period of TOMLDecodeError's free-form arguments."""
++
++    __slots__ = ()
+ 
+ 
+ class TOMLDecodeError(ValueError):
+@@ -235,6 +237,8 @@
+ class Flags:
+     """Flags that map to parsed keys/namespaces."""
+ 
++    __slots__ = ('_flags', '_pending_flags')
++
+     # Marks an immutable namespace (inline array or inline table).
+     FROZEN: Final = 0
+     # Marks a nest that has been explicitly created and can no longer
+@@ -291,6 +295,8 @@
+ 
+ 
+ class NestedDict:
++
++    __slots__ = ('dict',)
+     def __init__(self) -> None:
+         # The parsed content of the TOML document
+         self.dict: dict[str, Any] = {}
+@@ -325,6 +331,8 @@
+ 
+ 
+ class Output:
++
++    __slots__ = ('data', 'flags')
+     def __init__(self) -> None:
+         self.data = NestedDict()
+         self.flags = Flags()

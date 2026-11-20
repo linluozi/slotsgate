@@ -1,0 +1,30 @@
+{
+  "spec": {
+    "module": "tomli._parser",
+    "attr": "NestedDict",
+    "factory": "cls()",
+    "touch": [
+      "dict"
+    ],
+    "n": 10000,
+    "repeats": 2
+  },
+  "samples": [
+    {
+      "heap_bytes": 1125176,
+      "per_instance_bytes": 112.5176,
+      "peak_bytes": 1152924,
+      "rss_kb": 14976,
+      "create_seconds": 0.0692459624260664,
+      "ns_per_instance": 6924.59624260664
+    },
+    {
+      "heap_bytes": 1125176,
+      "per_instance_bytes": 112.5176,
+      "peak_bytes": 1152924,
+      "rss_kb": 14976,
+      "create_seconds": 0.06983191519975662,
+      "ns_per_instance": 6983.191519975662
+    }
+  ]
+}

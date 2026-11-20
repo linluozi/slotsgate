@@ -1,0 +1,31 @@
+{
+  "spec": {
+    "module": "werkzeug.datastructures.range",
+    "attr": "Range",
+    "factory": "cls('bytes', [(0, 1)])",
+    "touch": [
+      "units",
+      "ranges"
+    ],
+    "n": 10000,
+    "repeats": 2
+  },
+  "samples": [
+    {
+      "heap_bytes": 2088344,
+      "per_instance_bytes": 208.8344,
+      "peak_bytes": 2117579,
+      "rss_kb": 32180,
+      "create_seconds": 0.1398196518421173,
+      "ns_per_instance": 13981.965184211731
+    },
+    {
+      "heap_bytes": 2085176,
+      "per_instance_bytes": 208.5176,
+      "peak_bytes": 2114411,
+      "rss_kb": 32244,
+      "create_seconds": 0.13888436369597912,
+      "ns_per_instance": 13888.436369597912
+    }
+  ]
+}

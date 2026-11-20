@@ -1,0 +1,447 @@
+{
+  "libraries": [
+    {
+      "name": "starlette",
+      "upstream": "Kludex/starlette",
+      "commit": "271c277",
+      "license": "BSD-3-Clause",
+      "pkg_parent": ".",
+      "pkg": "starlette",
+      "setup": "def noop0():\n    pass",
+      "classes": [
+        {
+          "qualname": "starlette.datastructures.URL",
+          "attr": "datastructures.URL",
+          "module": "starlette.datastructures",
+          "file": "starlette/datastructures.py",
+          "slots": [
+            "_components",
+            "_url"
+          ],
+          "public": true,
+          "factory": "cls('https://example.com/a/b?c=1')",
+          "touch": [
+            "_url"
+          ],
+          "history_hits": []
+        },
+        {
+          "qualname": "starlette.datastructures.Secret",
+          "attr": "datastructures.Secret",
+          "module": "starlette.datastructures",
+          "file": "starlette/datastructures.py",
+          "slots": [
+            "_value"
+          ],
+          "public": true,
+          "factory": "cls('s3cr3t')",
+          "touch": [
+            "_value"
+          ],
+          "history_hits": []
+        },
+        {
+          "qualname": "starlette.routing.Host",
+          "attr": "routing.Host",
+          "module": "starlette.routing",
+          "file": "starlette/routing.py",
+          "slots": [
+            "app",
+            "host",
+            "host_format",
+            "host_regex",
+            "name",
+            "param_convertors"
+          ],
+          "public": true,
+          "factory": "cls('example.com', None)",
+          "touch": [
+            "host",
+            "name"
+          ],
+          "history_hits": []
+        },
+        {
+          "qualname": "starlette.background.BackgroundTask",
+          "attr": "background.BackgroundTask",
+          "module": "starlette.background",
+          "file": "starlette/background.py",
+          "slots": [
+            "args",
+            "func",
+            "is_async",
+            "kwargs"
+          ],
+          "public": true,
+          "factory": "cls(noop0)",
+          "touch": [
+            "func",
+            "is_async"
+          ],
+          "history_hits": []
+        },
+        {
+          "qualname": "starlette.authentication.AuthCredentials",
+          "attr": "authentication.AuthCredentials",
+          "module": "starlette.authentication",
+          "file": "starlette/authentication.py",
+          "slots": [
+            "scopes"
+          ],
+          "public": true,
+          "factory": "cls(['read'])",
+          "touch": [
+            "scopes"
+          ],
+          "history_hits": []
+        },
+        {
+          "qualname": "starlette.routing.BaseRoute",
+          "attr": "BaseRoute",
+          "module": "starlette.routing",
+          "file": "starlette/routing.py",
+          "slots": [],
+          "public": false,
+          "factory": "",
+          "touch": [],
+          "history_hits": []
+        }
+      ],
+      "gh_gate": {
+        "ok": true,
+        "total": 0,
+        "recent": 0,
+        "hits": []
+      },
+      "diff_stat": "starlette/authentication.py | 2 ++\n starlette/background.py     | 2 ++\n starlette/datastructures.py | 4 ++++\n starlette/routing.py        | 4 ++++\n 4 files changed, 12 insertions(+)",
+      "diff_numstat": "2\t0\tstarlette/authentication.py\n2\t0\tstarlette/background.py\n4\t0\tstarlette/datastructures.py\n4\t0\tstarlette/routing.py",
+      "patch": "results/patches/starlette.diff"
+    },
+    {
+      "name": "more-itertools",
+      "upstream": "more-itertools/more-itertools",
+      "commit": "e3f79f4",
+      "license": "MIT",
+      "pkg_parent": ".",
+      "pkg": "more_itertools",
+      "setup": "def key(x):\n    return x",
+      "classes": [
+        {
+          "qualname": "more_itertools.more.peekable",
+          "attr": "more.peekable",
+          "module": "more_itertools.more",
+          "file": "more_itertools/more.py",
+          "slots": [
+            "_cache",
+            "_it"
+          ],
+          "public": true,
+          "factory": "cls([1, 2, 3])",
+          "touch": [],
+          "history_hits": []
+        },
+        {
+          "qualname": "more_itertools.more.seekable",
+          "attr": "more.seekable",
+          "module": "more_itertools.more",
+          "file": "more_itertools/more.py",
+          "slots": [
+            "_cache",
+            "_index",
+            "_maxlen_zero",
+            "_source"
+          ],
+          "public": true,
+          "factory": "cls([1, 2, 3])",
+          "touch": [],
+          "history_hits": []
+        },
+        {
+          "qualname": "more_itertools.more.bucket",
+          "attr": "more.bucket",
+          "module": "more_itertools.more",
+          "file": "more_itertools/more.py",
+          "slots": [
+            "_cache",
+            "_it",
+            "_key",
+            "_validator"
+          ],
+          "public": true,
+          "factory": "cls([], key)",
+          "touch": [],
+          "history_hits": []
+        },
+        {
+          "qualname": "more_itertools.more.countable",
+          "attr": "more.countable",
+          "module": "more_itertools.more",
+          "file": "more_itertools/more.py",
+          "slots": [
+            "_iterator",
+            "items_seen"
+          ],
+          "public": true,
+          "factory": "cls([1, 2, 3])",
+          "touch": [
+            "items_seen"
+          ],
+          "history_hits": []
+        },
+        {
+          "qualname": "more_itertools.more.time_limited",
+          "attr": "more.time_limited",
+          "module": "more_itertools.more",
+          "file": "more_itertools/more.py",
+          "slots": [
+            "_iterator",
+            "_start_time",
+            "limit_seconds",
+            "timed_out"
+          ],
+          "public": true,
+          "factory": "cls(1.0, [1, 2, 3])",
+          "touch": [],
+          "history_hits": []
+        }
+      ],
+      "gh_gate": {
+        "ok": true,
+        "total": 4,
+        "recent": 4,
+        "hits": [
+          {
+            "createdAt": null,
+            "html_url": "https://github.com/more-itertools/more-itertools/pull/1346",
+            "number": 1346,
+            "state": "closed",
+            "title": "Fix the concurrent_tee and serialize stubs"
+          },
+          {
+            "createdAt": null,
+            "html_url": "https://github.com/more-itertools/more-itertools/pull/1103",
+            "number": 1103,
+            "state": "closed",
+            "title": "Add __slots__ to _concurrent_tee"
+          },
+          {
+            "createdAt": null,
+            "html_url": "https://github.com/more-itertools/more-itertools/issues/987",
+            "number": 987,
+            "state": "closed",
+            "title": "Add unbounded option for sieve()"
+          },
+          {
+            "createdAt": null,
+            "html_url": "https://github.com/more-itertools/more-itertools/issues/1093",
+            "number": 1093,
+            "state": "closed",
+            "title": "Allow iterators to be shared between threads"
+          }
+        ]
+      },
+      "diff_stat": "more_itertools/more.py | 10 ++++++++++\n 1 file changed, 10 insertions(+)",
+      "diff_numstat": "10\t0\tmore_itertools/more.py",
+      "patch": "results/patches/more-itertools.diff"
+    },
+    {
+      "name": "werkzeug",
+      "upstream": "pallets/werkzeug",
+      "commit": "0f43c6e",
+      "license": "BSD-3-Clause",
+      "pkg_parent": "src",
+      "pkg": "werkzeug",
+      "setup": null,
+      "classes": [
+        {
+          "qualname": "werkzeug.datastructures.etag.ETag",
+          "attr": "datastructures.ETag",
+          "module": "werkzeug.datastructures.etag",
+          "file": "src/werkzeug/datastructures/etag.py",
+          "slots": [
+            "_value",
+            "_weak"
+          ],
+          "public": true,
+          "factory": "cls('x')",
+          "touch": [
+            "_value",
+            "_weak"
+          ],
+          "history_hits": []
+        },
+        {
+          "qualname": "werkzeug.datastructures.etag.ETagSet",
+          "attr": "datastructures.ETagSet",
+          "module": "werkzeug.datastructures.etag",
+          "file": "src/werkzeug/datastructures/etag.py",
+          "slots": [
+            "_strong",
+            "_weak",
+            "star_tag"
+          ],
+          "public": true,
+          "factory": "cls()",
+          "touch": [],
+          "history_hits": []
+        },
+        {
+          "qualname": "werkzeug.datastructures.range.Range",
+          "attr": "datastructures.Range",
+          "module": "werkzeug.datastructures.range",
+          "file": "src/werkzeug/datastructures/range.py",
+          "slots": [
+            "ranges",
+            "units"
+          ],
+          "public": true,
+          "factory": "cls('bytes', [(0, 1)])",
+          "touch": [
+            "units",
+            "ranges"
+          ],
+          "history_hits": []
+        },
+        {
+          "qualname": "werkzeug.datastructures.range.ContentRange",
+          "attr": "datastructures.ContentRange",
+          "module": "werkzeug.datastructures.range",
+          "file": "src/werkzeug/datastructures/range.py",
+          "slots": [
+            "_length",
+            "_on_update",
+            "_start",
+            "_stop",
+            "_units"
+          ],
+          "public": true,
+          "factory": "cls(0, 1, 2)",
+          "touch": [
+            "start",
+            "stop",
+            "length"
+          ],
+          "history_hits": []
+        },
+        {
+          "qualname": "werkzeug.datastructures.range.IfRange",
+          "attr": "datastructures.IfRange",
+          "module": "werkzeug.datastructures.range",
+          "file": "src/werkzeug/datastructures/range.py",
+          "slots": [
+            "date",
+            "etag"
+          ],
+          "public": true,
+          "factory": "cls()",
+          "touch": [
+            "etag",
+            "date"
+          ],
+          "history_hits": []
+        }
+      ],
+      "gh_gate": {
+        "ok": true,
+        "total": 2,
+        "recent": 2,
+        "hits": [
+          {
+            "createdAt": null,
+            "html_url": "https://github.com/pallets/werkzeug/pull/2332",
+            "number": 2332,
+            "state": "closed",
+            "title": "cached_property for __slots__"
+          },
+          {
+            "createdAt": null,
+            "html_url": "https://github.com/pallets/werkzeug/pull/1774",
+            "number": 1774,
+            "state": "closed",
+            "title": "LocalProxy dunder attributes"
+          }
+        ]
+      },
+      "diff_stat": "src/werkzeug/datastructures/etag.py  | 4 ++++\n src/werkzeug/datastructures/range.py | 6 ++++++\n 2 files changed, 10 insertions(+)",
+      "diff_numstat": "4\t0\tsrc/werkzeug/datastructures/etag.py\n6\t0\tsrc/werkzeug/datastructures/range.py",
+      "patch": "results/patches/werkzeug.diff"
+    },
+    {
+      "name": "tomli",
+      "upstream": "hukkin/tomli",
+      "commit": "43a86ad",
+      "license": "MIT",
+      "pkg_parent": "src",
+      "pkg": "tomli",
+      "setup": null,
+      "classes": [
+        {
+          "qualname": "tomli._parser.Flags",
+          "attr": "_parser.Flags",
+          "module": "tomli._parser",
+          "file": "src/tomli/_parser.py",
+          "slots": [
+            "_flags",
+            "_pending_flags"
+          ],
+          "public": false,
+          "factory": "cls()",
+          "touch": [],
+          "history_hits": []
+        },
+        {
+          "qualname": "tomli._parser.NestedDict",
+          "attr": "_parser.NestedDict",
+          "module": "tomli._parser",
+          "file": "src/tomli/_parser.py",
+          "slots": [
+            "dict"
+          ],
+          "public": false,
+          "factory": "cls()",
+          "touch": [
+            "dict"
+          ],
+          "history_hits": []
+        },
+        {
+          "qualname": "tomli._parser.Output",
+          "attr": "_parser.Output",
+          "module": "tomli._parser",
+          "file": "src/tomli/_parser.py",
+          "slots": [
+            "data",
+            "flags"
+          ],
+          "public": false,
+          "factory": "cls()",
+          "touch": [
+            "data",
+            "flags"
+          ],
+          "history_hits": []
+        },
+        {
+          "qualname": "tomli._parser.DEPRECATED_DEFAULT",
+          "attr": "_parser.DEPRECATED_DEFAULT",
+          "module": "tomli._parser",
+          "file": "src/tomli/_parser.py",
+          "slots": [],
+          "public": false,
+          "factory": "cls()",
+          "touch": [],
+          "history_hits": []
+        }
+      ],
+      "gh_gate": {
+        "ok": true,
+        "total": 0,
+        "recent": 0,
+        "hits": []
+      },
+      "diff_stat": "src/tomli/_parser.py | 8 ++++++++\n 1 file changed, 8 insertions(+)",
+      "diff_numstat": "8\t0\tsrc/tomli/_parser.py",
+      "patch": "results/patches/tomli.diff"
+    }
+  ]
+}

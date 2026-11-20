@@ -1,0 +1,268 @@
+{
+  "environment": {
+    "cpu": "AMD EPYC 7K62 48-Core Processor",
+    "mem_total_kb": 3812564,
+    "python": "3.12.3",
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.39",
+    "probe": "tracemalloc.get_traced_memory() delta after gc.collect(), creation timed with time.perf_counter()"
+  },
+  "n_instances_per_class": 10000,
+  "repeats": 2,
+  "upstream_tests": {
+    "starlette": {
+      "command": "PYTHONPATH=. python -m pytest tests -q --no-header -p no:cacheprovider",
+      "pristine": "4 failed, 1419 passed, 2 xfailed in 11.74s",
+      "patched": "4 failed, 1419 passed, 2 xfailed in 15.53s",
+      "verdict": "0 new failures. The same four websocket-header assertions fail in the pristine tree (httpx2 version drift, test_websockets.py:102 and three peers)."
+    },
+    "more-itertools": {
+      "command": "PYTHONPATH=. python -m pytest tests -q --no-header -p no:cacheprovider",
+      "pristine": "772 passed, 21203 subtests passed in 33.68s",
+      "patched": "772 passed, 21203 subtests passed in 31.14s"
+    },
+    "tomli": {
+      "command": "PYTHONPATH=src python -m pytest tests -q --no-header -p no:cacheprovider",
+      "pristine": "17 passed, 1 skipped, 744 subtests passed in 0.51s",
+      "patched": "17 passed, 1 skipped, 744 subtests passed in 0.64s"
+    },
+    "werkzeug_focused": {
+      "command": "PYTHONPATH=src python -m pytest tests/test_datastructures.py -q --no-header -p no:cacheprovider",
+      "pristine": "100 passed in 0.32s",
+      "patched": "100 passed in 0.87s",
+      "verdict": "Focused module covering every patched class; the full werkzeug suite exceeds the time budget on this box."
+    },
+    "pyparsing_rejected": {
+      "command": "PYTHONPATH=. python -m pytest tests -q --no-header -p no:cacheprovider",
+      "pristine": "2127 passed, 27 skipped, 2089 subtests passed in 92.72s",
+      "patched": "16 failed, 2121 passed, 27 skipped, 2079 subtests passed in 89.92s",
+      "verdict": "G1 fail. All five pyparsing classes are internal caches whose instances are copied/pickled by the packrat machinery; the patch is kept only as evidence and is not shipped as an accepted target."
+    }
+  },
+  "libraries": [
+    {
+      "name": "starlette",
+      "upstream": "Kludex/starlette",
+      "classes": [
+        {
+          "class": "starlette.datastructures.URL",
+          "public": true,
+          "slots": [
+            "_components",
+            "_url"
+          ],
+          "baseline_bytes": 148.7,
+          "baseline_ns": 8363.4
+        },
+        {
+          "class": "starlette.datastructures.Secret",
+          "public": true,
+          "slots": [
+            "_value"
+          ],
+          "baseline_bytes": 80.7,
+          "baseline_ns": 8290.2
+        },
+        {
+          "class": "starlette.routing.Host",
+          "public": true,
+          "slots": [
+            "app",
+            "host",
+            "host_format",
+            "host_regex",
+            "name",
+            "param_convertors"
+          ],
+          "baseline_bytes": 247.8,
+          "baseline_ns": 13553.8
+        },
+        {
+          "class": "starlette.background.BackgroundTask",
+          "public": true,
+          "slots": [
+            "args",
+            "func",
+            "is_async",
+            "kwargs"
+          ],
+          "baseline_bytes": 168.7,
+          "baseline_ns": 10846.3
+        },
+        {
+          "class": "starlette.authentication.AuthCredentials",
+          "public": true,
+          "slots": [
+            "scopes"
+          ],
+          "baseline_bytes": 152.7,
+          "baseline_ns": 9929.9
+        }
+      ]
+    },
+    {
+      "name": "more-itertools",
+      "upstream": "more-itertools/more-itertools",
+      "classes": [
+        {
+          "class": "more_itertools.more.peekable",
+          "public": true,
+          "slots": [
+            "_cache",
+            "_it"
+          ],
+          "baseline_bytes": 984.7,
+          "baseline_ns": 13640.9
+        },
+        {
+          "class": "more_itertools.more.seekable",
+          "public": true,
+          "slots": [
+            "_cache",
+            "_index",
+            "_maxlen_zero",
+            "_source"
+          ],
+          "baseline_bytes": 296.7,
+          "baseline_ns": 12604.8
+        },
+        {
+          "class": "more_itertools.more.bucket",
+          "public": true,
+          "slots": [
+            "_cache",
+            "_it",
+            "_key",
+            "_validator"
+          ],
+          "baseline_bytes": 440.7,
+          "baseline_ns": 10937.1
+        },
+        {
+          "class": "more_itertools.more.countable",
+          "public": true,
+          "slots": [
+            "_iterator",
+            "items_seen"
+          ],
+          "baseline_bytes": 224.7,
+          "baseline_ns": 12727.4
+        },
+        {
+          "class": "more_itertools.more.time_limited",
+          "public": true,
+          "slots": [
+            "_iterator",
+            "_start_time",
+            "limit_seconds",
+            "timed_out"
+          ],
+          "baseline_bytes": 288.7,
+          "baseline_ns": 14671.4
+        }
+      ]
+    },
+    {
+      "name": "werkzeug",
+      "upstream": "pallets/werkzeug",
+      "classes": [
+        {
+          "class": "werkzeug.datastructures.etag.ETag",
+          "public": true,
+          "slots": [
+            "_value",
+            "_weak"
+          ],
+          "baseline_bytes": 88.7,
+          "baseline_ns": 7926.8
+        },
+        {
+          "class": "werkzeug.datastructures.etag.ETagSet",
+          "public": true,
+          "slots": [
+            "_strong",
+            "_weak",
+            "star_tag"
+          ],
+          "baseline_bytes": 528.7,
+          "baseline_ns": 7537.6
+        },
+        {
+          "class": "werkzeug.datastructures.range.Range",
+          "public": true,
+          "slots": [
+            "ranges",
+            "units"
+          ],
+          "baseline_bytes": 208.7,
+          "baseline_ns": 13935.2
+        },
+        {
+          "class": "werkzeug.datastructures.range.ContentRange",
+          "public": true,
+          "slots": [
+            "_length",
+            "_on_update",
+            "_start",
+            "_stop",
+            "_units"
+          ],
+          "baseline_bytes": 112.6,
+          "baseline_ns": 10429.0
+        },
+        {
+          "class": "werkzeug.datastructures.range.IfRange",
+          "public": true,
+          "slots": [
+            "date",
+            "etag"
+          ],
+          "baseline_bytes": 88.7,
+          "baseline_ns": 6891.9
+        }
+      ]
+    },
+    {
+      "name": "tomli",
+      "upstream": "hukkin/tomli",
+      "classes": [
+        {
+          "class": "tomli._parser.Flags",
+          "public": false,
+          "slots": [
+            "_flags",
+            "_pending_flags"
+          ],
+          "baseline_bytes": 368.7,
+          "baseline_ns": 7834.9
+        },
+        {
+          "class": "tomli._parser.NestedDict",
+          "public": false,
+          "slots": [
+            "dict"
+          ],
+          "baseline_bytes": 144.7,
+          "baseline_ns": 6784.5
+        },
+        {
+          "class": "tomli._parser.Output",
+          "public": false,
+          "slots": [
+            "data",
+            "flags"
+          ],
+          "baseline_bytes": 585.0,
+          "baseline_ns": 7691.0
+        },
+        {
+          "class": "tomli._parser.DEPRECATED_DEFAULT",
+          "public": false,
+          "slots": [],
+          "baseline_bytes": 72.7,
+          "baseline_ns": 6818.9
+        }
+      ]
+    }
+  ],
+  "median_throughput_ratio": 1.0021025526187082
+}

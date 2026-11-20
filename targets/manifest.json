@@ -1,0 +1,216 @@
+{
+  "libraries": [
+    {
+      "name": "starlette",
+      "upstream": "Kludex/starlette",
+      "commit": "271c277",
+      "license": "BSD-3-Clause",
+      "repo": "/tmp/tg/starlette",
+      "pkg_parent": ".",
+      "pkg": "starlette",
+      "tests": "PYTHONPATH=. python -m pytest tests -q --no-header -p no:cacheprovider",
+      "classes": [
+        {
+          "attr": "datastructures.URL",
+          "factory": "cls('https://example.com/a/b?c=1')",
+          "touch": [
+            "_url"
+          ],
+          "public": true
+        },
+        {
+          "attr": "datastructures.Secret",
+          "factory": "cls('s3cr3t')",
+          "touch": [
+            "_value"
+          ],
+          "public": true
+        },
+        {
+          "attr": "routing.Host",
+          "factory": "cls('example.com', None)",
+          "touch": [
+            "host",
+            "name"
+          ],
+          "public": true
+        },
+        {
+          "attr": "background.BackgroundTask",
+          "factory": "cls(noop0)",
+          "touch": [
+            "func",
+            "is_async"
+          ],
+          "public": true
+        },
+        {
+          "attr": "authentication.AuthCredentials",
+          "factory": "cls(['read'])",
+          "touch": [
+            "scopes"
+          ],
+          "public": true
+        }
+      ],
+      "setup": "def noop0():\n    pass"
+    },
+    {
+      "name": "more-itertools",
+      "upstream": "more-itertools/more-itertools",
+      "commit": "e3f79f4",
+      "license": "MIT",
+      "repo": "/tmp/tg/more-itertools",
+      "pkg_parent": ".",
+      "pkg": "more_itertools",
+      "tests": "PYTHONPATH=. python -m pytest tests -q --no-header -p no:cacheprovider",
+      "classes": [
+        {
+          "attr": "more.peekable",
+          "factory": "cls([1, 2, 3])",
+          "touch": [],
+          "public": true
+        },
+        {
+          "attr": "more.seekable",
+          "factory": "cls([1, 2, 3])",
+          "touch": [],
+          "public": true
+        },
+        {
+          "attr": "more.bucket",
+          "factory": "cls([], key)",
+          "touch": [],
+          "public": true
+        },
+        {
+          "attr": "more.countable",
+          "factory": "cls([1, 2, 3])",
+          "touch": [
+            "items_seen"
+          ],
+          "public": true
+        },
+        {
+          "attr": "more.time_limited",
+          "factory": "cls(1.0, [1, 2, 3])",
+          "touch": [],
+          "public": true
+        }
+      ],
+      "setup": "def key(x):\n    return x"
+    },
+    {
+      "name": "werkzeug",
+      "upstream": "pallets/werkzeug",
+      "commit": "a9c2d3e",
+      "license": "BSD-3-Clause",
+      "repo": "/tmp/tg/werkzeug",
+      "pkg_parent": "src",
+      "pkg": "werkzeug",
+      "tests": "PYTHONPATH=src python -m pytest tests -q --no-header -p no:cacheprovider",
+      "classes": [
+        {
+          "attr": "datastructures.ETag",
+          "factory": "cls('x')",
+          "touch": [
+            "_value",
+            "_weak"
+          ],
+          "public": true
+        },
+        {
+          "attr": "datastructures.ETagSet",
+          "factory": "cls()",
+          "touch": [],
+          "public": true
+        },
+        {
+          "attr": "datastructures.Range",
+          "factory": "cls('bytes', [(0, 1)])",
+          "touch": [
+            "units",
+            "ranges"
+          ],
+          "public": true
+        },
+        {
+          "attr": "datastructures.ContentRange",
+          "factory": "cls(0, 1, 2)",
+          "touch": [
+            "start",
+            "stop",
+            "length"
+          ],
+          "public": true
+        },
+        {
+          "attr": "datastructures.IfRange",
+          "factory": "cls()",
+          "touch": [
+            "etag",
+            "date"
+          ],
+          "public": true
+        }
+      ]
+    },
+    {
+      "name": "tomli",
+      "upstream": "hukkin/tomli",
+      "commit": "43a86ade",
+      "license": "MIT",
+      "repo": "/tmp/tg/tomli",
+      "pkg_parent": "src",
+      "pkg": "tomli",
+      "tests": "PYTHONPATH=src python -m pytest tests -q --no-header -p no:cacheprovider",
+      "classes": [
+        {
+          "attr": "_parser.Flags",
+          "factory": "cls()",
+          "touch": [],
+          "public": false,
+          "module": "tomli._parser"
+        },
+        {
+          "attr": "_parser.NestedDict",
+          "factory": "cls()",
+          "touch": [
+            "dict"
+          ],
+          "public": false,
+          "module": "tomli._parser"
+        },
+        {
+          "attr": "_parser.Output",
+          "factory": "cls()",
+          "touch": [
+            "data",
+            "flags"
+          ],
+          "public": false,
+          "module": "tomli._parser"
+        },
+        {
+          "attr": "_parser.DEPRECATED_DEFAULT",
+          "factory": "cls()",
+          "touch": [],
+          "public": false,
+          "module": "tomli._parser"
+        }
+      ]
+    }
+  ],
+  "n_instances": 100000,
+  "repeats": 3,
+  "rejected": [
+    {
+      "name": "pyparsing",
+      "upstream": "pyparsing/pyparsing",
+      "commit": "810199f8",
+      "classes": 5,
+      "reason": "upstream suite regressed: 16 failed / 2121 passed / 2079 subtests (pristine: 0 failed / 2127 passed)",
+      "patch": "results/patches/pyparsing.diff"
+    }
+  ]
+}

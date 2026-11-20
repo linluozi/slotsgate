@@ -1,0 +1,49 @@
+--- a/src/werkzeug/datastructures/etag.py
++++ b/src/werkzeug/datastructures/etag.py
+@@ -13,6 +13,8 @@
+ 
+     .. versionadded:: 3.2
+     """
++
++    __slots__ = ('_value', '_weak')
+ 
+     _on_update: t.Callable[[ETag], None] | None = None
+ 
+@@ -120,6 +122,8 @@
+         ``__contains__`` are deprecated and will be removed in Werkzeug 4.0.
+     """
+ 
++    __slots__ = ('_strong', '_weak', 'star_tag')
++
+     def __init__(
+         self,
+         strong_etags: cabc.Iterable[str] | None = None,
+--- a/src/werkzeug/datastructures/range.py
++++ b/src/werkzeug/datastructures/range.py
+@@ -24,6 +24,8 @@
+     .. versionadded:: 0.7
+     """
+ 
++    __slots__ = ('date', 'etag')
++
+     def __init__(self, etag: str | None = None, date: dt.datetime | None = None):
+         self.etag = etag
+         """An unquoted strong ETag value."""
+@@ -104,6 +106,8 @@
+ 
+     .. versionadded:: 0.7
+     """
++
++    __slots__ = ('ranges', 'units')
+ 
+     def __init__(
+         self, units: str, ranges: cabc.Sequence[tuple[int, int | None]]
+@@ -345,6 +349,8 @@
+ 
+     .. versionadded:: 0.7
+     """
++
++    __slots__ = ('_length', '_on_update', '_start', '_stop', '_units')
+ 
+     def __init__(
+         self,

@@ -1,0 +1,31 @@
+{
+  "spec": {
+    "module": "starlette.datastructures",
+    "attr": "URL",
+    "factory": "cls('https://example.com/a/b?c=1')",
+    "touch": [
+      "_url"
+    ],
+    "n": 10000,
+    "repeats": 2,
+    "setup": "def noop0():\n    pass"
+  },
+  "samples": [
+    {
+      "heap_bytes": 1488560,
+      "per_instance_bytes": 148.856,
+      "peak_bytes": 1517087,
+      "rss_kb": 27784,
+      "create_seconds": 0.08448594342917204,
+      "ns_per_instance": 8448.594342917204
+    },
+    {
+      "heap_bytes": 1485176,
+      "per_instance_bytes": 148.5176,
+      "peak_bytes": 1513703,
+      "rss_kb": 27812,
+      "create_seconds": 0.0827823206782341,
+      "ns_per_instance": 8278.23206782341
+    }
+  ]
+}

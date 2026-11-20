@@ -1,0 +1,31 @@
+{
+  "spec": {
+    "module": "tomli._parser",
+    "attr": "Output",
+    "factory": "cls()",
+    "touch": [
+      "data",
+      "flags"
+    ],
+    "n": 10000,
+    "repeats": 2
+  },
+  "samples": [
+    {
+      "heap_bytes": 5854896,
+      "per_instance_bytes": 585.4896,
+      "peak_bytes": 5882108,
+      "rss_kb": 26752,
+      "create_seconds": 0.07782563287764788,
+      "ns_per_instance": 7782.563287764788
+    },
+    {
+      "heap_bytes": 5845176,
+      "per_instance_bytes": 584.5176,
+      "peak_bytes": 5872388,
+      "rss_kb": 26752,
+      "create_seconds": 0.0759937185794115,
+      "ns_per_instance": 7599.371857941151
+    }
+  ]
+}

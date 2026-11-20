@@ -1,0 +1,31 @@
+{
+  "spec": {
+    "module": "werkzeug.datastructures.etag",
+    "attr": "ETag",
+    "factory": "cls('x')",
+    "touch": [
+      "_value",
+      "_weak"
+    ],
+    "n": 10000,
+    "repeats": 2
+  },
+  "samples": [
+    {
+      "heap_bytes": 888344,
+      "per_instance_bytes": 88.8344,
+      "peak_bytes": 916811,
+      "rss_kb": 28544,
+      "create_seconds": 0.07934878673404455,
+      "ns_per_instance": 7934.878673404455
+    },
+    {
+      "heap_bytes": 885176,
+      "per_instance_bytes": 88.5176,
+      "peak_bytes": 913643,
+      "rss_kb": 28604,
+      "create_seconds": 0.07918769307434559,
+      "ns_per_instance": 7918.769307434559
+    }
+  ]
+}

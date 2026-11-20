@@ -1,0 +1,32 @@
+{
+  "spec": {
+    "module": "starlette.routing",
+    "attr": "Host",
+    "factory": "cls('example.com', None)",
+    "touch": [
+      "host",
+      "name"
+    ],
+    "n": 10000,
+    "repeats": 2,
+    "setup": "def noop0():\n    pass"
+  },
+  "samples": [
+    {
+      "heap_bytes": 2479601,
+      "per_instance_bytes": 247.9601,
+      "peak_bytes": 2508667,
+      "rss_kb": 32744,
+      "create_seconds": 0.13689548429101706,
+      "ns_per_instance": 13689.548429101706
+    },
+    {
+      "heap_bytes": 2477042,
+      "per_instance_bytes": 247.7042,
+      "peak_bytes": 2505548,
+      "rss_kb": 32972,
+      "create_seconds": 0.13418032135814428,
+      "ns_per_instance": 13418.032135814428
+    }
+  ]
+}

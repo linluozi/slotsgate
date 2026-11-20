@@ -1,0 +1,32 @@
+{
+  "spec": {
+    "module": "starlette.background",
+    "attr": "BackgroundTask",
+    "factory": "cls(noop0)",
+    "touch": [
+      "func",
+      "is_async"
+    ],
+    "n": 10000,
+    "repeats": 2,
+    "setup": "def noop0():\n    pass"
+  },
+  "samples": [
+    {
+      "heap_bytes": 1365176,
+      "per_instance_bytes": 136.5176,
+      "peak_bytes": 1393327,
+      "rss_kb": 26456,
+      "create_seconds": 0.1093234783038497,
+      "ns_per_instance": 10932.34783038497
+    },
+    {
+      "heap_bytes": 1365176,
+      "per_instance_bytes": 136.5176,
+      "peak_bytes": 1393327,
+      "rss_kb": 26476,
+      "create_seconds": 0.10793683212250471,
+      "ns_per_instance": 10793.683212250471
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "spec": {
+    "module": "more_itertools.more",
+    "attr": "bucket",
+    "factory": "cls([], key)",
+    "touch": [],
+    "n": 10000,
+    "repeats": 2,
+    "setup": "def key(x):\n    return x"
+  },
+  "samples": [
+    {
+      "heap_bytes": 4407936,
+      "per_instance_bytes": 440.7936,
+      "peak_bytes": 4435799,
+      "rss_kb": 24452,
+      "create_seconds": 0.10962049849331379,
+      "ns_per_instance": 10962.049849331379
+    },
+    {
+      "heap_bytes": 4405176,
+      "per_instance_bytes": 440.5176,
+      "peak_bytes": 4433039,
+      "rss_kb": 24516,
+      "create_seconds": 0.1091222520917654,
+      "ns_per_instance": 10912.22520917654
+    }
+  ]
+}

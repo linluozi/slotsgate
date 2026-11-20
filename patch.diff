@@ -1,0 +1,205 @@
+# accepted patches: starlette, more-itertools, werkzeug, tomli
+
+## starlette
+--- a/starlette/authentication.py
++++ b/starlette/authentication.py
+@@ -108,6 +108,8 @@
+ 
+ 
+ class AuthCredentials:
++
++    __slots__ = ('scopes',)
+     def __init__(self, scopes: Sequence[str] | None = None):
+         self.scopes = [] if scopes is None else list(scopes)
+ 
+--- a/starlette/background.py
++++ b/starlette/background.py
+@@ -10,6 +10,8 @@
+ 
+ 
+ class BackgroundTask:
++
++    __slots__ = ('args', 'func', 'is_async', 'kwargs')
+     def __init__(self, func: Callable[P, Any], *args: P.args, **kwargs: P.kwargs) -> None:
+         self.func = func
+         self.args = args
+--- a/starlette/datastructures.py
++++ b/starlette/datastructures.py
+@@ -25,6 +25,8 @@
+ 
+ 
+ class URL:
++
++    __slots__ = ('_components', '_url')
+     def __init__(
+         self,
+         url: str = "",
+@@ -231,6 +233,8 @@
+     Holds a string value that should not be revealed in tracebacks etc.
+     You should cast the value to `str` at the point it is required.
+     """
++
++    __slots__ = ('_value',)
+ 
+     def __init__(self, value: str):
+         self._value = value
+--- a/starlette/routing.py
++++ b/starlette/routing.py
+@@ -174,6 +174,8 @@
+ 
+ 
+ class BaseRoute:
++
++    __slots__ = ()
+     def matches(self, scope: Scope) -> tuple[Match, Scope]:
+         raise NotImplementedError()  # pragma: no cover
+ 
+@@ -473,6 +475,8 @@
+ 
+ 
+ class Host(BaseRoute):
++
++    __slots__ = ('app', 'host', 'host_format', 'host_regex', 'name', 'param_convertors')
+     def __init__(self, host: str, app: ASGIApp, name: str | None = None) -> None:
+         assert not host.startswith("/"), "Host must not start with '/'"
+         self.host = host
+
+## more-itertools
+--- a/more_itertools/more.py
++++ b/more_itertools/more.py
+@@ -378,6 +378,8 @@
+ 
+     """
+ 
++    __slots__ = ('_cache', '_it')
++
+     def __init__(self, iterable):
+         self._it = iter(iterable)
+         self._cache = deque()
+@@ -1189,6 +1191,8 @@
+     or :func:`itertools.groupby` can be used without any caching overhead.
+ 
+     """
++
++    __slots__ = ('_cache', '_it', '_key', '_validator')
+ 
+     def __init__(self, iterable, key, validator=None):
+         self._it = iter(iterable)
+@@ -3106,6 +3110,8 @@
+ 
+     """
+ 
++    __slots__ = ('_cache', '_index', '_maxlen_zero', '_source')
++
+     def __init__(self, iterable, maxlen=None):
+         self._maxlen_zero = maxlen == 0
+         self._source = (
+@@ -3653,6 +3659,8 @@
+     returns anything.
+ 
+     """
++
++    __slots__ = ('_iterator', '_start_time', 'limit_seconds', 'timed_out')
+ 
+     def __init__(self, limit_seconds, iterable):
+         if limit_seconds < 0:
+@@ -4616,6 +4624,8 @@
+         10
+     """
+ 
++    __slots__ = ('_iterator', 'items_seen')
++
+     def __init__(self, iterable):
+         self._iterator = iter(iterable)
+         self.items_seen = 0
+
+## werkzeug
+--- a/src/werkzeug/datastructures/etag.py
++++ b/src/werkzeug/datastructures/etag.py
+@@ -13,6 +13,8 @@
+ 
+     .. versionadded:: 3.2
+     """
++
++    __slots__ = ('_value', '_weak')
+ 
+     _on_update: t.Callable[[ETag], None] | None = None
+ 
+@@ -120,6 +122,8 @@
+         ``__contains__`` are deprecated and will be removed in Werkzeug 4.0.
+     """
+ 
++    __slots__ = ('_strong', '_weak', 'star_tag')
++
+     def __init__(
+         self,
+         strong_etags: cabc.Iterable[str] | None = None,
+--- a/src/werkzeug/datastructures/range.py
++++ b/src/werkzeug/datastructures/range.py
+@@ -24,6 +24,8 @@
+     .. versionadded:: 0.7
+     """
+ 
++    __slots__ = ('date', 'etag')
++
+     def __init__(self, etag: str | None = None, date: dt.datetime | None = None):
+         self.etag = etag
+         """An unquoted strong ETag value."""
+@@ -104,6 +106,8 @@
+ 
+     .. versionadded:: 0.7
+     """
++
++    __slots__ = ('ranges', 'units')
+ 
+     def __init__(
+         self, units: str, ranges: cabc.Sequence[tuple[int, int | None]]
+@@ -345,6 +349,8 @@
+ 
+     .. versionadded:: 0.7
+     """
++
++    __slots__ = ('_length', '_on_update', '_start', '_stop', '_units')
+ 
+     def __init__(
+         self,
+
+## tomli
+--- a/src/tomli/_parser.py
++++ b/src/tomli/_parser.py
+@@ -86,6 +86,8 @@
+ class DEPRECATED_DEFAULT:
+     """Sentinel to be used as default arg during deprecation
+     period of TOMLDecodeError's free-form arguments."""
++
++    __slots__ = ()
+ 
+ 
+ class TOMLDecodeError(ValueError):
+@@ -235,6 +237,8 @@
+ class Flags:
+     """Flags that map to parsed keys/namespaces."""
+ 
++    __slots__ = ('_flags', '_pending_flags')
++
+     # Marks an immutable namespace (inline array or inline table).
+     FROZEN: Final = 0
+     # Marks a nest that has been explicitly created and can no longer
+@@ -291,6 +295,8 @@
+ 
+ 
+ class NestedDict:
++
++    __slots__ = ('dict',)
+     def __init__(self) -> None:
+         # The parsed content of the TOML document
+         self.dict: dict[str, Any] = {}
+@@ -325,6 +331,8 @@
+ 
+ 
+ class Output:
++
++    __slots__ = ('data', 'flags')
+     def __init__(self) -> None:
+         self.data = NestedDict()
+         self.flags = Flags()
