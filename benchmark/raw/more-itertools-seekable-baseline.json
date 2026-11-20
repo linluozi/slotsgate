@@ -14,16 +14,16 @@
       "per_instance_bytes": 296.7936,
       "peak_bytes": 2996757,
       "rss_kb": 23160,
-      "create_seconds": 0.12664811871945858,
-      "ns_per_instance": 12664.811871945858
+      "create_seconds": 0.17763010133057833,
+      "ns_per_instance": 17763.010133057833
     },
     {
       "heap_bytes": 2965176,
       "per_instance_bytes": 296.5176,
       "peak_bytes": 2993997,
       "rss_kb": 23228,
-      "create_seconds": 0.12544811237603426,
-      "ns_per_instance": 12544.811237603426
+      "create_seconds": 0.24745049700140953,
+      "ns_per_instance": 24745.049700140953
     }
   ]
 }

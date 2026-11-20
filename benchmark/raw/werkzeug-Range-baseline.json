@@ -15,17 +15,17 @@
       "heap_bytes": 2088344,
       "per_instance_bytes": 208.8344,
       "peak_bytes": 2117579,
-      "rss_kb": 32180,
-      "create_seconds": 0.1398196518421173,
-      "ns_per_instance": 13981.965184211731
+      "rss_kb": 32052,
+      "create_seconds": 0.1390372049063444,
+      "ns_per_instance": 13903.720490634441
     },
     {
       "heap_bytes": 2085176,
       "per_instance_bytes": 208.5176,
       "peak_bytes": 2114411,
-      "rss_kb": 32244,
-      "create_seconds": 0.13888436369597912,
-      "ns_per_instance": 13888.436369597912
+      "rss_kb": 32136,
+      "create_seconds": 0.14006137941032648,
+      "ns_per_instance": 14006.137941032648
     }
   ]
 }

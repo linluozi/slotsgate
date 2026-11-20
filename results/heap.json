@@ -24,58 +24,58 @@
           ],
           "baseline": {
             "per_instance_bytes": 148.6868,
-            "ns_per_instance": 8363.413205370307,
-            "rss_kb": 27798.0,
+            "ns_per_instance": 8747.96798452735,
+            "rss_kb": 27890.0,
             "heap_bytes": 1486868.0,
             "samples": [
               {
                 "heap_bytes": 1488560,
                 "per_instance_bytes": 148.856,
                 "peak_bytes": 1517087,
-                "rss_kb": 27784,
-                "create_seconds": 0.08448594342917204,
-                "ns_per_instance": 8448.594342917204
+                "rss_kb": 27872,
+                "create_seconds": 0.08834836818277836,
+                "ns_per_instance": 8834.836818277836
               },
               {
                 "heap_bytes": 1485176,
                 "per_instance_bytes": 148.5176,
                 "peak_bytes": 1513703,
-                "rss_kb": 27812,
-                "create_seconds": 0.0827823206782341,
-                "ns_per_instance": 8278.23206782341
+                "rss_kb": 27908,
+                "create_seconds": 0.08661099150776863,
+                "ns_per_instance": 8661.099150776863
               }
             ],
             "raw": "benchmark/raw/starlette-URL-baseline.json",
-            "seconds": 1.67
+            "seconds": 1.73
           },
           "optimized": {
-            "per_instance_bytes": 124.5176,
-            "ns_per_instance": 8448.817348107696,
-            "rss_kb": 26656.0,
-            "heap_bytes": 1245176.0,
+            "per_instance_bytes": 140.5176,
+            "ns_per_instance": 8364.74858224392,
+            "rss_kb": 26806.0,
+            "heap_bytes": 1405176.0,
             "samples": [
               {
-                "heap_bytes": 1245176,
-                "per_instance_bytes": 124.5176,
-                "peak_bytes": 1273727,
-                "rss_kb": 26600,
-                "create_seconds": 0.08389681670814753,
-                "ns_per_instance": 8389.681670814753
+                "heap_bytes": 1405176,
+                "per_instance_bytes": 140.5176,
+                "peak_bytes": 1433711,
+                "rss_kb": 26780,
+                "create_seconds": 0.08371524699032307,
+                "ns_per_instance": 8371.524699032307
               },
               {
-                "heap_bytes": 1245176,
-                "per_instance_bytes": 124.5176,
-                "peak_bytes": 1273727,
-                "rss_kb": 26712,
-                "create_seconds": 0.08507953025400639,
-                "ns_per_instance": 8507.953025400639
+                "heap_bytes": 1405176,
+                "per_instance_bytes": 140.5176,
+                "peak_bytes": 1433711,
+                "rss_kb": 26832,
+                "create_seconds": 0.08357972465455532,
+                "ns_per_instance": 8357.972465455532
               }
             ],
             "raw": "benchmark/raw/starlette-URL-optimized.json",
-            "seconds": 1.66
+            "seconds": 1.67
           },
-          "heap_reduction_pct": 16.25510805263144,
-          "throughput_ratio": 0.9898915860979624
+          "heap_reduction_pct": 5.494233516357882,
+          "throughput_ratio": 1.04581361872572
         },
         {
           "qualname": "starlette.datastructures.Secret",
@@ -85,7 +85,7 @@
           ],
           "baseline": {
             "per_instance_bytes": 80.68915,
-            "ns_per_instance": 8290.215628221631,
+            "ns_per_instance": 8440.201915800571,
             "rss_kb": 26154.0,
             "heap_bytes": 806891.5,
             "samples": [
@@ -94,49 +94,49 @@
                 "per_instance_bytes": 80.8607,
                 "peak_bytes": 837139,
                 "rss_kb": 26128,
-                "create_seconds": 0.08297544345259666,
-                "ns_per_instance": 8297.544345259666
+                "create_seconds": 0.08382156770676374,
+                "ns_per_instance": 8382.156770676374
               },
               {
                 "heap_bytes": 805176,
                 "per_instance_bytes": 80.5176,
                 "peak_bytes": 833708,
                 "rss_kb": 26180,
-                "create_seconds": 0.08282886911183596,
-                "ns_per_instance": 8282.886911183596
+                "create_seconds": 0.08498247060924768,
+                "ns_per_instance": 8498.247060924768
               }
             ],
             "raw": "benchmark/raw/starlette-Secret-baseline.json",
             "seconds": 1.67
           },
           "optimized": {
-            "per_instance_bytes": 48.51995,
-            "ns_per_instance": 8226.63465514779,
-            "rss_kb": 24704.0,
-            "heap_bytes": 485199.5,
+            "per_instance_bytes": 64.51995,
+            "ns_per_instance": 8285.911288112402,
+            "rss_kb": 24966.0,
+            "heap_bytes": 645199.5,
             "samples": [
               {
-                "heap_bytes": 485223,
-                "per_instance_bytes": 48.5223,
-                "peak_bytes": 513787,
-                "rss_kb": 24696,
-                "create_seconds": 0.08309919759631157,
-                "ns_per_instance": 8309.919759631157
+                "heap_bytes": 645223,
+                "per_instance_bytes": 64.5223,
+                "peak_bytes": 673771,
+                "rss_kb": 24944,
+                "create_seconds": 0.08429253287613392,
+                "ns_per_instance": 8429.253287613392
               },
               {
-                "heap_bytes": 485176,
-                "per_instance_bytes": 48.5176,
-                "peak_bytes": 513740,
-                "rss_kb": 24712,
-                "create_seconds": 0.08143349550664425,
-                "ns_per_instance": 8143.349550664425
+                "heap_bytes": 645176,
+                "per_instance_bytes": 64.5176,
+                "peak_bytes": 673724,
+                "rss_kb": 24988,
+                "create_seconds": 0.08142569288611412,
+                "ns_per_instance": 8142.569288611412
               }
             ],
             "raw": "benchmark/raw/starlette-Secret-optimized.json",
-            "seconds": 1.61
+            "seconds": 1.66
           },
-          "heap_reduction_pct": 39.86806156713758,
-          "throughput_ratio": 1.0077286734781705
+          "heap_reduction_pct": 20.038877593827674,
+          "throughput_ratio": 1.0186208399201095
         },
         {
           "qualname": "starlette.routing.Host",
@@ -151,7 +151,7 @@
           ],
           "baseline": {
             "per_instance_bytes": 247.83215,
-            "ns_per_instance": 13553.790282458067,
+            "ns_per_instance": 13794.861314818263,
             "rss_kb": 32858.0,
             "heap_bytes": 2478321.5,
             "samples": [
@@ -159,50 +159,50 @@
                 "heap_bytes": 2479601,
                 "per_instance_bytes": 247.9601,
                 "peak_bytes": 2508667,
-                "rss_kb": 32744,
-                "create_seconds": 0.13689548429101706,
-                "ns_per_instance": 13689.548429101706
+                "rss_kb": 32736,
+                "create_seconds": 0.13920766487717628,
+                "ns_per_instance": 13920.766487717628
               },
               {
                 "heap_bytes": 2477042,
                 "per_instance_bytes": 247.7042,
                 "peak_bytes": 2505548,
-                "rss_kb": 32972,
-                "create_seconds": 0.13418032135814428,
-                "ns_per_instance": 13418.032135814428
+                "rss_kb": 32980,
+                "create_seconds": 0.13668956141918898,
+                "ns_per_instance": 13668.956141918898
               }
             ],
             "raw": "benchmark/raw/starlette-Host-baseline.json",
-            "seconds": 2.33
+            "seconds": 2.37
           },
           "optimized": {
-            "per_instance_bytes": 204.8246,
-            "ns_per_instance": 13525.767484679818,
-            "rss_kb": 31328.0,
-            "heap_bytes": 2048246.0,
+            "per_instance_bytes": 220.6695,
+            "ns_per_instance": 13533.412292599678,
+            "rss_kb": 31146.0,
+            "heap_bytes": 2206695.0,
             "samples": [
               {
-                "heap_bytes": 2051175,
-                "per_instance_bytes": 205.1175,
-                "peak_bytes": 2080281,
-                "rss_kb": 31072,
-                "create_seconds": 0.1378923673182726,
-                "ns_per_instance": 13789.236731827259
+                "heap_bytes": 2207650,
+                "per_instance_bytes": 220.765,
+                "peak_bytes": 2236740,
+                "rss_kb": 30932,
+                "create_seconds": 0.13268970046192408,
+                "ns_per_instance": 13268.970046192408
               },
               {
-                "heap_bytes": 2045317,
-                "per_instance_bytes": 204.5317,
-                "peak_bytes": 2073863,
-                "rss_kb": 31584,
-                "create_seconds": 0.13262298237532377,
-                "ns_per_instance": 13262.298237532377
+                "heap_bytes": 2205740,
+                "per_instance_bytes": 220.574,
+                "peak_bytes": 2234270,
+                "rss_kb": 31360,
+                "create_seconds": 0.13797854539006948,
+                "ns_per_instance": 13797.854539006948
               }
             ],
             "raw": "benchmark/raw/starlette-Host-optimized.json",
-            "seconds": 2.31
+            "seconds": 2.38
           },
-          "heap_reduction_pct": 17.35349913237649,
-          "throughput_ratio": 1.0020718083325024
+          "heap_reduction_pct": 10.960099405989098,
+          "throughput_ratio": 1.0193187805533384
         },
         {
           "qualname": "starlette.background.BackgroundTask",
@@ -215,58 +215,58 @@
           ],
           "baseline": {
             "per_instance_bytes": 168.6556,
-            "ns_per_instance": 10846.260469406843,
-            "rss_kb": 27562.0,
+            "ns_per_instance": 11196.260806173086,
+            "rss_kb": 27688.0,
             "heap_bytes": 1686556.0,
             "samples": [
               {
                 "heap_bytes": 1687936,
                 "per_instance_bytes": 168.7936,
                 "peak_bytes": 1716055,
-                "rss_kb": 27548,
-                "create_seconds": 0.10837146826088428,
-                "ns_per_instance": 10837.146826088428
+                "rss_kb": 27676,
+                "create_seconds": 0.11139806173741817,
+                "ns_per_instance": 11139.806173741817
               },
               {
                 "heap_bytes": 1685176,
                 "per_instance_bytes": 168.5176,
                 "peak_bytes": 1713295,
-                "rss_kb": 27576,
-                "create_seconds": 0.10855374112725258,
-                "ns_per_instance": 10855.374112725258
+                "rss_kb": 27700,
+                "create_seconds": 0.11252715438604355,
+                "ns_per_instance": 11252.715438604355
               }
             ],
             "raw": "benchmark/raw/starlette-BackgroundTask-baseline.json",
-            "seconds": 1.86
+            "seconds": 1.92
           },
           "optimized": {
-            "per_instance_bytes": 136.5176,
-            "ns_per_instance": 10863.01552131772,
-            "rss_kb": 26466.0,
-            "heap_bytes": 1365176.0,
+            "per_instance_bytes": 152.5176,
+            "ns_per_instance": 11130.604473873973,
+            "rss_kb": 26610.0,
+            "heap_bytes": 1525176.0,
             "samples": [
               {
-                "heap_bytes": 1365176,
-                "per_instance_bytes": 136.5176,
-                "peak_bytes": 1393327,
-                "rss_kb": 26456,
-                "create_seconds": 0.1093234783038497,
-                "ns_per_instance": 10932.34783038497
+                "heap_bytes": 1525176,
+                "per_instance_bytes": 152.5176,
+                "peak_bytes": 1553311,
+                "rss_kb": 26588,
+                "create_seconds": 0.1095602372661233,
+                "ns_per_instance": 10956.02372661233
               },
               {
-                "heap_bytes": 1365176,
-                "per_instance_bytes": 136.5176,
-                "peak_bytes": 1393327,
-                "rss_kb": 26476,
-                "create_seconds": 0.10793683212250471,
-                "ns_per_instance": 10793.683212250471
+                "heap_bytes": 1525176,
+                "per_instance_bytes": 152.5176,
+                "peak_bytes": 1553311,
+                "rss_kb": 26632,
+                "create_seconds": 0.11305185221135616,
+                "ns_per_instance": 11305.185221135616
               }
             ],
             "raw": "benchmark/raw/starlette-BackgroundTask-optimized.json",
-            "seconds": 1.84
+            "seconds": 1.92
           },
-          "heap_reduction_pct": 19.055400472916407,
-          "throughput_ratio": 0.9984576058205941
+          "heap_reduction_pct": 9.568612011697208,
+          "throughput_ratio": 1.0058987211748673
         },
         {
           "qualname": "starlette.authentication.AuthCredentials",
@@ -276,62 +276,62 @@
           ],
           "baseline": {
             "per_instance_bytes": 152.6868,
-            "ns_per_instance": 9929.89824153483,
-            "rss_kb": 31388.0,
+            "ns_per_instance": 11050.57392269373,
+            "rss_kb": 31392.0,
             "heap_bytes": 1526868.0,
             "samples": [
               {
                 "heap_bytes": 1528560,
                 "per_instance_bytes": 152.856,
                 "peak_bytes": 1557080,
-                "rss_kb": 31144,
-                "create_seconds": 0.09735219180583954,
-                "ns_per_instance": 9735.219180583954
+                "rss_kb": 31152,
+                "create_seconds": 0.12312433775514364,
+                "ns_per_instance": 12312.433775514364
               },
               {
                 "heap_bytes": 1525176,
                 "per_instance_bytes": 152.5176,
                 "peak_bytes": 1553696,
                 "rss_kb": 31632,
-                "create_seconds": 0.10124577302485704,
-                "ns_per_instance": 10124.577302485704
+                "create_seconds": 0.09788714069873095,
+                "ns_per_instance": 9788.714069873095
               }
             ],
             "raw": "benchmark/raw/starlette-AuthCredentials-baseline.json",
-            "seconds": 1.8
+            "seconds": 1.86
           },
           "optimized": {
-            "per_instance_bytes": 120.5176,
-            "ns_per_instance": 9833.632735535502,
-            "rss_kb": 29516.0,
-            "heap_bytes": 1205176.0,
+            "per_instance_bytes": 136.5176,
+            "ns_per_instance": 9727.962408214808,
+            "rss_kb": 29754.0,
+            "heap_bytes": 1365176.0,
             "samples": [
               {
-                "heap_bytes": 1205176,
-                "per_instance_bytes": 120.5176,
-                "peak_bytes": 1233728,
-                "rss_kb": 29508,
-                "create_seconds": 0.0992208244279027,
-                "ns_per_instance": 9922.08244279027
+                "heap_bytes": 1365176,
+                "per_instance_bytes": 136.5176,
+                "peak_bytes": 1393712,
+                "rss_kb": 29716,
+                "create_seconds": 0.09720083046704531,
+                "ns_per_instance": 9720.08304670453
               },
               {
-                "heap_bytes": 1205176,
-                "per_instance_bytes": 120.5176,
-                "peak_bytes": 1233728,
-                "rss_kb": 29524,
-                "create_seconds": 0.09745183028280735,
-                "ns_per_instance": 9745.183028280735
+                "heap_bytes": 1365176,
+                "per_instance_bytes": 136.5176,
+                "peak_bytes": 1393712,
+                "rss_kb": 29792,
+                "create_seconds": 0.09735841769725084,
+                "ns_per_instance": 9735.841769725084
               }
             ],
             "raw": "benchmark/raw/starlette-AuthCredentials-optimized.json",
-            "seconds": 1.79
+            "seconds": 1.83
           },
-          "heap_reduction_pct": 21.068749885386296,
-          "throughput_ratio": 1.009789414409535
+          "heap_reduction_pct": 10.589782482834153,
+          "throughput_ratio": 1.13595976824109
         }
       ],
-      "median_heap_reduction_pct": 19.055400472916407,
-      "median_throughput_ratio": 1.0020718083325024
+      "median_heap_reduction_pct": 10.589782482834153,
+      "median_throughput_ratio": 1.0193187805533384
     },
     {
       "name": "more-itertools",
@@ -348,58 +348,58 @@
           ],
           "baseline": {
             "per_instance_bytes": 984.6759999999999,
-            "ns_per_instance": 13640.910480171442,
-            "rss_kb": 32298.0,
+            "ns_per_instance": 13400.939758867025,
+            "rss_kb": 32188.0,
             "heap_bytes": 9846760.0,
             "samples": [
               {
                 "heap_bytes": 9848344,
                 "per_instance_bytes": 984.8344,
                 "peak_bytes": 9876533,
-                "rss_kb": 32144,
-                "create_seconds": 0.1391961295157671,
-                "ns_per_instance": 13919.61295157671
+                "rss_kb": 31984,
+                "create_seconds": 0.12717928178608418,
+                "ns_per_instance": 12717.928178608418
               },
               {
                 "heap_bytes": 9845176,
                 "per_instance_bytes": 984.5176,
                 "peak_bytes": 9873365,
-                "rss_kb": 32452,
-                "create_seconds": 0.13362208008766174,
-                "ns_per_instance": 13362.208008766174
+                "rss_kb": 32392,
+                "create_seconds": 0.14083951339125633,
+                "ns_per_instance": 14083.951339125633
               }
             ],
             "raw": "benchmark/raw/more-itertools-peekable-baseline.json",
-            "seconds": 2.19
+            "seconds": 2.16
           },
           "optimized": {
-            "per_instance_bytes": 952.5176,
-            "ns_per_instance": 12787.624355405569,
-            "rss_kb": 29960.0,
-            "heap_bytes": 9525176.0,
+            "per_instance_bytes": 968.5176,
+            "ns_per_instance": 14237.083215266466,
+            "rss_kb": 29922.0,
+            "heap_bytes": 9685176.0,
             "samples": [
               {
-                "heap_bytes": 9525176,
-                "per_instance_bytes": 952.5176,
-                "peak_bytes": 9553397,
-                "rss_kb": 29960,
-                "create_seconds": 0.12751251459121704,
-                "ns_per_instance": 12751.251459121704
+                "heap_bytes": 9685176,
+                "per_instance_bytes": 968.5176,
+                "peak_bytes": 9713381,
+                "rss_kb": 29900,
+                "create_seconds": 0.1404630560427904,
+                "ns_per_instance": 14046.305604279041
               },
               {
-                "heap_bytes": 9525176,
-                "per_instance_bytes": 952.5176,
-                "peak_bytes": 9553397,
-                "rss_kb": 29960,
-                "create_seconds": 0.12823997251689434,
-                "ns_per_instance": 12823.997251689434
+                "heap_bytes": 9685176,
+                "per_instance_bytes": 968.5176,
+                "peak_bytes": 9713381,
+                "rss_kb": 29944,
+                "create_seconds": 0.1442786082625389,
+                "ns_per_instance": 14427.860826253891
               }
             ],
             "raw": "benchmark/raw/more-itertools-peekable-optimized.json",
-            "seconds": 2.17
+            "seconds": 2.14
           },
-          "heap_reduction_pct": 3.2658864438657953,
-          "throughput_ratio": 1.0667274937901325
+          "heap_reduction_pct": 1.6409864767700122,
+          "throughput_ratio": 0.9412700309637271
         },
         {
           "qualname": "more_itertools.more.seekable",
@@ -412,7 +412,7 @@
           ],
           "baseline": {
             "per_instance_bytes": 296.65560000000005,
-            "ns_per_instance": 12604.811554774642,
+            "ns_per_instance": 21254.029916599393,
             "rss_kb": 23194.0,
             "heap_bytes": 2966556.0,
             "samples": [
@@ -421,49 +421,49 @@
                 "per_instance_bytes": 296.7936,
                 "peak_bytes": 2996757,
                 "rss_kb": 23160,
-                "create_seconds": 0.12664811871945858,
-                "ns_per_instance": 12664.811871945858
+                "create_seconds": 0.17763010133057833,
+                "ns_per_instance": 17763.010133057833
               },
               {
                 "heap_bytes": 2965176,
                 "per_instance_bytes": 296.5176,
                 "peak_bytes": 2993997,
                 "rss_kb": 23228,
-                "create_seconds": 0.12544811237603426,
-                "ns_per_instance": 12544.811237603426
+                "create_seconds": 0.24745049700140953,
+                "ns_per_instance": 24745.049700140953
               }
             ],
             "raw": "benchmark/raw/more-itertools-seekable-baseline.json",
-            "seconds": 2.12
+            "seconds": 3.06
           },
           "optimized": {
-            "per_instance_bytes": 264.5176,
-            "ns_per_instance": 12578.364880755544,
-            "rss_kb": 22002.0,
-            "heap_bytes": 2645176.0,
+            "per_instance_bytes": 280.5176,
+            "ns_per_instance": 12527.572782710195,
+            "rss_kb": 22100.0,
+            "heap_bytes": 2805176.0,
             "samples": [
               {
-                "heap_bytes": 2645176,
-                "per_instance_bytes": 264.5176,
-                "peak_bytes": 2674029,
-                "rss_kb": 22000,
-                "create_seconds": 0.12661037780344486,
-                "ns_per_instance": 12661.037780344486
+                "heap_bytes": 2805176,
+                "per_instance_bytes": 280.5176,
+                "peak_bytes": 2834013,
+                "rss_kb": 22100,
+                "create_seconds": 0.12516357190907001,
+                "ns_per_instance": 12516.357190907001
               },
               {
-                "heap_bytes": 2645176,
-                "per_instance_bytes": 264.5176,
-                "peak_bytes": 2674029,
-                "rss_kb": 22004,
-                "create_seconds": 0.12495691981166601,
-                "ns_per_instance": 12495.691981166601
+                "heap_bytes": 2805176,
+                "per_instance_bytes": 280.5176,
+                "peak_bytes": 2834013,
+                "rss_kb": 22100,
+                "create_seconds": 0.12538788374513388,
+                "ns_per_instance": 12538.788374513388
               }
             ],
             "raw": "benchmark/raw/more-itertools-seekable-optimized.json",
-            "seconds": 2.12
+            "seconds": 2.22
           },
-          "heap_reduction_pct": 10.833437831613502,
-          "throughput_ratio": 1.0021025526187082
+          "heap_reduction_pct": 5.439978210423135,
+          "throughput_ratio": 1.6965800387073329
         },
         {
           "qualname": "more_itertools.more.bucket",
@@ -476,58 +476,58 @@
           ],
           "baseline": {
             "per_instance_bytes": 440.65560000000005,
-            "ns_per_instance": 10937.13752925396,
-            "rss_kb": 24484.0,
+            "ns_per_instance": 10940.902354195714,
+            "rss_kb": 24450.0,
             "heap_bytes": 4406556.0,
             "samples": [
               {
                 "heap_bytes": 4407936,
                 "per_instance_bytes": 440.7936,
                 "peak_bytes": 4435799,
-                "rss_kb": 24452,
-                "create_seconds": 0.10962049849331379,
-                "ns_per_instance": 10962.049849331379
+                "rss_kb": 24448,
+                "create_seconds": 0.10953465010970831,
+                "ns_per_instance": 10953.465010970831
               },
               {
                 "heap_bytes": 4405176,
                 "per_instance_bytes": 440.5176,
                 "peak_bytes": 4433039,
-                "rss_kb": 24516,
-                "create_seconds": 0.1091222520917654,
-                "ns_per_instance": 10912.22520917654
+                "rss_kb": 24452,
+                "create_seconds": 0.10928339697420597,
+                "ns_per_instance": 10928.339697420597
               }
             ],
             "raw": "benchmark/raw/more-itertools-bucket-baseline.json",
-            "seconds": 1.79
+            "seconds": 1.8
           },
           "optimized": {
-            "per_instance_bytes": 408.5176,
-            "ns_per_instance": 10961.505630984902,
-            "rss_kb": 23472.0,
-            "heap_bytes": 4085176.0,
+            "per_instance_bytes": 424.5176,
+            "ns_per_instance": 11099.310126155615,
+            "rss_kb": 23560.0,
+            "heap_bytes": 4245176.0,
             "samples": [
               {
-                "heap_bytes": 4085176,
-                "per_instance_bytes": 408.5176,
-                "peak_bytes": 4113071,
-                "rss_kb": 23444,
-                "create_seconds": 0.10763273015618324,
-                "ns_per_instance": 10763.273015618324
+                "heap_bytes": 4245176,
+                "per_instance_bytes": 424.5176,
+                "peak_bytes": 4273055,
+                "rss_kb": 23544,
+                "create_seconds": 0.11348126828670502,
+                "ns_per_instance": 11348.126828670502
               },
               {
-                "heap_bytes": 4085176,
-                "per_instance_bytes": 408.5176,
-                "peak_bytes": 4113071,
-                "rss_kb": 23500,
-                "create_seconds": 0.1115973824635148,
-                "ns_per_instance": 11159.73824635148
+                "heap_bytes": 4245176,
+                "per_instance_bytes": 424.5176,
+                "peak_bytes": 4273055,
+                "rss_kb": 23576,
+                "create_seconds": 0.10850493423640728,
+                "ns_per_instance": 10850.493423640728
               }
             ],
             "raw": "benchmark/raw/more-itertools-bucket-optimized.json",
-            "seconds": 1.77
+            "seconds": 1.81
           },
-          "heap_reduction_pct": 7.293224005322985,
-          "throughput_ratio": 0.9977769384470268
+          "heap_reduction_pct": 3.6622704896976277,
+          "throughput_ratio": 0.9857281425458496
         },
         {
           "qualname": "more_itertools.more.countable",
@@ -538,8 +538,8 @@
           ],
           "baseline": {
             "per_instance_bytes": 224.676,
-            "ns_per_instance": 12727.392558008432,
-            "rss_kb": 21546.0,
+            "ns_per_instance": 12728.310748934746,
+            "rss_kb": 21566.0,
             "heap_bytes": 2246760.0,
             "samples": [
               {
@@ -547,49 +547,49 @@
                 "per_instance_bytes": 224.8344,
                 "peak_bytes": 2277293,
                 "rss_kb": 21432,
-                "create_seconds": 0.1270328424870968,
-                "ns_per_instance": 12703.284248709679
+                "create_seconds": 0.13216741010546684,
+                "ns_per_instance": 13216.741010546684
               },
               {
                 "heap_bytes": 2245176,
                 "per_instance_bytes": 224.5176,
                 "peak_bytes": 2274125,
-                "rss_kb": 21660,
-                "create_seconds": 0.12751500867307186,
-                "ns_per_instance": 12751.500867307186
+                "rss_kb": 21700,
+                "create_seconds": 0.12239880487322807,
+                "ns_per_instance": 12239.880487322807
               }
             ],
             "raw": "benchmark/raw/more-itertools-countable-baseline.json",
-            "seconds": 2.07
+            "seconds": 2.13
           },
           "optimized": {
-            "per_instance_bytes": 192.5176,
-            "ns_per_instance": 12548.562465235591,
-            "rss_kb": 20806.0,
-            "heap_bytes": 1925176.0,
+            "per_instance_bytes": 208.5176,
+            "ns_per_instance": 12905.108090490103,
+            "rss_kb": 20696.0,
+            "heap_bytes": 2085176.0,
             "samples": [
               {
-                "heap_bytes": 1925176,
-                "per_instance_bytes": 192.5176,
-                "peak_bytes": 1954157,
-                "rss_kb": 20540,
-                "create_seconds": 0.1247919499874115,
-                "ns_per_instance": 12479.19499874115
+                "heap_bytes": 2085176,
+                "per_instance_bytes": 208.5176,
+                "peak_bytes": 2114141,
+                "rss_kb": 20544,
+                "create_seconds": 0.1247541718184948,
+                "ns_per_instance": 12475.41718184948
               },
               {
-                "heap_bytes": 1925176,
-                "per_instance_bytes": 192.5176,
-                "peak_bytes": 1954157,
-                "rss_kb": 21072,
-                "create_seconds": 0.12617929931730032,
-                "ns_per_instance": 12617.929931730032
+                "heap_bytes": 2085176,
+                "per_instance_bytes": 208.5176,
+                "peak_bytes": 2114141,
+                "rss_kb": 20848,
+                "create_seconds": 0.13334798999130726,
+                "ns_per_instance": 13334.798999130726
               }
             ],
             "raw": "benchmark/raw/more-itertools-countable-optimized.json",
-            "seconds": 2.07
+            "seconds": 2.11
           },
-          "heap_reduction_pct": 14.313233278142745,
-          "throughput_ratio": 1.0142510421626596
+          "heap_reduction_pct": 7.191867400167351,
+          "throughput_ratio": 0.9863002045147037
         },
         {
           "qualname": "more_itertools.more.time_limited",
@@ -602,62 +602,62 @@
           ],
           "baseline": {
             "per_instance_bytes": 288.65560000000005,
-            "ns_per_instance": 14671.402797102928,
-            "rss_kb": 25454.0,
+            "ns_per_instance": 14705.61707392335,
+            "rss_kb": 25566.0,
             "heap_bytes": 2886556.0,
             "samples": [
               {
                 "heap_bytes": 2887936,
                 "per_instance_bytes": 288.7936,
                 "peak_bytes": 2917038,
-                "rss_kb": 25384,
-                "create_seconds": 0.14649716578423977,
-                "ns_per_instance": 14649.716578423977
+                "rss_kb": 25512,
+                "create_seconds": 0.1501334561035037,
+                "ns_per_instance": 15013.34561035037
               },
               {
                 "heap_bytes": 2885176,
                 "per_instance_bytes": 288.5176,
                 "peak_bytes": 2914278,
-                "rss_kb": 25524,
-                "create_seconds": 0.1469308901578188,
-                "ns_per_instance": 14693.08901578188
+                "rss_kb": 25620,
+                "create_seconds": 0.14397888537496328,
+                "ns_per_instance": 14397.888537496328
               }
             ],
             "raw": "benchmark/raw/more-itertools-time_limited-baseline.json",
-            "seconds": 2.24
+            "seconds": 2.33
           },
           "optimized": {
-            "per_instance_bytes": 256.5176,
-            "ns_per_instance": 14462.396362796426,
-            "rss_kb": 22772.0,
-            "heap_bytes": 2565176.0,
+            "per_instance_bytes": 272.5176,
+            "ns_per_instance": 14660.973101854324,
+            "rss_kb": 22964.0,
+            "heap_bytes": 2725176.0,
             "samples": [
               {
-                "heap_bytes": 2565176,
-                "per_instance_bytes": 256.5176,
-                "peak_bytes": 2594310,
-                "rss_kb": 22752,
-                "create_seconds": 0.14309439901262522,
-                "ns_per_instance": 14309.439901262522
+                "heap_bytes": 2725176,
+                "per_instance_bytes": 272.5176,
+                "peak_bytes": 2754294,
+                "rss_kb": 22964,
+                "create_seconds": 0.14736699499189854,
+                "ns_per_instance": 14736.699499189854
               },
               {
-                "heap_bytes": 2565176,
-                "per_instance_bytes": 256.5176,
-                "peak_bytes": 2594310,
-                "rss_kb": 22792,
-                "create_seconds": 0.1461535282433033,
-                "ns_per_instance": 14615.35282433033
+                "heap_bytes": 2725176,
+                "per_instance_bytes": 272.5176,
+                "peak_bytes": 2754294,
+                "rss_kb": 22964,
+                "create_seconds": 0.14585246704518795,
+                "ns_per_instance": 14585.246704518795
               }
             ],
             "raw": "benchmark/raw/more-itertools-time_limited-optimized.json",
-            "seconds": 2.22
+            "seconds": 2.27
           },
-          "heap_reduction_pct": 11.133683185082855,
-          "throughput_ratio": 1.0144517152665071
+          "heap_reduction_pct": 5.590745511259798,
+          "throughput_ratio": 1.0030450892828784
         }
       ],
-      "median_heap_reduction_pct": 10.833437831613502,
-      "median_throughput_ratio": 1.0142510421626596
+      "median_heap_reduction_pct": 5.439978210423135,
+      "median_throughput_ratio": 0.9863002045147037
     },
     {
       "name": "werkzeug",
@@ -674,58 +674,58 @@
           ],
           "baseline": {
             "per_instance_bytes": 88.676,
-            "ns_per_instance": 7926.823990419507,
-            "rss_kb": 28574.0,
+            "ns_per_instance": 8121.747570112348,
+            "rss_kb": 28714.0,
             "heap_bytes": 886760.0,
             "samples": [
               {
                 "heap_bytes": 888344,
                 "per_instance_bytes": 88.8344,
                 "peak_bytes": 916811,
-                "rss_kb": 28544,
-                "create_seconds": 0.07934878673404455,
-                "ns_per_instance": 7934.878673404455
+                "rss_kb": 28672,
+                "create_seconds": 0.08165476284921169,
+                "ns_per_instance": 8165.476284921169
               },
               {
                 "heap_bytes": 885176,
                 "per_instance_bytes": 88.5176,
                 "peak_bytes": 913643,
-                "rss_kb": 28604,
-                "create_seconds": 0.07918769307434559,
-                "ns_per_instance": 7918.769307434559
+                "rss_kb": 28756,
+                "create_seconds": 0.08078018855303526,
+                "ns_per_instance": 8078.018855303527
               }
             ],
             "raw": "benchmark/raw/werkzeug-ETag-baseline.json",
-            "seconds": 1.74
+            "seconds": 1.75
           },
           "optimized": {
-            "per_instance_bytes": 56.5176,
-            "ns_per_instance": 8029.636787250638,
-            "rss_kb": 28160.0,
-            "heap_bytes": 565176.0,
+            "per_instance_bytes": 72.5176,
+            "ns_per_instance": 8316.335547715425,
+            "rss_kb": 26642.0,
+            "heap_bytes": 725176.0,
             "samples": [
               {
-                "heap_bytes": 565176,
-                "per_instance_bytes": 56.5176,
-                "peak_bytes": 593675,
-                "rss_kb": 28160,
-                "create_seconds": 0.07868789415806532,
-                "ns_per_instance": 7868.789415806532
+                "heap_bytes": 725176,
+                "per_instance_bytes": 72.5176,
+                "peak_bytes": 753659,
+                "rss_kb": 26592,
+                "create_seconds": 0.0818889643996954,
+                "ns_per_instance": 8188.89643996954
               },
               {
-                "heap_bytes": 565176,
-                "per_instance_bytes": 56.5176,
-                "peak_bytes": 593675,
-                "rss_kb": 28160,
-                "create_seconds": 0.08190484158694744,
-                "ns_per_instance": 8190.484158694743
+                "heap_bytes": 725176,
+                "per_instance_bytes": 72.5176,
+                "peak_bytes": 753659,
+                "rss_kb": 26692,
+                "create_seconds": 0.08443774655461311,
+                "ns_per_instance": 8443.774655461311
               }
             ],
             "raw": "benchmark/raw/werkzeug-ETag-optimized.json",
-            "seconds": 1.69
+            "seconds": 1.65
           },
-          "heap_reduction_pct": 36.265054806261,
-          "throughput_ratio": 0.9871958346865233
+          "heap_reduction_pct": 18.221841309937304,
+          "throughput_ratio": 0.976601716406629
         },
         {
           "qualname": "werkzeug.datastructures.etag.ETagSet",
@@ -737,58 +737,58 @@
           ],
           "baseline": {
             "per_instance_bytes": 528.6656,
-            "ns_per_instance": 7537.630340084434,
-            "rss_kb": 34676.0,
+            "ns_per_instance": 7974.616531282663,
+            "rss_kb": 34656.0,
             "heap_bytes": 5286656.0,
             "samples": [
               {
                 "heap_bytes": 5288136,
                 "per_instance_bytes": 528.8136,
                 "peak_bytes": 5315532,
-                "rss_kb": 34676,
-                "create_seconds": 0.07541761547327042,
-                "ns_per_instance": 7541.761547327042
+                "rss_kb": 34648,
+                "create_seconds": 0.07849613577127457,
+                "ns_per_instance": 7849.613577127457
               },
               {
                 "heap_bytes": 5285176,
                 "per_instance_bytes": 528.5176,
                 "peak_bytes": 5312572,
-                "rss_kb": 34676,
-                "create_seconds": 0.07533499132841825,
-                "ns_per_instance": 7533.4991328418255
+                "rss_kb": 34664,
+                "create_seconds": 0.0809961948543787,
+                "ns_per_instance": 8099.61948543787
               }
             ],
             "raw": "benchmark/raw/werkzeug-ETagSet-baseline.json",
-            "seconds": 1.5
+            "seconds": 1.64
           },
           "optimized": {
-            "per_instance_bytes": 496.5176,
-            "ns_per_instance": 7580.270851030946,
-            "rss_kb": 32914.0,
-            "heap_bytes": 4965176.0,
+            "per_instance_bytes": 512.5176,
+            "ns_per_instance": 7839.96288664639,
+            "rss_kb": 33100.0,
+            "heap_bytes": 5125176.0,
             "samples": [
               {
-                "heap_bytes": 4965176,
-                "per_instance_bytes": 496.5176,
-                "peak_bytes": 4992604,
-                "rss_kb": 32872,
-                "create_seconds": 0.0750869931653142,
-                "ns_per_instance": 7508.69931653142
+                "heap_bytes": 5125176,
+                "per_instance_bytes": 512.5176,
+                "peak_bytes": 5152588,
+                "rss_kb": 33100,
+                "create_seconds": 0.07861300464719534,
+                "ns_per_instance": 7861.300464719535
               },
               {
-                "heap_bytes": 4965176,
-                "per_instance_bytes": 496.5176,
-                "peak_bytes": 4992604,
-                "rss_kb": 32956,
-                "create_seconds": 0.07651842385530472,
-                "ns_per_instance": 7651.842385530472
+                "heap_bytes": 5125176,
+                "per_instance_bytes": 512.5176,
+                "peak_bytes": 5152588,
+                "rss_kb": 33100,
+                "create_seconds": 0.07818625308573246,
+                "ns_per_instance": 7818.625308573245
               }
             ],
             "raw": "benchmark/raw/werkzeug-ETagSet-optimized.json",
-            "seconds": 1.48
+            "seconds": 1.57
           },
-          "heap_reduction_pct": 6.08097065517409,
-          "throughput_ratio": 0.9943748037788501
+          "heap_reduction_pct": 3.054482833761085,
+          "throughput_ratio": 1.0171752910802199
         },
         {
           "qualname": "werkzeug.datastructures.range.Range",
@@ -799,58 +799,58 @@
           ],
           "baseline": {
             "per_instance_bytes": 208.676,
-            "ns_per_instance": 13935.200776904821,
-            "rss_kb": 32212.0,
+            "ns_per_instance": 13954.929215833545,
+            "rss_kb": 32094.0,
             "heap_bytes": 2086760.0,
             "samples": [
               {
                 "heap_bytes": 2088344,
                 "per_instance_bytes": 208.8344,
                 "peak_bytes": 2117579,
-                "rss_kb": 32180,
-                "create_seconds": 0.1398196518421173,
-                "ns_per_instance": 13981.965184211731
+                "rss_kb": 32052,
+                "create_seconds": 0.1390372049063444,
+                "ns_per_instance": 13903.720490634441
               },
               {
                 "heap_bytes": 2085176,
                 "per_instance_bytes": 208.5176,
                 "peak_bytes": 2114411,
-                "rss_kb": 32244,
-                "create_seconds": 0.13888436369597912,
-                "ns_per_instance": 13888.436369597912
+                "rss_kb": 32136,
+                "create_seconds": 0.14006137941032648,
+                "ns_per_instance": 14006.137941032648
               }
             ],
             "raw": "benchmark/raw/werkzeug-Range-baseline.json",
             "seconds": 2.25
           },
           "optimized": {
-            "per_instance_bytes": 176.5176,
-            "ns_per_instance": 13941.231556236744,
-            "rss_kb": 31142.0,
-            "heap_bytes": 1765176.0,
+            "per_instance_bytes": 192.5176,
+            "ns_per_instance": 13908.840669319034,
+            "rss_kb": 31242.0,
+            "heap_bytes": 1925176.0,
             "samples": [
               {
-                "heap_bytes": 1765176,
-                "per_instance_bytes": 176.5176,
-                "peak_bytes": 1794443,
-                "rss_kb": 30984,
-                "create_seconds": 0.13972204830497503,
-                "ns_per_instance": 13972.204830497503
+                "heap_bytes": 1925176,
+                "per_instance_bytes": 192.5176,
+                "peak_bytes": 1954427,
+                "rss_kb": 31152,
+                "create_seconds": 0.13849662989377975,
+                "ns_per_instance": 13849.662989377975
               },
               {
-                "heap_bytes": 1765176,
-                "per_instance_bytes": 176.5176,
-                "peak_bytes": 1794443,
-                "rss_kb": 31300,
-                "create_seconds": 0.13910258281975985,
-                "ns_per_instance": 13910.258281975985
+                "heap_bytes": 1925176,
+                "per_instance_bytes": 192.5176,
+                "peak_bytes": 1954427,
+                "rss_kb": 31332,
+                "create_seconds": 0.13968018349260092,
+                "ns_per_instance": 13968.018349260092
               }
             ],
             "raw": "benchmark/raw/werkzeug-Range-optimized.json",
-            "seconds": 2.2
+            "seconds": 2.27
           },
-          "heap_reduction_pct": 15.410684506124328,
-          "throughput_ratio": 0.9995674141622571
+          "heap_reduction_pct": 7.743295827023711,
+          "throughput_ratio": 1.003313615247328
         },
         {
           "qualname": "werkzeug.datastructures.range.ContentRange",
@@ -864,58 +864,58 @@
           ],
           "baseline": {
             "per_instance_bytes": 112.646,
-            "ns_per_instance": 10428.96299622953,
-            "rss_kb": 29526.0,
+            "ns_per_instance": 14746.389770880342,
+            "rss_kb": 29642.0,
             "heap_bytes": 1126460.0,
             "samples": [
               {
                 "heap_bytes": 1127744,
                 "per_instance_bytes": 112.7744,
                 "peak_bytes": 1156551,
-                "rss_kb": 29484,
-                "create_seconds": 0.10458177421241999,
-                "ns_per_instance": 10458.177421241999
+                "rss_kb": 29472,
+                "create_seconds": 0.18025105819106102,
+                "ns_per_instance": 18025.105819106102
               },
               {
                 "heap_bytes": 1125176,
                 "per_instance_bytes": 112.5176,
                 "peak_bytes": 1153983,
-                "rss_kb": 29568,
-                "create_seconds": 0.1039974857121706,
-                "ns_per_instance": 10399.74857121706
+                "rss_kb": 29812,
+                "create_seconds": 0.11467673722654581,
+                "ns_per_instance": 11467.673722654581
               }
             ],
             "raw": "benchmark/raw/werkzeug-ContentRange-baseline.json",
-            "seconds": 1.91
+            "seconds": 2.01
           },
           "optimized": {
-            "per_instance_bytes": 80.5176,
-            "ns_per_instance": 10390.719631686807,
-            "rss_kb": 26866.0,
-            "heap_bytes": 805176.0,
+            "per_instance_bytes": 96.5176,
+            "ns_per_instance": 11781.198531389236,
+            "rss_kb": 27128.0,
+            "heap_bytes": 965176.0,
             "samples": [
               {
-                "heap_bytes": 805176,
-                "per_instance_bytes": 80.5176,
-                "peak_bytes": 834015,
-                "rss_kb": 26856,
-                "create_seconds": 0.10434423759579659,
-                "ns_per_instance": 10434.423759579659
+                "heap_bytes": 965176,
+                "per_instance_bytes": 96.5176,
+                "peak_bytes": 993999,
+                "rss_kb": 27108,
+                "create_seconds": 0.12304088100790977,
+                "ns_per_instance": 12304.088100790977
               },
               {
-                "heap_bytes": 805176,
-                "per_instance_bytes": 80.5176,
-                "peak_bytes": 834015,
-                "rss_kb": 26876,
-                "create_seconds": 0.10347015503793955,
-                "ns_per_instance": 10347.015503793955
+                "heap_bytes": 965176,
+                "per_instance_bytes": 96.5176,
+                "peak_bytes": 993999,
+                "rss_kb": 27148,
+                "create_seconds": 0.11258308961987495,
+                "ns_per_instance": 11258.308961987495
               }
             ],
             "raw": "benchmark/raw/werkzeug-ContentRange-optimized.json",
-            "seconds": 2.04
+            "seconds": 2.18
           },
-          "heap_reduction_pct": 28.52156312696411,
-          "throughput_ratio": 1.0036805308870136
+          "heap_reduction_pct": 14.317774266285532,
+          "throughput_ratio": 1.2516884196111964
         },
         {
           "qualname": "werkzeug.datastructures.range.IfRange",
@@ -926,62 +926,62 @@
           ],
           "baseline": {
             "per_instance_bytes": 88.676,
-            "ns_per_instance": 6891.875807195902,
-            "rss_kb": 27860.0,
+            "ns_per_instance": 7718.017604202032,
+            "rss_kb": 27870.0,
             "heap_bytes": 886760.0,
             "samples": [
               {
                 "heap_bytes": 888344,
                 "per_instance_bytes": 88.8344,
                 "peak_bytes": 916180,
-                "rss_kb": 27832,
-                "create_seconds": 0.06909627187997103,
-                "ns_per_instance": 6909.627187997103
+                "rss_kb": 27844,
+                "create_seconds": 0.0852044764906168,
+                "ns_per_instance": 8520.44764906168
               },
               {
                 "heap_bytes": 885176,
                 "per_instance_bytes": 88.5176,
                 "peak_bytes": 913012,
-                "rss_kb": 27888,
-                "create_seconds": 0.06874124426394701,
-                "ns_per_instance": 6874.124426394701
+                "rss_kb": 27896,
+                "create_seconds": 0.06915587559342384,
+                "ns_per_instance": 6915.587559342384
               }
             ],
             "raw": "benchmark/raw/werkzeug-IfRange-baseline.json",
-            "seconds": 1.39
+            "seconds": 1.51
           },
           "optimized": {
-            "per_instance_bytes": 56.5176,
-            "ns_per_instance": 6853.102380409837,
-            "rss_kb": 26500.0,
-            "heap_bytes": 565176.0,
+            "per_instance_bytes": 72.5176,
+            "ns_per_instance": 7184.163480997086,
+            "rss_kb": 26640.0,
+            "heap_bytes": 725176.0,
             "samples": [
               {
-                "heap_bytes": 565176,
-                "per_instance_bytes": 56.5176,
-                "peak_bytes": 593044,
-                "rss_kb": 26456,
-                "create_seconds": 0.06891009118407965,
-                "ns_per_instance": 6891.009118407965
+                "heap_bytes": 725176,
+                "per_instance_bytes": 72.5176,
+                "peak_bytes": 753028,
+                "rss_kb": 26592,
+                "create_seconds": 0.07486064173281193,
+                "ns_per_instance": 7486.064173281193
               },
               {
-                "heap_bytes": 565176,
-                "per_instance_bytes": 56.5176,
-                "peak_bytes": 593044,
-                "rss_kb": 26544,
-                "create_seconds": 0.06815195642411709,
-                "ns_per_instance": 6815.195642411709
+                "heap_bytes": 725176,
+                "per_instance_bytes": 72.5176,
+                "peak_bytes": 753028,
+                "rss_kb": 26688,
+                "create_seconds": 0.06882262788712978,
+                "ns_per_instance": 6882.262788712978
               }
             ],
             "raw": "benchmark/raw/werkzeug-IfRange-optimized.json",
-            "seconds": 1.37
+            "seconds": 1.43
           },
-          "heap_reduction_pct": 36.265054806261,
-          "throughput_ratio": 1.005657791848682
+          "heap_reduction_pct": 18.221841309937304,
+          "throughput_ratio": 1.0743098517478131
         }
       ],
-      "median_heap_reduction_pct": 28.52156312696411,
-      "median_throughput_ratio": 0.9995674141622571
+      "median_heap_reduction_pct": 14.317774266285532,
+      "median_throughput_ratio": 1.0171752910802199
     },
     {
       "name": "tomli",
@@ -998,58 +998,58 @@
           ],
           "baseline": {
             "per_instance_bytes": 368.67600000000004,
-            "ns_per_instance": 7834.904687479138,
-            "rss_kb": 20118.0,
+            "ns_per_instance": 7183.6259216070175,
+            "rss_kb": 20108.0,
             "heap_bytes": 3686760.0,
             "samples": [
               {
                 "heap_bytes": 3688344,
                 "per_instance_bytes": 368.8344,
                 "peak_bytes": 3715836,
-                "rss_kb": 20104,
-                "create_seconds": 0.07004063669592142,
-                "ns_per_instance": 7004.063669592142
+                "rss_kb": 20108,
+                "create_seconds": 0.07200675457715988,
+                "ns_per_instance": 7200.675457715988
               },
               {
                 "heap_bytes": 3685176,
                 "per_instance_bytes": 368.5176,
                 "peak_bytes": 3712668,
-                "rss_kb": 20132,
-                "create_seconds": 0.08665745705366135,
-                "ns_per_instance": 8665.745705366135
+                "rss_kb": 20108,
+                "create_seconds": 0.07166576385498047,
+                "ns_per_instance": 7166.576385498047
               }
             ],
             "raw": "benchmark/raw/tomli-Flags-baseline.json",
-            "seconds": 1.38
+            "seconds": 1.43
           },
           "optimized": {
-            "per_instance_bytes": 336.5176,
-            "ns_per_instance": 6963.2855243980885,
-            "rss_kb": 18450.0,
-            "heap_bytes": 3365176.0,
+            "per_instance_bytes": 352.5176,
+            "ns_per_instance": 7403.7878308445215,
+            "rss_kb": 18244.0,
+            "heap_bytes": 3525176.0,
             "samples": [
               {
-                "heap_bytes": 3365176,
-                "per_instance_bytes": 336.5176,
-                "peak_bytes": 3392700,
-                "rss_kb": 18436,
-                "create_seconds": 0.07030029501765966,
-                "ns_per_instance": 7030.029501765966
+                "heap_bytes": 3525176,
+                "per_instance_bytes": 352.5176,
+                "peak_bytes": 3552684,
+                "rss_kb": 18244,
+                "create_seconds": 0.07340708747506142,
+                "ns_per_instance": 7340.708747506142
               },
               {
-                "heap_bytes": 3365176,
-                "per_instance_bytes": 336.5176,
-                "peak_bytes": 3392700,
-                "rss_kb": 18464,
-                "create_seconds": 0.0689654154703021,
-                "ns_per_instance": 6896.5415470302105
+                "heap_bytes": 3525176,
+                "per_instance_bytes": 352.5176,
+                "peak_bytes": 3552684,
+                "rss_kb": 18244,
+                "create_seconds": 0.07466866914182901,
+                "ns_per_instance": 7466.866914182901
               }
             ],
             "raw": "benchmark/raw/tomli-Flags-optimized.json",
-            "seconds": 1.36
+            "seconds": 1.46
           },
-          "heap_reduction_pct": 8.722672482070982,
-          "throughput_ratio": 1.1251735491855182
+          "heap_reduction_pct": 4.382818518156872,
+          "throughput_ratio": 0.970263611779865
         },
         {
           "qualname": "tomli._parser.NestedDict",
@@ -1059,58 +1059,58 @@
           ],
           "baseline": {
             "per_instance_bytes": 144.6868,
-            "ns_per_instance": 6784.468377009034,
-            "rss_kb": 16136.0,
+            "ns_per_instance": 6889.7460121661425,
+            "rss_kb": 16138.0,
             "heap_bytes": 1446868.0,
             "samples": [
               {
                 "heap_bytes": 1448560,
                 "per_instance_bytes": 144.856,
                 "peak_bytes": 1476276,
-                "rss_kb": 16096,
-                "create_seconds": 0.06798703595995903,
-                "ns_per_instance": 6798.703595995903
+                "rss_kb": 16100,
+                "create_seconds": 0.06961296498775482,
+                "ns_per_instance": 6961.296498775482
               },
               {
                 "heap_bytes": 1445176,
                 "per_instance_bytes": 144.5176,
                 "peak_bytes": 1472892,
                 "rss_kb": 16176,
-                "create_seconds": 0.06770233158022165,
-                "ns_per_instance": 6770.233158022165
+                "create_seconds": 0.06818195525556803,
+                "ns_per_instance": 6818.195525556803
               }
             ],
             "raw": "benchmark/raw/tomli-NestedDict-baseline.json",
-            "seconds": 1.32
+            "seconds": 1.38
           },
           "optimized": {
-            "per_instance_bytes": 112.5176,
-            "ns_per_instance": 6953.893881291151,
-            "rss_kb": 14976.0,
-            "heap_bytes": 1125176.0,
+            "per_instance_bytes": 128.5176,
+            "ns_per_instance": 6893.972447142005,
+            "rss_kb": 15214.0,
+            "heap_bytes": 1285176.0,
             "samples": [
               {
-                "heap_bytes": 1125176,
-                "per_instance_bytes": 112.5176,
-                "peak_bytes": 1152924,
-                "rss_kb": 14976,
-                "create_seconds": 0.0692459624260664,
-                "ns_per_instance": 6924.59624260664
+                "heap_bytes": 1285176,
+                "per_instance_bytes": 128.5176,
+                "peak_bytes": 1312908,
+                "rss_kb": 15204,
+                "create_seconds": 0.06865795981138945,
+                "ns_per_instance": 6865.795981138945
               },
               {
-                "heap_bytes": 1125176,
-                "per_instance_bytes": 112.5176,
-                "peak_bytes": 1152924,
-                "rss_kb": 14976,
-                "create_seconds": 0.06983191519975662,
-                "ns_per_instance": 6983.191519975662
+                "heap_bytes": 1285176,
+                "per_instance_bytes": 128.5176,
+                "peak_bytes": 1312908,
+                "rss_kb": 15224,
+                "create_seconds": 0.06922148913145065,
+                "ns_per_instance": 6922.148913145065
               }
             ],
             "raw": "benchmark/raw/tomli-NestedDict-optimized.json",
-            "seconds": 1.31
+            "seconds": 1.33
           },
-          "heap_reduction_pct": 22.233679921043247,
-          "throughput_ratio": 0.9756358801019467
+          "heap_reduction_pct": 11.175311085738315,
+          "throughput_ratio": 0.9993869376461442
         },
         {
           "qualname": "tomli._parser.Output",
@@ -1121,58 +1121,58 @@
           ],
           "baseline": {
             "per_instance_bytes": 585.0036,
-            "ns_per_instance": 7690.967572852969,
-            "rss_kb": 26752.0,
+            "ns_per_instance": 7764.183450490236,
+            "rss_kb": 26792.0,
             "heap_bytes": 5850036.0,
             "samples": [
               {
                 "heap_bytes": 5854896,
                 "per_instance_bytes": 585.4896,
                 "peak_bytes": 5882108,
-                "rss_kb": 26752,
-                "create_seconds": 0.07782563287764788,
-                "ns_per_instance": 7782.563287764788
+                "rss_kb": 26756,
+                "create_seconds": 0.07742168568074703,
+                "ns_per_instance": 7742.168568074704
               },
               {
                 "heap_bytes": 5845176,
                 "per_instance_bytes": 584.5176,
                 "peak_bytes": 5872388,
-                "rss_kb": 26752,
-                "create_seconds": 0.0759937185794115,
-                "ns_per_instance": 7599.371857941151
+                "rss_kb": 26828,
+                "create_seconds": 0.0778619833290577,
+                "ns_per_instance": 7786.198332905769
               }
             ],
             "raw": "benchmark/raw/tomli-Output-baseline.json",
-            "seconds": 1.46
+            "seconds": 1.5
           },
           "optimized": {
-            "per_instance_bytes": 488.5176,
-            "ns_per_instance": 7542.155822739005,
-            "rss_kb": 22484.0,
-            "heap_bytes": 4885176.0,
+            "per_instance_bytes": 536.5176,
+            "ns_per_instance": 7762.135099619628,
+            "rss_kb": 22870.0,
+            "heap_bytes": 5365176.0,
             "samples": [
               {
-                "heap_bytes": 4885176,
-                "per_instance_bytes": 488.5176,
-                "peak_bytes": 4912484,
-                "rss_kb": 22468,
-                "create_seconds": 0.07569487672299147,
-                "ns_per_instance": 7569.487672299147
+                "heap_bytes": 5365176,
+                "per_instance_bytes": 536.5176,
+                "peak_bytes": 5392436,
+                "rss_kb": 22860,
+                "create_seconds": 0.07804316375404596,
+                "ns_per_instance": 7804.316375404597
               },
               {
-                "heap_bytes": 4885176,
-                "per_instance_bytes": 488.5176,
-                "peak_bytes": 4912484,
-                "rss_kb": 22500,
-                "create_seconds": 0.07514823973178864,
-                "ns_per_instance": 7514.8239731788635
+                "heap_bytes": 5365176,
+                "per_instance_bytes": 536.5176,
+                "peak_bytes": 5392436,
+                "rss_kb": 22880,
+                "create_seconds": 0.07719953823834658,
+                "ns_per_instance": 7719.953823834659
               }
             ],
             "raw": "benchmark/raw/tomli-Output-optimized.json",
-            "seconds": 1.47
+            "seconds": 1.48
           },
-          "heap_reduction_pct": 16.49323183652203,
-          "throughput_ratio": 1.0197306650262128
+          "heap_reduction_pct": 8.288154124179748,
+          "throughput_ratio": 1.0002638901338767
         },
         {
           "qualname": "tomli._parser.DEPRECATED_DEFAULT",
@@ -1180,7 +1180,7 @@
           "slots": [],
           "baseline": {
             "per_instance_bytes": 72.69800000000001,
-            "ns_per_instance": 6818.881072103977,
+            "ns_per_instance": 7002.135226503015,
             "rss_kb": 15104.0,
             "heap_bytes": 726980.0,
             "samples": [
@@ -1189,56 +1189,56 @@
                 "per_instance_bytes": 72.8784,
                 "peak_bytes": 756636,
                 "rss_kb": 15104,
-                "create_seconds": 0.0684847217053175,
-                "ns_per_instance": 6848.47217053175
+                "create_seconds": 0.06856670789420605,
+                "ns_per_instance": 6856.670789420605
               },
               {
                 "heap_bytes": 725176,
                 "per_instance_bytes": 72.5176,
                 "peak_bytes": 753028,
                 "rss_kb": 15104,
-                "create_seconds": 0.06789289973676205,
-                "ns_per_instance": 6789.289973676205
+                "create_seconds": 0.07147599663585424,
+                "ns_per_instance": 7147.599663585424
               }
             ],
             "raw": "benchmark/raw/tomli-DEPRECATED_DEFAULT-baseline.json",
-            "seconds": 1.29
+            "seconds": 1.4
           },
           "optimized": {
-            "per_instance_bytes": 40.5176,
-            "ns_per_instance": 6810.489809140563,
+            "per_instance_bytes": 56.5176,
+            "ns_per_instance": 6781.336665153503,
             "rss_kb": 15104.0,
-            "heap_bytes": 405176.0,
+            "heap_bytes": 565176.0,
             "samples": [
               {
-                "heap_bytes": 405176,
-                "per_instance_bytes": 40.5176,
-                "peak_bytes": 433060,
+                "heap_bytes": 565176,
+                "per_instance_bytes": 56.5176,
+                "peak_bytes": 593044,
                 "rss_kb": 15104,
-                "create_seconds": 0.06919730175286531,
-                "ns_per_instance": 6919.730175286531
+                "create_seconds": 0.06753235217183828,
+                "ns_per_instance": 6753.235217183828
               },
               {
-                "heap_bytes": 405176,
-                "per_instance_bytes": 40.5176,
-                "peak_bytes": 433060,
+                "heap_bytes": 565176,
+                "per_instance_bytes": 56.5176,
+                "peak_bytes": 593044,
                 "rss_kb": 15104,
-                "create_seconds": 0.06701249442994595,
-                "ns_per_instance": 6701.249442994595
+                "create_seconds": 0.06809438113123178,
+                "ns_per_instance": 6809.4381131231785
               }
             ],
             "raw": "benchmark/raw/tomli-DEPRECATED_DEFAULT-optimized.json",
-            "seconds": 1.3
+            "seconds": 1.33
           },
-          "heap_reduction_pct": 44.265867011472125,
-          "throughput_ratio": 1.0012321085852227
+          "heap_reduction_pct": 22.257008445899483,
+          "throughput_ratio": 1.03255974039515
         }
       ],
-      "median_heap_reduction_pct": 19.363455878782638,
-      "median_throughput_ratio": 1.0104813868057176
+      "median_heap_reduction_pct": 9.731732604959031,
+      "median_throughput_ratio": 0.9998254138900105
     }
   ],
   "all_classes": 19,
-  "median_heap_reduction_pct": 16.49323183652203,
-  "median_throughput_ratio": 1.0021025526187082
+  "median_heap_reduction_pct": 8.288154124179748,
+  "median_throughput_ratio": 1.0058987211748673
 }

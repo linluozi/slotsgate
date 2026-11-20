@@ -33,15 +33,28 @@ def _insertion_point(source: str, info: ClassInfo) -> tuple[int, str]:
     return first.lineno - 1, indent  # type: ignore[return-value]
 
 
-def slots_line(info: ClassInfo) -> str:
-    body = ", ".join(repr(s) for s in info.slots)
-    if len(info.slots) == 1:
+def needs_weakref(info: ClassInfo, chosen: set[str]) -> bool:
+    """A class must keep weakref support unless its patched base already has it.
+
+    ``__weakref__`` is inherited from the nearest ancestor that declares it, and
+    CPython raises ``TypeError`` when a subclass declares it twice.  So only the
+    root of a patched chain gets it: a class whose internal bases are all in the
+    same patch inherits the slot from that base.
+    """
+    return not any(base.qualname in chosen for base in info.internal_bases)
+
+
+def slots_line(info: ClassInfo, include_weakref: bool = False) -> str:
+    slots = info.slots + (("__weakref__",) if include_weakref else ())
+    body = ", ".join(repr(s) for s in slots)
+    if len(slots) == 1:
         body += ","
     return f"__slots__ = ({body})"
 
 
 def render_patch(root: Path, infos: list[ClassInfo]) -> str:
     """Return a unified diff adding __slots__ to every info, in file order."""
+    chosen = {i.qualname for i in infos}
     by_file: dict[str, list[ClassInfo]] = {}
     for info in infos:
         by_file.setdefault(info.file, []).append(info)
@@ -57,7 +70,7 @@ def render_patch(root: Path, infos: list[ClassInfo]) -> str:
             inserts.append((idx, indent, info))
         # Apply from the bottom so earlier line numbers stay valid.
         for idx, indent, info in sorted(inserts, key=lambda t: t[0], reverse=True):
-            line = f"{indent}{slots_line(info)}\n"
+            line = f"{indent}{slots_line(info, needs_weakref(info, chosen))}\n"
             if idx >= len(lines):
                 lines.append(line)
             elif lines[idx - 1].strip() == "":
@@ -78,6 +91,7 @@ def render_patch(root: Path, infos: list[ClassInfo]) -> str:
 
 def apply_to_tree(root: Path, infos: list[ClassInfo]) -> None:
     """In-place edit used for the optimized variant (diff is generated first)."""
+    chosen = {i.qualname for i in infos}
     by_file: dict[str, list[ClassInfo]] = {}
     for info in infos:
         by_file.setdefault(info.file, []).append(info)
@@ -87,7 +101,7 @@ def apply_to_tree(root: Path, infos: list[ClassInfo]) -> None:
         lines = source.splitlines(keepends=True)
         inserts = [(i, ind) for i, ind in (_insertion_point(source, info) for info in group)]
         for (idx, indent), info in sorted(zip(inserts, group), key=lambda t: t[0][0], reverse=True):
-            line = f"{indent}{slots_line(info)}\n"
+            line = f"{indent}{slots_line(info, needs_weakref(info, chosen))}\n"
             if idx >= len(lines):
                 lines.append(line)
             elif lines[idx - 1].strip() == "":

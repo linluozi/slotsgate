@@ -4,7 +4,7 @@
  
      """
  
-+    __slots__ = ('_cache', '_it')
++    __slots__ = ('_cache', '_it', '__weakref__')
 +
      def __init__(self, iterable):
          self._it = iter(iterable)
@@ -14,7 +14,7 @@
  
      """
 +
-+    __slots__ = ('_cache', '_it', '_key', '_validator')
++    __slots__ = ('_cache', '_it', '_key', '_validator', '__weakref__')
  
      def __init__(self, iterable, key, validator=None):
          self._it = iter(iterable)
@@ -22,7 +22,7 @@
  
      """
  
-+    __slots__ = ('_cache', '_index', '_maxlen_zero', '_source')
++    __slots__ = ('_cache', '_index', '_maxlen_zero', '_source', '__weakref__')
 +
      def __init__(self, iterable, maxlen=None):
          self._maxlen_zero = maxlen == 0
@@ -32,7 +32,7 @@
  
      """
 +
-+    __slots__ = ('_iterator', '_start_time', 'limit_seconds', 'timed_out')
++    __slots__ = ('_iterator', '_start_time', 'limit_seconds', 'timed_out', '__weakref__')
  
      def __init__(self, limit_seconds, iterable):
          if limit_seconds < 0:
@@ -40,7 +40,7 @@
          10
      """
  
-+    __slots__ = ('_iterator', 'items_seen')
++    __slots__ = ('_iterator', 'items_seen', '__weakref__')
 +
      def __init__(self, iterable):
          self._iterator = iter(iterable)

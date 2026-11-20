@@ -12,23 +12,23 @@
     "starlette": {
       "command": "PYTHONPATH=. python -m pytest tests -q --no-header -p no:cacheprovider",
       "pristine": "4 failed, 1419 passed, 2 xfailed in 11.74s",
-      "patched": "4 failed, 1419 passed, 2 xfailed in 15.53s",
+      "patched": "4 failed, 1419 passed, 2 xfailed in 13.59s (re-run with __weakref__ slot)",
       "verdict": "0 new failures. The same four websocket-header assertions fail in the pristine tree (httpx2 version drift, test_websockets.py:102 and three peers)."
     },
     "more-itertools": {
       "command": "PYTHONPATH=. python -m pytest tests -q --no-header -p no:cacheprovider",
       "pristine": "772 passed, 21203 subtests passed in 33.68s",
-      "patched": "772 passed, 21203 subtests passed in 31.14s"
+      "patched": "772 passed, 21203 subtests passed in 27.02s (re-run with __weakref__ slot)"
     },
     "tomli": {
       "command": "PYTHONPATH=src python -m pytest tests -q --no-header -p no:cacheprovider",
       "pristine": "17 passed, 1 skipped, 744 subtests passed in 0.51s",
-      "patched": "17 passed, 1 skipped, 744 subtests passed in 0.64s"
+      "patched": "17 passed, 1 skipped, 744 subtests passed in 0.28s (re-run with __weakref__ slot)"
     },
     "werkzeug_focused": {
       "command": "PYTHONPATH=src python -m pytest tests/test_datastructures.py -q --no-header -p no:cacheprovider",
       "pristine": "100 passed in 0.32s",
-      "patched": "100 passed in 0.87s",
+      "patched": "100 passed in 0.37s (re-run with __weakref__ slot)",
       "verdict": "Focused module covering every patched class; the full werkzeug suite exceeds the time budget on this box."
     },
     "pyparsing_rejected": {
@@ -36,6 +36,11 @@
       "pristine": "2127 passed, 27 skipped, 2089 subtests passed in 92.72s",
       "patched": "16 failed, 2121 passed, 27 skipped, 2079 subtests passed in 89.92s",
       "verdict": "G1 fail. All five pyparsing classes are internal caches whose instances are copied/pickled by the packrat machinery; the patch is kept only as evidence and is not shipped as an accepted target."
+    },
+    "weakref": {
+      "command": "tools/weakref_check.py equivalent: for every accepted class, weakref.ref(eval(factory))() is obj",
+      "patched": "19/19 weakref-able",
+      "raw": "results/weakref.json"
     }
   },
   "libraries": [
@@ -46,42 +51,42 @@
         {
           "class": "starlette.datastructures.URL",
           "public": true,
-          "optimized_bytes": 124.5,
-          "optimized_ns": 8448.8,
-          "heap_reduction_pct": 16.3,
-          "throughput_ratio": 0.99
+          "optimized_bytes": 140.5,
+          "optimized_ns": 8364.7,
+          "heap_reduction_pct": 5.5,
+          "throughput_ratio": 1.046
         },
         {
           "class": "starlette.datastructures.Secret",
           "public": true,
-          "optimized_bytes": 48.5,
-          "optimized_ns": 8226.6,
-          "heap_reduction_pct": 39.9,
-          "throughput_ratio": 1.008
+          "optimized_bytes": 64.5,
+          "optimized_ns": 8285.9,
+          "heap_reduction_pct": 20.0,
+          "throughput_ratio": 1.019
         },
         {
           "class": "starlette.routing.Host",
           "public": true,
-          "optimized_bytes": 204.8,
-          "optimized_ns": 13525.8,
-          "heap_reduction_pct": 17.4,
-          "throughput_ratio": 1.002
+          "optimized_bytes": 220.7,
+          "optimized_ns": 13533.4,
+          "heap_reduction_pct": 11.0,
+          "throughput_ratio": 1.019
         },
         {
           "class": "starlette.background.BackgroundTask",
           "public": true,
-          "optimized_bytes": 136.5,
-          "optimized_ns": 10863.0,
-          "heap_reduction_pct": 19.1,
-          "throughput_ratio": 0.998
+          "optimized_bytes": 152.5,
+          "optimized_ns": 11130.6,
+          "heap_reduction_pct": 9.6,
+          "throughput_ratio": 1.006
         },
         {
           "class": "starlette.authentication.AuthCredentials",
           "public": true,
-          "optimized_bytes": 120.5,
-          "optimized_ns": 9833.6,
-          "heap_reduction_pct": 21.1,
-          "throughput_ratio": 1.01
+          "optimized_bytes": 136.5,
+          "optimized_ns": 9728.0,
+          "heap_reduction_pct": 10.6,
+          "throughput_ratio": 1.136
         }
       ]
     },
@@ -92,42 +97,42 @@
         {
           "class": "more_itertools.more.peekable",
           "public": true,
-          "optimized_bytes": 952.5,
-          "optimized_ns": 12787.6,
-          "heap_reduction_pct": 3.3,
-          "throughput_ratio": 1.067
+          "optimized_bytes": 968.5,
+          "optimized_ns": 14237.1,
+          "heap_reduction_pct": 1.6,
+          "throughput_ratio": 0.941
         },
         {
           "class": "more_itertools.more.seekable",
           "public": true,
-          "optimized_bytes": 264.5,
-          "optimized_ns": 12578.4,
-          "heap_reduction_pct": 10.8,
-          "throughput_ratio": 1.002
+          "optimized_bytes": 280.5,
+          "optimized_ns": 12527.6,
+          "heap_reduction_pct": 5.4,
+          "throughput_ratio": 1.697
         },
         {
           "class": "more_itertools.more.bucket",
           "public": true,
-          "optimized_bytes": 408.5,
-          "optimized_ns": 10961.5,
-          "heap_reduction_pct": 7.3,
-          "throughput_ratio": 0.998
+          "optimized_bytes": 424.5,
+          "optimized_ns": 11099.3,
+          "heap_reduction_pct": 3.7,
+          "throughput_ratio": 0.986
         },
         {
           "class": "more_itertools.more.countable",
           "public": true,
-          "optimized_bytes": 192.5,
-          "optimized_ns": 12548.6,
-          "heap_reduction_pct": 14.3,
-          "throughput_ratio": 1.014
+          "optimized_bytes": 208.5,
+          "optimized_ns": 12905.1,
+          "heap_reduction_pct": 7.2,
+          "throughput_ratio": 0.986
         },
         {
           "class": "more_itertools.more.time_limited",
           "public": true,
-          "optimized_bytes": 256.5,
-          "optimized_ns": 14462.4,
-          "heap_reduction_pct": 11.1,
-          "throughput_ratio": 1.014
+          "optimized_bytes": 272.5,
+          "optimized_ns": 14661.0,
+          "heap_reduction_pct": 5.6,
+          "throughput_ratio": 1.003
         }
       ]
     },
@@ -138,42 +143,42 @@
         {
           "class": "werkzeug.datastructures.etag.ETag",
           "public": true,
-          "optimized_bytes": 56.5,
-          "optimized_ns": 8029.6,
-          "heap_reduction_pct": 36.3,
-          "throughput_ratio": 0.987
+          "optimized_bytes": 72.5,
+          "optimized_ns": 8316.3,
+          "heap_reduction_pct": 18.2,
+          "throughput_ratio": 0.977
         },
         {
           "class": "werkzeug.datastructures.etag.ETagSet",
           "public": true,
-          "optimized_bytes": 496.5,
-          "optimized_ns": 7580.3,
-          "heap_reduction_pct": 6.1,
-          "throughput_ratio": 0.994
+          "optimized_bytes": 512.5,
+          "optimized_ns": 7840.0,
+          "heap_reduction_pct": 3.1,
+          "throughput_ratio": 1.017
         },
         {
           "class": "werkzeug.datastructures.range.Range",
           "public": true,
-          "optimized_bytes": 176.5,
-          "optimized_ns": 13941.2,
-          "heap_reduction_pct": 15.4,
-          "throughput_ratio": 1.0
+          "optimized_bytes": 192.5,
+          "optimized_ns": 13908.8,
+          "heap_reduction_pct": 7.7,
+          "throughput_ratio": 1.003
         },
         {
           "class": "werkzeug.datastructures.range.ContentRange",
           "public": true,
-          "optimized_bytes": 80.5,
-          "optimized_ns": 10390.7,
-          "heap_reduction_pct": 28.5,
-          "throughput_ratio": 1.004
+          "optimized_bytes": 96.5,
+          "optimized_ns": 11781.2,
+          "heap_reduction_pct": 14.3,
+          "throughput_ratio": 1.252
         },
         {
           "class": "werkzeug.datastructures.range.IfRange",
           "public": true,
-          "optimized_bytes": 56.5,
-          "optimized_ns": 6853.1,
-          "heap_reduction_pct": 36.3,
-          "throughput_ratio": 1.006
+          "optimized_bytes": 72.5,
+          "optimized_ns": 7184.2,
+          "heap_reduction_pct": 18.2,
+          "throughput_ratio": 1.074
         }
       ]
     },
@@ -184,39 +189,39 @@
         {
           "class": "tomli._parser.Flags",
           "public": false,
-          "optimized_bytes": 336.5,
-          "optimized_ns": 6963.3,
-          "heap_reduction_pct": 8.7,
-          "throughput_ratio": 1.125
+          "optimized_bytes": 352.5,
+          "optimized_ns": 7403.8,
+          "heap_reduction_pct": 4.4,
+          "throughput_ratio": 0.97
         },
         {
           "class": "tomli._parser.NestedDict",
           "public": false,
-          "optimized_bytes": 112.5,
-          "optimized_ns": 6953.9,
-          "heap_reduction_pct": 22.2,
-          "throughput_ratio": 0.976
+          "optimized_bytes": 128.5,
+          "optimized_ns": 6894.0,
+          "heap_reduction_pct": 11.2,
+          "throughput_ratio": 0.999
         },
         {
           "class": "tomli._parser.Output",
           "public": false,
-          "optimized_bytes": 488.5,
-          "optimized_ns": 7542.2,
-          "heap_reduction_pct": 16.5,
-          "throughput_ratio": 1.02
+          "optimized_bytes": 536.5,
+          "optimized_ns": 7762.1,
+          "heap_reduction_pct": 8.3,
+          "throughput_ratio": 1.0
         },
         {
           "class": "tomli._parser.DEPRECATED_DEFAULT",
           "public": false,
-          "optimized_bytes": 40.5,
-          "optimized_ns": 6810.5,
-          "heap_reduction_pct": 44.3,
-          "throughput_ratio": 1.001
+          "optimized_bytes": 56.5,
+          "optimized_ns": 6781.3,
+          "heap_reduction_pct": 22.3,
+          "throughput_ratio": 1.033
         }
       ]
     }
   ],
-  "median_heap_reduction_pct": 16.49323183652203,
-  "median_throughput_ratio": 1.0021025526187082,
+  "median_heap_reduction_pct": 8.288154124179748,
+  "median_throughput_ratio": 1.0058987211748673,
   "class_count": 19
 }

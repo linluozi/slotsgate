@@ -2,23 +2,23 @@
   "starlette": {
     "command": "PYTHONPATH=. python -m pytest tests -q --no-header -p no:cacheprovider",
     "pristine": "4 failed, 1419 passed, 2 xfailed in 11.74s",
-    "patched": "4 failed, 1419 passed, 2 xfailed in 15.53s",
+    "patched": "4 failed, 1419 passed, 2 xfailed in 13.59s (re-run with __weakref__ slot)",
     "verdict": "0 new failures. The same four websocket-header assertions fail in the pristine tree (httpx2 version drift, test_websockets.py:102 and three peers)."
   },
   "more-itertools": {
     "command": "PYTHONPATH=. python -m pytest tests -q --no-header -p no:cacheprovider",
     "pristine": "772 passed, 21203 subtests passed in 33.68s",
-    "patched": "772 passed, 21203 subtests passed in 31.14s"
+    "patched": "772 passed, 21203 subtests passed in 27.02s (re-run with __weakref__ slot)"
   },
   "tomli": {
     "command": "PYTHONPATH=src python -m pytest tests -q --no-header -p no:cacheprovider",
     "pristine": "17 passed, 1 skipped, 744 subtests passed in 0.51s",
-    "patched": "17 passed, 1 skipped, 744 subtests passed in 0.64s"
+    "patched": "17 passed, 1 skipped, 744 subtests passed in 0.28s (re-run with __weakref__ slot)"
   },
   "werkzeug_focused": {
     "command": "PYTHONPATH=src python -m pytest tests/test_datastructures.py -q --no-header -p no:cacheprovider",
     "pristine": "100 passed in 0.32s",
-    "patched": "100 passed in 0.87s",
+    "patched": "100 passed in 0.37s (re-run with __weakref__ slot)",
     "verdict": "Focused module covering every patched class; the full werkzeug suite exceeds the time budget on this box."
   },
   "pyparsing_rejected": {
@@ -26,5 +26,10 @@
     "pristine": "2127 passed, 27 skipped, 2089 subtests passed in 92.72s",
     "patched": "16 failed, 2121 passed, 27 skipped, 2079 subtests passed in 89.92s",
     "verdict": "G1 fail. All five pyparsing classes are internal caches whose instances are copied/pickled by the packrat machinery; the patch is kept only as evidence and is not shipped as an accepted target."
+  },
+  "weakref": {
+    "command": "tools/weakref_check.py equivalent: for every accepted class, weakref.ref(eval(factory))() is obj",
+    "patched": "19/19 weakref-able",
+    "raw": "results/weakref.json"
   }
 }

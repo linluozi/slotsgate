@@ -2,10 +2,12 @@
 
 from __future__ import annotations
 
+import importlib.util
 import subprocess
 import sys
 import tempfile
 import unittest
+import weakref
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -15,6 +17,10 @@ from slotsgate.history import slot_history_hits  # noqa: E402
 from slotsgate.patch import PatchError, apply_to_tree, render_patch  # noqa: E402
 
 SRC = '''
+from dataclasses import dataclass
+from functools import cached_property
+
+
 class Plain:
     def __init__(self, a, b):
         self.a = a
@@ -121,7 +127,8 @@ class AnalyzerTest(unittest.TestCase):
     def test_patch_applies_and_keeps_behavior(self):
         chosen = [self.infos["Plain"], self.infos["Child"]]
         patch = render_patch(self.root.parent, chosen)
-        self.assertIn("__slots__ = ('a', 'b')", patch)
+        # Public chain roots keep weakref support; the child inherits the slot.
+        self.assertIn("__slots__ = ('a', 'b', '__weakref__')", patch)
         self.assertIn("__slots__ = ('c',)", patch)
         target = Path(self.tmp.name) / "apply"
         (target / "pkg").mkdir(parents=True)
@@ -133,8 +140,26 @@ class AnalyzerTest(unittest.TestCase):
     def test_apply_to_tree(self):
         apply_to_tree(self.root.parent, [self.infos["Plain"]])
         text = (self.root / "mod.py").read_text()
-        self.assertIn("__slots__ = ('a', 'b')", text)
+        self.assertIn("__slots__ = ('a', 'b', '__weakref__')", text)
         compile(text, "mod.py", "exec")
+
+    def _load(self):
+        spec = importlib.util.spec_from_file_location("mod", self.root / "mod.py")
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        return mod
+
+    def test_patched_chain_keeps_weakref(self):
+        apply_to_tree(self.root.parent, [self.infos["Plain"], self.infos["Child"]])
+        mod = self._load()
+        obj = mod.Plain(1, 2)
+        child = mod.Child(1, 2, 3)
+        self.assertIsNotNone(weakref.ref(obj))
+        self.assertIsNotNone(weakref.ref(child))
+        self.assertIn("__weakref__", mod.Plain.__slots__)
+        self.assertNotIn("__weakref__", mod.Child.__slots__)
+        with self.assertRaises(AttributeError):
+            obj.extra = 1
 
 
 class HistoryTest(unittest.TestCase):

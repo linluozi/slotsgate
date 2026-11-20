@@ -13,20 +13,20 @@
   },
   "samples": [
     {
-      "heap_bytes": 1365176,
-      "per_instance_bytes": 136.5176,
-      "peak_bytes": 1393327,
-      "rss_kb": 26456,
-      "create_seconds": 0.1093234783038497,
-      "ns_per_instance": 10932.34783038497
+      "heap_bytes": 1525176,
+      "per_instance_bytes": 152.5176,
+      "peak_bytes": 1553311,
+      "rss_kb": 26588,
+      "create_seconds": 0.1095602372661233,
+      "ns_per_instance": 10956.02372661233
     },
     {
-      "heap_bytes": 1365176,
-      "per_instance_bytes": 136.5176,
-      "peak_bytes": 1393327,
-      "rss_kb": 26476,
-      "create_seconds": 0.10793683212250471,
-      "ns_per_instance": 10793.683212250471
+      "heap_bytes": 1525176,
+      "per_instance_bytes": 152.5176,
+      "peak_bytes": 1553311,
+      "rss_kb": 26632,
+      "create_seconds": 0.11305185221135616,
+      "ns_per_instance": 11305.185221135616
     }
   ]
 }

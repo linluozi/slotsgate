@@ -5,7 +5,7 @@
      .. versionadded:: 3.2
      """
 +
-+    __slots__ = ('_value', '_weak')
++    __slots__ = ('_value', '_weak', '__weakref__')
  
      _on_update: t.Callable[[ETag], None] | None = None
  
@@ -13,7 +13,7 @@
          ``__contains__`` are deprecated and will be removed in Werkzeug 4.0.
      """
  
-+    __slots__ = ('_strong', '_weak', 'star_tag')
++    __slots__ = ('_strong', '_weak', 'star_tag', '__weakref__')
 +
      def __init__(
          self,
@@ -24,7 +24,7 @@
      .. versionadded:: 0.7
      """
  
-+    __slots__ = ('date', 'etag')
++    __slots__ = ('date', 'etag', '__weakref__')
 +
      def __init__(self, etag: str | None = None, date: dt.datetime | None = None):
          self.etag = etag
@@ -34,7 +34,7 @@
      .. versionadded:: 0.7
      """
 +
-+    __slots__ = ('ranges', 'units')
++    __slots__ = ('ranges', 'units', '__weakref__')
  
      def __init__(
          self, units: str, ranges: cabc.Sequence[tuple[int, int | None]]
@@ -43,7 +43,7 @@
      .. versionadded:: 0.7
      """
 +
-+    __slots__ = ('_length', '_on_update', '_start', '_stop', '_units')
++    __slots__ = ('_length', '_on_update', '_start', '_stop', '_units', '__weakref__')
  
      def __init__(
          self,

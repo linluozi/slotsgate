@@ -5,7 +5,7 @@
      """Sentinel to be used as default arg during deprecation
      period of TOMLDecodeError's free-form arguments."""
 +
-+    __slots__ = ()
++    __slots__ = ('__weakref__',)
  
  
  class TOMLDecodeError(ValueError):
@@ -13,7 +13,7 @@
  class Flags:
      """Flags that map to parsed keys/namespaces."""
  
-+    __slots__ = ('_flags', '_pending_flags')
++    __slots__ = ('_flags', '_pending_flags', '__weakref__')
 +
      # Marks an immutable namespace (inline array or inline table).
      FROZEN: Final = 0
@@ -23,7 +23,7 @@
  
  class NestedDict:
 +
-+    __slots__ = ('dict',)
++    __slots__ = ('dict', '__weakref__')
      def __init__(self) -> None:
          # The parsed content of the TOML document
          self.dict: dict[str, Any] = {}
@@ -32,7 +32,7 @@
  
  class Output:
 +
-+    __slots__ = ('data', 'flags')
++    __slots__ = ('data', 'flags', '__weakref__')
      def __init__(self) -> None:
          self.data = NestedDict()
          self.flags = Flags()

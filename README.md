@@ -26,38 +26,49 @@ them public API. Heap is `tracemalloc.get_traced_memory()` delta after
 `gc.collect()`; creation time is `time.perf_counter()` around the same loop
 without tracemalloc.
 
+**Correction in this revision.** The first published revision generated
+`__slots__` without `__weakref__`, which made `weakref.ref()` fail on every
+patched public class. The generator now adds `__weakref__` only to the root of
+each patched chain (a subclass inherits the slot and must not redeclare it), and
+every number below was re-measured with that slot present. The slot costs one
+pointer (8 B) per instance, so these savings are 8 B lower per instance than the
+earlier table: the previous percentages were overstated. `results/weakref.json`
+records `weakref.ref()` working on 19/19 accepted classes.
+
 | library | class | baseline B/inst | patched B/inst | heap reduction | throughput |
 | --- | --- | ---: | ---: | ---: | ---: |
-| starlette | `starlette.datastructures.URL` (public) | 148.7 | 124.5 | 16.3% | 0.990x |
-| starlette | `starlette.datastructures.Secret` (public) | 80.7 | 48.5 | 39.9% | 1.008x |
-| starlette | `starlette.routing.Host` (public) | 247.8 | 204.8 | 17.4% | 1.002x |
-| starlette | `starlette.background.BackgroundTask` (public) | 168.7 | 136.5 | 19.1% | 0.998x |
-| starlette | `starlette.authentication.AuthCredentials` (public) | 152.7 | 120.5 | 21.1% | 1.010x |
-| more-itertools | `more_itertools.more.peekable` (public) | 984.7 | 952.5 | 3.3% | 1.067x |
-| more-itertools | `more_itertools.more.seekable` (public) | 296.7 | 264.5 | 10.8% | 1.002x |
-| more-itertools | `more_itertools.more.bucket` (public) | 440.7 | 408.5 | 7.3% | 0.998x |
-| more-itertools | `more_itertools.more.countable` (public) | 224.7 | 192.5 | 14.3% | 1.014x |
-| more-itertools | `more_itertools.more.time_limited` (public) | 288.7 | 256.5 | 11.1% | 1.014x |
-| werkzeug | `werkzeug.datastructures.etag.ETag` (public) | 88.7 | 56.5 | 36.3% | 0.987x |
-| werkzeug | `werkzeug.datastructures.etag.ETagSet` (public) | 528.7 | 496.5 | 6.1% | 0.994x |
-| werkzeug | `werkzeug.datastructures.range.Range` (public) | 208.7 | 176.5 | 15.4% | 1.000x |
-| werkzeug | `werkzeug.datastructures.range.ContentRange` (public) | 112.6 | 80.5 | 28.5% | 1.004x |
-| werkzeug | `werkzeug.datastructures.range.IfRange` (public) | 88.7 | 56.5 | 36.3% | 1.006x |
-| tomli | `tomli._parser.Flags` | 368.7 | 336.5 | 8.7% | 1.125x |
-| tomli | `tomli._parser.NestedDict` | 144.7 | 112.5 | 22.2% | 0.976x |
-| tomli | `tomli._parser.Output` | 585.0 | 488.5 | 16.5% | 1.020x |
-| tomli | `tomli._parser.DEPRECATED_DEFAULT` | 72.7 | 40.5 | 44.3% | 1.001x |
+| starlette | `starlette.datastructures.URL` (public) | 148.7 | 140.5 | 5.5% | 1.046x |
+| starlette | `starlette.datastructures.Secret` (public) | 80.7 | 64.5 | 20.0% | 1.019x |
+| starlette | `starlette.routing.Host` (public) | 247.8 | 220.7 | 11.0% | 1.019x |
+| starlette | `starlette.background.BackgroundTask` (public) | 168.7 | 152.5 | 9.6% | 1.006x |
+| starlette | `starlette.authentication.AuthCredentials` (public) | 152.7 | 136.5 | 10.6% | 1.136x |
+| more-itertools | `more_itertools.more.peekable` (public) | 984.7 | 968.5 | 1.6% | 0.941x |
+| more-itertools | `more_itertools.more.seekable` (public) | 296.7 | 280.5 | 5.4% | 1.697x |
+| more-itertools | `more_itertools.more.bucket` (public) | 440.7 | 424.5 | 3.7% | 0.986x |
+| more-itertools | `more_itertools.more.countable` (public) | 224.7 | 208.5 | 7.2% | 0.986x |
+| more-itertools | `more_itertools.more.time_limited` (public) | 288.7 | 272.5 | 5.6% | 1.003x |
+| werkzeug | `werkzeug.datastructures.etag.ETag` (public) | 88.7 | 72.5 | 18.2% | 0.977x |
+| werkzeug | `werkzeug.datastructures.etag.ETagSet` (public) | 528.7 | 512.5 | 3.1% | 1.017x |
+| werkzeug | `werkzeug.datastructures.range.Range` (public) | 208.7 | 192.5 | 7.7% | 1.003x |
+| werkzeug | `werkzeug.datastructures.range.ContentRange` (public) | 112.6 | 96.5 | 14.3% | 1.252x |
+| werkzeug | `werkzeug.datastructures.range.IfRange` (public) | 88.7 | 72.5 | 18.2% | 1.074x |
+| tomli | `tomli._parser.Flags` | 368.7 | 352.5 | 4.4% | 0.970x |
+| tomli | `tomli._parser.NestedDict` | 144.7 | 128.5 | 11.2% | 0.999x |
+| tomli | `tomli._parser.Output` | 585.0 | 536.5 | 8.3% | 1.000x |
+| tomli | `tomli._parser.DEPRECATED_DEFAULT` | 72.7 | 56.5 | 22.3% | 1.033x |
 
-Median across all 19 classes: **heap -16.5%**, per-class
-range 3.3%…44.3%, **throughput 1.002x**. This is
+Median across all 19 classes: **heap -8.3%**, per-class
+range 1.6%…22.3%, **throughput 1.006x**. This is
 below the 40% target set for the day: on CPython 3.12 an empty instance dict is
-only 64 B, so a class with 2–5 attributes saves 32–56 B and small wrapper objects
-(which also own iterators, tuples or strings) show a modest percentage. The tool
-reports that instead of inflating it.
+only 64 B and the `__weakref__` slot gives 8 B back, so the measured saving here
+is 8–49 B per instance (median about 16 B); wrapper objects that also own
+iterators, tuples or strings show a modest percentage. The tool reports that
+instead of inflating it.
 
-The closure rule is measurable: `starlette.routing.Host` initially saved only
-3.5% because its base `BaseRoute` kept the dict; adding the base to the same patch
-raised the saving to the value in the table.
+The closure rule is measurable: in the earlier revision, patching
+`starlette.routing.Host` alone saved only 3.5% because its base `BaseRoute` kept
+the dict; adding the base to the same patch raised the saving to the value in the
+table. The corrected run keeps the same closure, one weakref slot later.
 
 ## Gates
 
@@ -65,22 +76,26 @@ raised the saving to the value in the table.
 | --- | --- | --- |
 | G1 upstream suites | PASS (0 new failures) | starlette `4 failed / 1419 passed` both pristine and patched (same httpx2 header assertions); more-itertools `772 passed` both; tomli `17 passed / 1 skipped` both; werkzeug focused `100 passed` both. pyparsing `16 failed` vs pristine `0` → target rejected. |
 | G2 history dedup | PASS | `0` commits in the last 24 months add `__slots__` inside a selected class; GitHub search: 6 issue/PR mentions of `__slots__` across the four repos, **0** of them patch a selected class (`results/gate.json`). |
+| G2c weakref semantics | PASS | `results/weakref.json`: **19/19** accepted classes answer `weakref.ref(obj)() is obj`; child classes inherit `__weakref__` instead of redeclaring it (`tests/test_slotsgate.py::test_patched_chain_keeps_weakref`). |
 | G2b behaviour differential | PASS | `results/diffcheck.json`: **1,029 unique factory variants** (literal sweeps, not repeated calls) across the 19 classes, pristine vs patched, **0 mismatches**. Each transcript compares `repr`, every slot value, `pickle.loads(pickle.dumps(...))` state and `copy.copy` state; `time_limited._start_time` is masked because it is a `time.monotonic()` reading. |
-| G3 speedup | N/A | no speed claim; throughput is reported only to prove no regression (median 1.002x). |
+| G3 speedup | N/A | no speed claim; throughput is reported only to prove no regression (median 1.006x). |
 | G4 large scale | N/A | heap measured at one fixed live-set size (10,000 objects per class). |
-| G5 memory | PASS | heap reduction per class in the table; raw samples under `results/raw/`. |
+| G5 memory | PASS | heap reduction per class in the table; raw samples under `benchmark/raw/`. |
 
 Reproduce a gate:
 
 ```bash
 # tool self-check
-python3 -m unittest discover -s tests -v          # 13 tests
+python3 -m unittest discover -s tests -v          # 14 tests
 
 # gate + patches (needs the four upstream checkouts; see targets/manifest.json)
 python3 tools/prepare.py --manifest targets/manifest.json --work /tmp/slotswork
 
 # heap/throughput, raw JSON written per class and implementation
 /tmp/venv-sg/bin/python benchmark/bench.py --work /tmp/slotswork --n 10000 --repeats 2
+
+# weakref gate: 19/19 accepted classes must answer weakref.ref(obj)()
+/tmp/venv-sg/bin/python tools/weakref_check.py
 ```
 
 A class is only patched when the analyzer proves every `self.x = ...` assignment
@@ -96,6 +111,10 @@ __slots__` + issue/PR 双查，0 命中才写补丁），并首次测出「只 p
 够、必须是祖先闭包」这一可证伪结论（Host 3.5% → 闭包后见表）；同时把
 `pyparsing` 作为一个真实的 G1 拒绝样本留下，而不是悄悄删掉。
 
+**2026-11-20 修订**：首版生成器漏了 `__weakref__`，19 个公开类全部失去 weakref
+支持；本版只给补丁链的根类加该槽（子类继承、不得重复声明），并在带槽的版本上重测
+全部 heap 数字。`results/weakref.json` 为 19/19 实测，测试里钉死"根类有、子类无"。
+
 ## Layout
 
 ```
@@ -110,7 +129,7 @@ results/patches/         four accepted patches + one rejected (pyparsing)
 results/raw/             every raw probe sample
 benchmark/baseline.json  aggregated baseline
 benchmark/optimized.json aggregated optimized + ratio
-tests/test_slotsgate.py  13 unit tests (analyzer, patch, history)
+tests/test_slotsgate.py  14 unit tests (analyzer, patch, weakref, history)
 ```
 
 ## Environment

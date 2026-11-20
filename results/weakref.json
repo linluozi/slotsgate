@@ -1,0 +1,139 @@
+{
+  "classes": [
+    {
+      "module": "starlette.datastructures",
+      "attr": "datastructures.URL",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "starlette"
+    },
+    {
+      "module": "starlette.datastructures",
+      "attr": "datastructures.Secret",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "starlette"
+    },
+    {
+      "module": "starlette.routing",
+      "attr": "routing.Host",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "starlette"
+    },
+    {
+      "module": "starlette.background",
+      "attr": "background.BackgroundTask",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "starlette"
+    },
+    {
+      "module": "starlette.authentication",
+      "attr": "authentication.AuthCredentials",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "starlette"
+    },
+    {
+      "module": "more_itertools.more",
+      "attr": "more.peekable",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "more-itertools"
+    },
+    {
+      "module": "more_itertools.more",
+      "attr": "more.seekable",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "more-itertools"
+    },
+    {
+      "module": "more_itertools.more",
+      "attr": "more.bucket",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "more-itertools"
+    },
+    {
+      "module": "more_itertools.more",
+      "attr": "more.countable",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "more-itertools"
+    },
+    {
+      "module": "more_itertools.more",
+      "attr": "more.time_limited",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "more-itertools"
+    },
+    {
+      "module": "werkzeug.datastructures.etag",
+      "attr": "datastructures.ETag",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "werkzeug"
+    },
+    {
+      "module": "werkzeug.datastructures.etag",
+      "attr": "datastructures.ETagSet",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "werkzeug"
+    },
+    {
+      "module": "werkzeug.datastructures.range",
+      "attr": "datastructures.Range",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "werkzeug"
+    },
+    {
+      "module": "werkzeug.datastructures.range",
+      "attr": "datastructures.ContentRange",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "werkzeug"
+    },
+    {
+      "module": "werkzeug.datastructures.range",
+      "attr": "datastructures.IfRange",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "werkzeug"
+    },
+    {
+      "module": "tomli._parser",
+      "attr": "_parser.Flags",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "tomli"
+    },
+    {
+      "module": "tomli._parser",
+      "attr": "_parser.NestedDict",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "tomli"
+    },
+    {
+      "module": "tomli._parser",
+      "attr": "_parser.Output",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "tomli"
+    },
+    {
+      "module": "tomli._parser",
+      "attr": "_parser.DEPRECATED_DEFAULT",
+      "weakref_ok": true,
+      "error": null,
+      "lib": "tomli"
+    }
+  ],
+  "total": 19,
+  "ok": 19
+}

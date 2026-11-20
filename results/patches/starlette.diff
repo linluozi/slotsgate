@@ -5,7 +5,7 @@
  
  class AuthCredentials:
 +
-+    __slots__ = ('scopes',)
++    __slots__ = ('scopes', '__weakref__')
      def __init__(self, scopes: Sequence[str] | None = None):
          self.scopes = [] if scopes is None else list(scopes)
  
@@ -16,7 +16,7 @@
  
  class BackgroundTask:
 +
-+    __slots__ = ('args', 'func', 'is_async', 'kwargs')
++    __slots__ = ('args', 'func', 'is_async', 'kwargs', '__weakref__')
      def __init__(self, func: Callable[P, Any], *args: P.args, **kwargs: P.kwargs) -> None:
          self.func = func
          self.args = args
@@ -27,7 +27,7 @@
  
  class URL:
 +
-+    __slots__ = ('_components', '_url')
++    __slots__ = ('_components', '_url', '__weakref__')
      def __init__(
          self,
          url: str = "",
@@ -36,7 +36,7 @@
      You should cast the value to `str` at the point it is required.
      """
 +
-+    __slots__ = ('_value',)
++    __slots__ = ('_value', '__weakref__')
  
      def __init__(self, value: str):
          self._value = value
@@ -47,7 +47,7 @@
  
  class BaseRoute:
 +
-+    __slots__ = ()
++    __slots__ = ('__weakref__',)
      def matches(self, scope: Scope) -> tuple[Match, Scope]:
          raise NotImplementedError()  # pragma: no cover
  
