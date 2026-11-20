@@ -126,7 +126,7 @@ benchmark/bench.py       multi-class measurement harness
 tools/prepare.py         scan → gate → patch → pristine/patched trees
 results/gate.json        per-class gate verdicts and diffs stats
 results/patches/         four accepted patches + one rejected (pyparsing)
-results/raw/             every raw probe sample
+benchmark/raw/           every raw probe sample
 benchmark/baseline.json  aggregated baseline
 benchmark/optimized.json aggregated optimized + ratio
 tests/test_slotsgate.py  14 unit tests (analyzer, patch, weakref, history)
