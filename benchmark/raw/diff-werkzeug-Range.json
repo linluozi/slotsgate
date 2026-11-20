@@ -1,0 +1,6118 @@
+{
+ "variants": [
+  "cls('bytes', [(0, 1)])",
+  "cls('bytes1', [(0, 1)])",
+  "cls('bytes2', [(0, 1)])",
+  "cls('bytes3', [(0, 1)])",
+  "cls('bytes4', [(0, 1)])",
+  "cls('bytes5', [(0, 1)])",
+  "cls('bytes6', [(0, 1)])",
+  "cls('bytes7', [(0, 1)])",
+  "cls('bytes8', [(0, 1)])",
+  "cls('bytes9', [(0, 1)])",
+  "cls('bytes10', [(0, 1)])",
+  "cls('bytes11', [(0, 1)])",
+  "cls('bytes12', [(0, 1)])",
+  "cls('bytes13', [(0, 1)])",
+  "cls('bytes14', [(0, 1)])",
+  "cls('bytes15', [(0, 1)])",
+  "cls('bytes16', [(0, 1)])",
+  "cls('bytes17', [(0, 1)])",
+  "cls('bytes18', [(0, 1)])",
+  "cls('bytes19', [(0, 1)])",
+  "cls('bytes20', [(0, 1)])",
+  "cls('bytes21', [(0, 1)])",
+  "cls('bytes22', [(0, 1)])",
+  "cls('bytes23', [(0, 1)])",
+  "cls('bytes24', [(0, 1)])",
+  "cls('bytes25', [(0, 1)])",
+  "cls('bytes26', [(0, 1)])",
+  "cls('bytes27', [(0, 1)])",
+  "cls('bytes28', [(0, 1)])",
+  "cls('bytes29', [(0, 1)])",
+  "cls('bytes30', [(0, 1)])",
+  "cls('bytes31', [(0, 1)])",
+  "cls('bytes32', [(0, 1)])",
+  "cls('bytes33', [(0, 1)])",
+  "cls('bytes34', [(0, 1)])",
+  "cls('bytes35', [(0, 1)])",
+  "cls('bytes36', [(0, 1)])",
+  "cls('bytes37', [(0, 1)])",
+  "cls('bytes38', [(0, 1)])",
+  "cls('bytes39', [(0, 1)])",
+  "cls('bytes40', [(0, 1)])",
+  "cls('bytes', [(1, 1)])",
+  "cls('bytes', [(2, 1)])",
+  "cls('bytes', [(3, 1)])",
+  "cls('bytes', [(4, 1)])",
+  "cls('bytes', [(5, 1)])",
+  "cls('bytes', [(6, 1)])",
+  "cls('bytes', [(7, 1)])",
+  "cls('bytes', [(8, 1)])",
+  "cls('bytes', [(9, 1)])",
+  "cls('bytes', [(10, 1)])",
+  "cls('bytes', [(11, 1)])",
+  "cls('bytes', [(12, 1)])",
+  "cls('bytes', [(13, 1)])",
+  "cls('bytes', [(14, 1)])",
+  "cls('bytes', [(15, 1)])",
+  "cls('bytes', [(16, 1)])",
+  "cls('bytes', [(17, 1)])",
+  "cls('bytes', [(18, 1)])",
+  "cls('bytes', [(19, 1)])",
+  "cls('bytes', [(20, 1)])",
+  "cls('bytes', [(21, 1)])",
+  "cls('bytes', [(22, 1)])",
+  "cls('bytes', [(23, 1)])",
+  "cls('bytes', [(24, 1)])",
+  "cls('bytes', [(25, 1)])",
+  "cls('bytes', [(26, 1)])",
+  "cls('bytes', [(27, 1)])",
+  "cls('bytes', [(28, 1)])",
+  "cls('bytes', [(29, 1)])",
+  "cls('bytes', [(30, 1)])",
+  "cls('bytes', [(31, 1)])",
+  "cls('bytes', [(32, 1)])",
+  "cls('bytes', [(33, 1)])",
+  "cls('bytes', [(34, 1)])",
+  "cls('bytes', [(35, 1)])",
+  "cls('bytes', [(36, 1)])",
+  "cls('bytes', [(37, 1)])",
+  "cls('bytes', [(38, 1)])",
+  "cls('bytes', [(39, 1)])",
+  "cls('bytes', [(40, 1)])",
+  "cls('bytes', [(0, 2)])",
+  "cls('bytes', [(0, 3)])",
+  "cls('bytes', [(0, 4)])",
+  "cls('bytes', [(0, 5)])",
+  "cls('bytes', [(0, 6)])",
+  "cls('bytes', [(0, 7)])",
+  "cls('bytes', [(0, 8)])",
+  "cls('bytes', [(0, 9)])",
+  "cls('bytes', [(0, 10)])",
+  "cls('bytes', [(0, 11)])",
+  "cls('bytes', [(0, 12)])",
+  "cls('bytes', [(0, 13)])",
+  "cls('bytes', [(0, 14)])",
+  "cls('bytes', [(0, 15)])",
+  "cls('bytes', [(0, 16)])",
+  "cls('bytes', [(0, 17)])",
+  "cls('bytes', [(0, 18)])",
+  "cls('bytes', [(0, 19)])",
+  "cls('bytes', [(0, 20)])",
+  "cls('bytes', [(0, 21)])",
+  "cls('bytes', [(0, 22)])",
+  "cls('bytes', [(0, 23)])",
+  "cls('bytes', [(0, 24)])",
+  "cls('bytes', [(0, 25)])",
+  "cls('bytes', [(0, 26)])",
+  "cls('bytes', [(0, 27)])",
+  "cls('bytes', [(0, 28)])",
+  "cls('bytes', [(0, 29)])",
+  "cls('bytes', [(0, 30)])",
+  "cls('bytes', [(0, 31)])",
+  "cls('bytes', [(0, 32)])",
+  "cls('bytes', [(0, 33)])",
+  "cls('bytes', [(0, 34)])",
+  "cls('bytes', [(0, 35)])",
+  "cls('bytes', [(0, 36)])",
+  "cls('bytes', [(0, 37)])",
+  "cls('bytes', [(0, 38)])",
+  "cls('bytes', [(0, 39)])",
+  "cls('bytes', [(0, 40)])",
+  "cls('bytes', [(0, 41)])",
+  "cls('bytes0', [(0, 1)])",
+  "cls('bytesx', [(0, 1)])",
+  "cls('bytes y', [(0, 1)])",
+  "cls('bytes\u00e9', [(0, 1)])",
+  "cls('bytes?k=1', [(0, 1)])",
+  "cls('bytes#f', [(0, 1)])",
+  "cls('bytes/p', [(0, 1)])",
+  "cls('bytesbytes', [(0, 1)])",
+  "cls('bytes', [(-1, 1)])"
+ ],
+ "baseline": [
+  {
+   "expr": "cls('bytes', [(0, 1)])",
+   "sha256": "96363fd6686544c0ee18d2d98181a7151bb5df3673fee82aa8b46ef4bfa3fa2d",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes1', [(0, 1)])",
+   "sha256": "64d028f6b3941bab69b6679917d2ccf45529e08dc5d95c7ff8144d305fef04e9",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes1=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes1'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes1=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes1'"
+      }
+     },
+     "copy": "<Range 'bytes1=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes2', [(0, 1)])",
+   "sha256": "d8a01de92c314fd65dca67e736c82b7b1f0a0ab5fa9b66c42b29f7cca4239655",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes2=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes2'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes2=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes2'"
+      }
+     },
+     "copy": "<Range 'bytes2=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes3', [(0, 1)])",
+   "sha256": "3cd7647f4adc21d8438526685b515db7c8e7c3fd9caeb03979f82e4c6e34fde6",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes3=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes3'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes3=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes3'"
+      }
+     },
+     "copy": "<Range 'bytes3=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes4', [(0, 1)])",
+   "sha256": "790f92fc88c5f72d6c23cb4953455f051cc77e8dfebaa02f2f4eb195125e415f",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes4=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes4'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes4=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes4'"
+      }
+     },
+     "copy": "<Range 'bytes4=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes5', [(0, 1)])",
+   "sha256": "5a5d041653f13f4381d5c1679bfb94308331cc79105b1e5b8f85f743e7bc027e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes5=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes5'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes5=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes5'"
+      }
+     },
+     "copy": "<Range 'bytes5=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes6', [(0, 1)])",
+   "sha256": "3f797ea3a6abdeec84b7766e09523caf29952eefe65e1261ed16bfdb6ce6c66b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes6=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes6'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes6=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes6'"
+      }
+     },
+     "copy": "<Range 'bytes6=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes7', [(0, 1)])",
+   "sha256": "26f3d4a1207f2103d08e134fe0ddd3c49aeae83337aac0bc71a325640c752ba8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes7=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes7'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes7=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes7'"
+      }
+     },
+     "copy": "<Range 'bytes7=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes8', [(0, 1)])",
+   "sha256": "a707f9619ae74b2cf8cf37f98ef90329a9604f8defdbd24a7065b113f261608e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes8=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes8'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes8=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes8'"
+      }
+     },
+     "copy": "<Range 'bytes8=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes9', [(0, 1)])",
+   "sha256": "34b2a604fd3ab6b11674f9ba4fd9c97899ed62c41d72884e1fdd5c5d415b2279",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes9=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes9'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes9=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes9'"
+      }
+     },
+     "copy": "<Range 'bytes9=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes10', [(0, 1)])",
+   "sha256": "d1cb320ff88368c30c9f0cc36f15d161482a82c49fda2193ed796739755d58d8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes10=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes10'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes10=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes10'"
+      }
+     },
+     "copy": "<Range 'bytes10=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes11', [(0, 1)])",
+   "sha256": "52e21b99a2a03bcb984a7c5428b32480abaf256c0d2417cad217cb3aec19a128",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes11=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes11'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes11=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes11'"
+      }
+     },
+     "copy": "<Range 'bytes11=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes12', [(0, 1)])",
+   "sha256": "9a793d6b184e2facb8488ab8f1ca4cd25a456286c8139ba93a1bd3b12498a022",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes12=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes12'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes12=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes12'"
+      }
+     },
+     "copy": "<Range 'bytes12=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes13', [(0, 1)])",
+   "sha256": "e566dcd8b42ff5e791585e179162b59d86fc3bbfe8297fee21789edf8fa6f38c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes13=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes13'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes13=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes13'"
+      }
+     },
+     "copy": "<Range 'bytes13=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes14', [(0, 1)])",
+   "sha256": "77013cb6d874c7cfe264616dc3a78a4714780d8097b1a165846e9f2b55cb0bf0",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes14=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes14'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes14=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes14'"
+      }
+     },
+     "copy": "<Range 'bytes14=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes15', [(0, 1)])",
+   "sha256": "061571290fd7c31bf654d1a1f7ecbad355b2176fcb7678c6b4ccb91479d570fd",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes15=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes15'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes15=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes15'"
+      }
+     },
+     "copy": "<Range 'bytes15=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes16', [(0, 1)])",
+   "sha256": "84970b3fb1dfe40ba601c006cacd7d984996a4eeb138b9491a16ea67d8c4176e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes16=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes16'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes16=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes16'"
+      }
+     },
+     "copy": "<Range 'bytes16=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes17', [(0, 1)])",
+   "sha256": "de03735e5cc8d55966e28d43aea7e8e8b365d18e344726eace3073041c2d10c0",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes17=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes17'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes17=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes17'"
+      }
+     },
+     "copy": "<Range 'bytes17=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes18', [(0, 1)])",
+   "sha256": "e97afd30142d55b682962a67aadf4a8e115789adf49063cc61d92df8a3bbc19b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes18=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes18'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes18=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes18'"
+      }
+     },
+     "copy": "<Range 'bytes18=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes19', [(0, 1)])",
+   "sha256": "ebf365cf054af42c950c3f7611804ad7ea51504af0e6c30027a3e9373a3bcc0a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes19=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes19'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes19=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes19'"
+      }
+     },
+     "copy": "<Range 'bytes19=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes20', [(0, 1)])",
+   "sha256": "dcc15a1be9b288852426101bfaca4d1b2c3d2162f0b253a4850b15de50d7e610",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes20=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes20'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes20=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes20'"
+      }
+     },
+     "copy": "<Range 'bytes20=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes21', [(0, 1)])",
+   "sha256": "0b481a46c0fc8c1ecbf3dbc12944f3b9b7ebc45b2b9ac155b1e2d8e08d8060c7",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes21=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes21'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes21=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes21'"
+      }
+     },
+     "copy": "<Range 'bytes21=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes22', [(0, 1)])",
+   "sha256": "23dd482607a3c9be0717691f43107a002752404b6a9df95f9927ae58a171c2ff",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes22=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes22'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes22=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes22'"
+      }
+     },
+     "copy": "<Range 'bytes22=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes23', [(0, 1)])",
+   "sha256": "da5da661b3cce7b1106f2167182c4d187fd7d7b5d0f0a6e9cd7008621531c90e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes23=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes23'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes23=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes23'"
+      }
+     },
+     "copy": "<Range 'bytes23=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes24', [(0, 1)])",
+   "sha256": "75ccd9a8951ec8e676adc22cf4730a757c1201b3e58f66c5776c16aabd64cce8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes24=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes24'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes24=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes24'"
+      }
+     },
+     "copy": "<Range 'bytes24=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes25', [(0, 1)])",
+   "sha256": "186aeb2f20350e96bd25008f3f63e6db6e079757751eb2ed30feac96b1a6d039",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes25=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes25'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes25=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes25'"
+      }
+     },
+     "copy": "<Range 'bytes25=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes26', [(0, 1)])",
+   "sha256": "bfeb1701f569010629f8f0ff6cbe6becda2afec01a6f5000a2cd7bd4775c495a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes26=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes26'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes26=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes26'"
+      }
+     },
+     "copy": "<Range 'bytes26=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes27', [(0, 1)])",
+   "sha256": "feee5a3420eb64c43de0cece1f9b1b1c319228d8673e2b213aad07b36fcd028a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes27=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes27'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes27=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes27'"
+      }
+     },
+     "copy": "<Range 'bytes27=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes28', [(0, 1)])",
+   "sha256": "83b0428ef75ae1744fcb63fd1753ac405ff9b5e5622a58b976ffb43cf724218f",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes28=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes28'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes28=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes28'"
+      }
+     },
+     "copy": "<Range 'bytes28=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes29', [(0, 1)])",
+   "sha256": "273f824bb38f0eb4e3cac0c40e53d589babf1a355280ee76d9eb4167774b126d",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes29=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes29'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes29=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes29'"
+      }
+     },
+     "copy": "<Range 'bytes29=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes30', [(0, 1)])",
+   "sha256": "bdb8a4fdc9e2c007bdf500ac100cbe0a9b992352847150fbb79ae9099df7eff3",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes30=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes30'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes30=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes30'"
+      }
+     },
+     "copy": "<Range 'bytes30=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes31', [(0, 1)])",
+   "sha256": "036d01bf123f652c734fffc4b05f1c2c21109b464e97ac72589e5027a4b982ac",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes31=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes31'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes31=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes31'"
+      }
+     },
+     "copy": "<Range 'bytes31=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes32', [(0, 1)])",
+   "sha256": "43c93d28cb30e0d8026d15fd8c96fc98b1f221c42e611097cf39c5bd33488d8a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes32=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes32'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes32=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes32'"
+      }
+     },
+     "copy": "<Range 'bytes32=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes33', [(0, 1)])",
+   "sha256": "b97e45d059bf99f493b866aca6571b9e039ae5820e6c50fff9ce3d4e4ec4fdbb",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes33=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes33'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes33=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes33'"
+      }
+     },
+     "copy": "<Range 'bytes33=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes34', [(0, 1)])",
+   "sha256": "848eb0d82d331b33398076dc6956e0fe56be1a312826dae4c929df2dc3834028",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes34=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes34'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes34=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes34'"
+      }
+     },
+     "copy": "<Range 'bytes34=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes35', [(0, 1)])",
+   "sha256": "d82c2ccd43c0e5fbb6de11cd244984db16c768e50598e8ed377e67c801915ced",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes35=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes35'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes35=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes35'"
+      }
+     },
+     "copy": "<Range 'bytes35=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes36', [(0, 1)])",
+   "sha256": "6eee7a04fea7f116a99d123f78d7d4e62ed82c6ee15488dc7a4bc5beb8963514",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes36=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes36'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes36=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes36'"
+      }
+     },
+     "copy": "<Range 'bytes36=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes37', [(0, 1)])",
+   "sha256": "74d47a6d790ebd7da4558e032d826f315c0e45add049603c435fa3a00f2b31e9",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes37=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes37'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes37=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes37'"
+      }
+     },
+     "copy": "<Range 'bytes37=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes38', [(0, 1)])",
+   "sha256": "6dad3bb618a66ed0baa2b516429f147d7b51decb9144ec62e691494f5a4a1345",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes38=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes38'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes38=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes38'"
+      }
+     },
+     "copy": "<Range 'bytes38=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes39', [(0, 1)])",
+   "sha256": "fd9d89a14566d53ffb9bde477e72f053f98ce325f86243cc4a8bf541c1eaf789",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes39=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes39'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes39=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes39'"
+      }
+     },
+     "copy": "<Range 'bytes39=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes40', [(0, 1)])",
+   "sha256": "6bc8f43efdfed483eee8dedddca300d82117f3adbcd427ac92a04c62b9a874f3",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes40=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes40'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes40=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes40'"
+      }
+     },
+     "copy": "<Range 'bytes40=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(1, 1)])",
+   "sha256": "83b7d9962a68fa2a2f85a4d662b961e752868231ade34cf1d257b6fc8aa4cbd0",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=1-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(1, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=1-0'>",
+      "attrs": {
+       "ranges": "[(1, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=1-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(2, 1)])",
+   "sha256": "2ab406d172309c7b70437677156fdd02a005a81cf0f5bca52d3307d3d023397a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=2-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(2, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=2-0'>",
+      "attrs": {
+       "ranges": "[(2, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=2-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(3, 1)])",
+   "sha256": "132c132a8c2e3467cd921acbf6be012b250e19ba1fd02e5657896580d0a43a85",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=3-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(3, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=3-0'>",
+      "attrs": {
+       "ranges": "[(3, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=3-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(4, 1)])",
+   "sha256": "dc5da69e598ca4fdb8c3ed358fb380d54c70b51db92a5fc90f1d3c40dd29d229",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=4-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(4, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=4-0'>",
+      "attrs": {
+       "ranges": "[(4, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=4-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(5, 1)])",
+   "sha256": "3f331dd372c61e5ff77772a30acb08830febcc44243e152e6cf6fe3a2fecc6f2",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=5-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(5, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=5-0'>",
+      "attrs": {
+       "ranges": "[(5, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=5-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(6, 1)])",
+   "sha256": "03ff6ebec601016306ed172e236693821746250e9aeca044a63e46ee6c75ff51",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=6-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(6, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=6-0'>",
+      "attrs": {
+       "ranges": "[(6, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=6-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(7, 1)])",
+   "sha256": "bc18df5f2b78fe2d4a13845c2db5c5dc2ac7c91e426007665db6022bed7ee13e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=7-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(7, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=7-0'>",
+      "attrs": {
+       "ranges": "[(7, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=7-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(8, 1)])",
+   "sha256": "3175d5687503e134759380d9d188088eb42aa318ead6980c459e6441e64f524d",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=8-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(8, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=8-0'>",
+      "attrs": {
+       "ranges": "[(8, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=8-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(9, 1)])",
+   "sha256": "2153fda5b80e49da5f0e4e7b54bc5c36e33a58d91fa9d1a09544126d72555cba",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=9-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(9, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=9-0'>",
+      "attrs": {
+       "ranges": "[(9, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=9-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(10, 1)])",
+   "sha256": "312cbaa41d500ca3ddd50f57eba08f16d9fdee963f324702c6fe8b3429de63ef",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=10-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(10, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=10-0'>",
+      "attrs": {
+       "ranges": "[(10, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=10-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(11, 1)])",
+   "sha256": "9eaaec3cc83efa2b5905eb8c4c72ac4c7c69c4c663eabf5bfb7938c38867acfa",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=11-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(11, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=11-0'>",
+      "attrs": {
+       "ranges": "[(11, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=11-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(12, 1)])",
+   "sha256": "360f16a4885ff97563d0a2ac5332b01e43a0f40fb8b5085654667f61513b7674",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=12-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(12, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=12-0'>",
+      "attrs": {
+       "ranges": "[(12, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=12-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(13, 1)])",
+   "sha256": "ecf20112311dd3550219515d58f0f8622a1af11522aa071a051ef5be569b62ee",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=13-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(13, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=13-0'>",
+      "attrs": {
+       "ranges": "[(13, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=13-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(14, 1)])",
+   "sha256": "ae3b1fcaf7321ec8d5aabda64d12a6300432485bc5a9d47ec5e7d4fd228e8e40",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=14-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(14, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=14-0'>",
+      "attrs": {
+       "ranges": "[(14, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=14-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(15, 1)])",
+   "sha256": "dcab7e5d1880fa658dad0feb0a928870f1da4c266e24496807e2d718ccf18075",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=15-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(15, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=15-0'>",
+      "attrs": {
+       "ranges": "[(15, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=15-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(16, 1)])",
+   "sha256": "b0089c44be1fdd660e3793d0077ea228fb27e854ab899bf63dd3b0d339d0706c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=16-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(16, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=16-0'>",
+      "attrs": {
+       "ranges": "[(16, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=16-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(17, 1)])",
+   "sha256": "bbd639e1c34507feee2e76245f7b3e8f6a4059401ffd2b8138e38b6722d56f58",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=17-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(17, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=17-0'>",
+      "attrs": {
+       "ranges": "[(17, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=17-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(18, 1)])",
+   "sha256": "ae0c6895b3407c33fa5eb596707ed024fbe16d7d5a3b39e3e3dfc12b284e64dc",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=18-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(18, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=18-0'>",
+      "attrs": {
+       "ranges": "[(18, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=18-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(19, 1)])",
+   "sha256": "cd62ff2ff63dcd3441c88f77e544c405eeb1c4f3d1b611e39bf15b78263fe543",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=19-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(19, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=19-0'>",
+      "attrs": {
+       "ranges": "[(19, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=19-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(20, 1)])",
+   "sha256": "1401c2d5023b36a08959df8751b1022e84fcbfd94b23a3117733c5e626310b72",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=20-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(20, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=20-0'>",
+      "attrs": {
+       "ranges": "[(20, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=20-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(21, 1)])",
+   "sha256": "fd06f841a9db98e0f8ff30537d87843e4ae2543dff0493dad06912970f194680",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=21-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(21, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=21-0'>",
+      "attrs": {
+       "ranges": "[(21, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=21-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(22, 1)])",
+   "sha256": "18459dd62f56275c190fa1084bea9c7bd3254b767cc5c00760b2c20cc5f862ef",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=22-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(22, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=22-0'>",
+      "attrs": {
+       "ranges": "[(22, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=22-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(23, 1)])",
+   "sha256": "ce2c5280a815d97982f11a4820958ab594264c7bd76db06775059005c07d69d0",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=23-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(23, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=23-0'>",
+      "attrs": {
+       "ranges": "[(23, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=23-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(24, 1)])",
+   "sha256": "665fbea558a0fcf6d897aa9e8a12e3a5d9eadcc453445d1812285d286dfcb135",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=24-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(24, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=24-0'>",
+      "attrs": {
+       "ranges": "[(24, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=24-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(25, 1)])",
+   "sha256": "2b9ce6936ba6ee10f8ad281e54d5512f8c4a60734fe7346dd092bdb0adf0a3e4",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=25-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(25, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=25-0'>",
+      "attrs": {
+       "ranges": "[(25, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=25-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(26, 1)])",
+   "sha256": "f2cc9a440711d95addeabc0e8f14dc2172e990bc7bdaef24f9998069728a64bb",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=26-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(26, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=26-0'>",
+      "attrs": {
+       "ranges": "[(26, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=26-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(27, 1)])",
+   "sha256": "317d413106418a0f3133e8c9dd0597fcb00078efb0cdc598ad2578ab97e07beb",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=27-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(27, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=27-0'>",
+      "attrs": {
+       "ranges": "[(27, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=27-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(28, 1)])",
+   "sha256": "3075cf41857c15ee24a603ac1089d4c96b9b73b93c867fb6bcf7b645def7b835",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=28-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(28, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=28-0'>",
+      "attrs": {
+       "ranges": "[(28, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=28-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(29, 1)])",
+   "sha256": "86639837c345098a432d3e8b55998fd520d00f67b60145a1db9c5ff662b007fd",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=29-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(29, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=29-0'>",
+      "attrs": {
+       "ranges": "[(29, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=29-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(30, 1)])",
+   "sha256": "24bad1a70d02d74fe0d86d31ea10e7934776b7b7017f0407cf5681f4aba73434",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=30-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(30, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=30-0'>",
+      "attrs": {
+       "ranges": "[(30, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=30-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(31, 1)])",
+   "sha256": "b78005a4cb0a39a6c635a680a96efb4c1c34f51bee0856204318dedb8ac12eb8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=31-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(31, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=31-0'>",
+      "attrs": {
+       "ranges": "[(31, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=31-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(32, 1)])",
+   "sha256": "f44b7f2cdb79192561643d31193407fc60d4ebc5352cf8dd7d3656450bf026cf",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=32-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(32, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=32-0'>",
+      "attrs": {
+       "ranges": "[(32, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=32-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(33, 1)])",
+   "sha256": "7ac8599aecac87d183dceb0f342fd307dff0c92c1ae1ce02b8d10bd6f4bc9626",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=33-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(33, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=33-0'>",
+      "attrs": {
+       "ranges": "[(33, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=33-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(34, 1)])",
+   "sha256": "b14a1757c6a99e31f5502a6a62d0b6125d85f8edbf514b1bc92f34f8525ac3d5",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=34-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(34, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=34-0'>",
+      "attrs": {
+       "ranges": "[(34, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=34-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(35, 1)])",
+   "sha256": "183ca6688cc575a37815f5345199601c68d182fc287e312c5e7b9f7c1cb94ddf",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=35-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(35, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=35-0'>",
+      "attrs": {
+       "ranges": "[(35, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=35-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(36, 1)])",
+   "sha256": "57b0f1491ccbedd66cec3b4644004837ed526e71dae84f20b73606ce7eea260c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=36-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(36, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=36-0'>",
+      "attrs": {
+       "ranges": "[(36, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=36-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(37, 1)])",
+   "sha256": "f700c620917e914bb9288eb849b3859e3064179eaad1f05c55ece518d295ab20",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=37-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(37, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=37-0'>",
+      "attrs": {
+       "ranges": "[(37, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=37-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(38, 1)])",
+   "sha256": "bc53b43ee93ab7f5895d468747c41fb007f08b78d1243c2ae6aaf498fe7356da",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=38-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(38, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=38-0'>",
+      "attrs": {
+       "ranges": "[(38, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=38-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(39, 1)])",
+   "sha256": "4d9655386ba126550a979ced4e123260d855bc6970b16641c96e845a275072f7",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=39-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(39, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=39-0'>",
+      "attrs": {
+       "ranges": "[(39, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=39-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(40, 1)])",
+   "sha256": "6d5ad559a434a7d858d58f21d16b044bc3bf521f9876ed490361a4f5db275470",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=40-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(40, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=40-0'>",
+      "attrs": {
+       "ranges": "[(40, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=40-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 2)])",
+   "sha256": "5e2ecb76361b6604de8d2f70d84369d07dc3b1ce934c17bf7e1a4ccd862302d0",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-1'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 2)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-1'>",
+      "attrs": {
+       "ranges": "[(0, 2)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-1'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 3)])",
+   "sha256": "9c0bd32f09046f4629180de14c9e710b08555bcc36fc9c51ba9b0ab11e326e9d",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-2'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 3)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-2'>",
+      "attrs": {
+       "ranges": "[(0, 3)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-2'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 4)])",
+   "sha256": "c9c20f68f55fe72ae865d2650ed4d45c02d2b6fbd2b24e30f2ce4a63fea3a7d7",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-3'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 4)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-3'>",
+      "attrs": {
+       "ranges": "[(0, 4)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-3'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 5)])",
+   "sha256": "810a726bb3ec589a931a7cd8501578dd5b4f0bbd695312d4527bc3ff410fd157",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-4'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 5)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-4'>",
+      "attrs": {
+       "ranges": "[(0, 5)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-4'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 6)])",
+   "sha256": "489d9bad781c99492b04798e94e25d2dc9e76b69809a9ce9149c4d02ff666d20",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-5'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 6)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-5'>",
+      "attrs": {
+       "ranges": "[(0, 6)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-5'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 7)])",
+   "sha256": "a8798ac940b13dc9ab25f9bf2b5b3632760dbd7b918c464598baf383d5efd476",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-6'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 7)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-6'>",
+      "attrs": {
+       "ranges": "[(0, 7)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-6'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 8)])",
+   "sha256": "d8b9d635a0b53ea6dbfe463cc1f8bc7b316f4bd0e881f9c640cace8987f47109",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-7'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 8)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-7'>",
+      "attrs": {
+       "ranges": "[(0, 8)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-7'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 9)])",
+   "sha256": "dab955a31974f0fb83a7fa9a9340fa4c4fce47c40cd6a208d6a28d62628af814",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-8'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 9)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-8'>",
+      "attrs": {
+       "ranges": "[(0, 9)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-8'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 10)])",
+   "sha256": "dcf98246a5f711f4764fcd8a5fb766cc7fbddeafc79397664f9bb390dcb0eeb2",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-9'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 10)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-9'>",
+      "attrs": {
+       "ranges": "[(0, 10)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-9'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 11)])",
+   "sha256": "7547f131b107b08c98b8f3a85552127bbb33e3bf77b6ead478f78cebef0121e5",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-10'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 11)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-10'>",
+      "attrs": {
+       "ranges": "[(0, 11)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-10'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 12)])",
+   "sha256": "c25b6eaca6001590588fbf90fb7f4d38107e71635ece5c065a770a2d3607e837",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-11'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 12)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-11'>",
+      "attrs": {
+       "ranges": "[(0, 12)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-11'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 13)])",
+   "sha256": "c7167e3c9ae3996c2ba4c847d7891be02a5739ee49a2bffdf36018527aea6c38",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-12'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 13)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-12'>",
+      "attrs": {
+       "ranges": "[(0, 13)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-12'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 14)])",
+   "sha256": "16870fb38bbede4f830e2bdd665b2fbf793f75687d641390ee30b66d01f632a8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-13'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 14)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-13'>",
+      "attrs": {
+       "ranges": "[(0, 14)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-13'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 15)])",
+   "sha256": "be436e2b4230714b821d0b43768a6bf0cdce54d1cb062c8fdf40eca201d86dc5",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-14'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 15)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-14'>",
+      "attrs": {
+       "ranges": "[(0, 15)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-14'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 16)])",
+   "sha256": "e9c9b2a0c7a72126862d94dc09af1fe20ac0d24dbf3cd966881c5e35b6e6965e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-15'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 16)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-15'>",
+      "attrs": {
+       "ranges": "[(0, 16)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-15'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 17)])",
+   "sha256": "bc3da27bb97042d0cd0a7161de53774c7fd276af47a6b519b53c2e04a99b7df9",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-16'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 17)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-16'>",
+      "attrs": {
+       "ranges": "[(0, 17)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-16'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 18)])",
+   "sha256": "5728891c4529b90f599e5d1d00f60de7cef6a4b04f302964dbe300db1fd07872",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-17'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 18)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-17'>",
+      "attrs": {
+       "ranges": "[(0, 18)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-17'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 19)])",
+   "sha256": "e8e764337e4b94f37e32284cd853d58dd78c42b8c9006847c51aaaace3b40599",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-18'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 19)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-18'>",
+      "attrs": {
+       "ranges": "[(0, 19)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-18'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 20)])",
+   "sha256": "4cff5010f72a6f6e66659bf23764b70ca62c1903d7cd333a16c7558054720f07",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-19'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 20)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-19'>",
+      "attrs": {
+       "ranges": "[(0, 20)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-19'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 21)])",
+   "sha256": "b551da9ca64f6d992a2a4d8b4c91d4309791b216b940b8dec5af171934464135",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-20'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 21)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-20'>",
+      "attrs": {
+       "ranges": "[(0, 21)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-20'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 22)])",
+   "sha256": "b6cc20ad7af3e81e08bd452b5022bdb1c9d9671de19d112953ec7144246806d2",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-21'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 22)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-21'>",
+      "attrs": {
+       "ranges": "[(0, 22)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-21'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 23)])",
+   "sha256": "59a7215156d1d77e1d440b61b697a9b48cf24a663c0c8ab77c8e4515cce3de22",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-22'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 23)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-22'>",
+      "attrs": {
+       "ranges": "[(0, 23)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-22'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 24)])",
+   "sha256": "ebbf0e0e0532eaba856f47ef53148b3cf2a9e4d4061745ff020ef7b8a6dba435",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-23'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 24)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-23'>",
+      "attrs": {
+       "ranges": "[(0, 24)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-23'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 25)])",
+   "sha256": "a8d2327930a029f948460e092cd9a84bc02bd77ec93145909b99c6dfbaa3d183",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-24'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 25)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-24'>",
+      "attrs": {
+       "ranges": "[(0, 25)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-24'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 26)])",
+   "sha256": "7d780f3aed9927993c6837560aad6f3e1cd8e5f4ef37892bf35e372045410739",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-25'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 26)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-25'>",
+      "attrs": {
+       "ranges": "[(0, 26)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-25'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 27)])",
+   "sha256": "19a1c1763d5ab58df49866dff8f14566157751fcc7271d18f009edfbadc37b2e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-26'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 27)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-26'>",
+      "attrs": {
+       "ranges": "[(0, 27)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-26'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 28)])",
+   "sha256": "5b37f94a1d1b11dbec3b41cfc42f5cf11473c85548c90f80522caaf338fc2b8d",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-27'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 28)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-27'>",
+      "attrs": {
+       "ranges": "[(0, 28)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-27'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 29)])",
+   "sha256": "cdfb0e97c04baeabd0b61f2e1c811af37c8c6d700073b835ea428fa66aaf063b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-28'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 29)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-28'>",
+      "attrs": {
+       "ranges": "[(0, 29)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-28'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 30)])",
+   "sha256": "2d9e5a081f86ad8c52242ee96537faa4a3a4714541b71bf5385c719904d63f84",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-29'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 30)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-29'>",
+      "attrs": {
+       "ranges": "[(0, 30)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-29'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 31)])",
+   "sha256": "f20d6e8db04be4f4b46f7eef6d2e283aabbfc5ca78f7c4b2c2e46907a6f43983",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-30'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 31)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-30'>",
+      "attrs": {
+       "ranges": "[(0, 31)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-30'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 32)])",
+   "sha256": "6b30b49cd0b04f0776c936fd8716152b1a8e6c10a548f56131f2896490ad0d70",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-31'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 32)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-31'>",
+      "attrs": {
+       "ranges": "[(0, 32)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-31'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 33)])",
+   "sha256": "ef5669660b508f9bc5d615cdc99643376e39b33538377c9f2c0ac52034af96b5",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-32'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 33)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-32'>",
+      "attrs": {
+       "ranges": "[(0, 33)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-32'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 34)])",
+   "sha256": "ac8327e80b4094ad51da01f0091c35d7765ad02a2352bcd5ab9fbf7acad0d84f",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-33'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 34)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-33'>",
+      "attrs": {
+       "ranges": "[(0, 34)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-33'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 35)])",
+   "sha256": "41ecebba442274cf76a7f648eb3fcaf32ccb4309f97f5d10719477027714b475",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-34'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 35)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-34'>",
+      "attrs": {
+       "ranges": "[(0, 35)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-34'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 36)])",
+   "sha256": "2d0e4cf3f75532b4017d537f8d98e1d61e44c8d296e107b1deaca5ae08c8dc61",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-35'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 36)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-35'>",
+      "attrs": {
+       "ranges": "[(0, 36)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-35'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 37)])",
+   "sha256": "cc045e87d043740e007230c594621310a5c6729800288dfa082a879619229229",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-36'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 37)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-36'>",
+      "attrs": {
+       "ranges": "[(0, 37)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-36'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 38)])",
+   "sha256": "844fd95ddcd2d2b680d5ea64268d865bb62a34af4fd1125658cff40547f17e71",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-37'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 38)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-37'>",
+      "attrs": {
+       "ranges": "[(0, 38)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-37'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 39)])",
+   "sha256": "199b9b19e7380e0536f1ac1aeea1284c5e90795c21d4bff42b5730f1da79f7cd",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-38'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 39)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-38'>",
+      "attrs": {
+       "ranges": "[(0, 39)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-38'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 40)])",
+   "sha256": "678e4f071cc29cd206832163654d8085531688934c165cb4fbc43ee138adf7f2",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-39'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 40)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-39'>",
+      "attrs": {
+       "ranges": "[(0, 40)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-39'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 41)])",
+   "sha256": "bfa8c4077365d37810f429debc68ad21ce5960dae398e109d800b7f53118c9bb",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-40'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 41)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-40'>",
+      "attrs": {
+       "ranges": "[(0, 41)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-40'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes0', [(0, 1)])",
+   "sha256": "80c328039651634064478644674fd7ebbf95c658cd8683db84fc9afe5520c9e0",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes0=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes0'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes0=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes0'"
+      }
+     },
+     "copy": "<Range 'bytes0=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytesx', [(0, 1)])",
+   "sha256": "44d4e7f450455210e71e387471a03e52158dbadea29a2861c5ca9cb199f0b341",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytesx=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytesx'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytesx=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytesx'"
+      }
+     },
+     "copy": "<Range 'bytesx=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes y', [(0, 1)])",
+   "sha256": "03bba5f8682837695b5c8d8d9bb591a9a5c57facc9b26a3308ebc343b0db9cd3",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes y=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes y'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes y=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes y'"
+      }
+     },
+     "copy": "<Range 'bytes y=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes\u00e9', [(0, 1)])",
+   "sha256": "ffc7db8e78c4d5a37ba7b0f9163faac9fbafe258433640ff219ba4a815797f20",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes\u00e9=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes\u00e9'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes\u00e9=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes\u00e9'"
+      }
+     },
+     "copy": "<Range 'bytes\u00e9=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes?k=1', [(0, 1)])",
+   "sha256": "bac0e0e072af32e0cc4fcb5d63e8a92e7c8e6557552f62e82d1b7d02738704ad",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes?k=1=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes?k=1'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes?k=1=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes?k=1'"
+      }
+     },
+     "copy": "<Range 'bytes?k=1=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes#f', [(0, 1)])",
+   "sha256": "72569e040e767314eaf62d6b05cb914089f3500c15b087046c1544a2406520ac",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes#f=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes#f'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes#f=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes#f'"
+      }
+     },
+     "copy": "<Range 'bytes#f=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes/p', [(0, 1)])",
+   "sha256": "5e91d730470c752d0a0b3dc89a291d230d6c047d7baa0e3518e1423df026285b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes/p=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes/p'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes/p=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes/p'"
+      }
+     },
+     "copy": "<Range 'bytes/p=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytesbytes', [(0, 1)])",
+   "sha256": "f70a270db04b5c1376d3ca44a699fc1451c262f03a51050f1030c6a9481fd71e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytesbytes=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytesbytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytesbytes=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytesbytes'"
+      }
+     },
+     "copy": "<Range 'bytesbytes=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(-1, 1)])",
+   "sha256": "09d35d1ba4ba3ef5b558eebcc50aa2521514aa6a73f418cb80f85a0d4da34035",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=-1-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(-1, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=-1-0'>",
+      "attrs": {
+       "ranges": "[(-1, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=-1-0'>"
+    }
+   }
+  }
+ ],
+ "optimized": [
+  {
+   "expr": "cls('bytes', [(0, 1)])",
+   "sha256": "96363fd6686544c0ee18d2d98181a7151bb5df3673fee82aa8b46ef4bfa3fa2d",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes1', [(0, 1)])",
+   "sha256": "64d028f6b3941bab69b6679917d2ccf45529e08dc5d95c7ff8144d305fef04e9",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes1=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes1'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes1=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes1'"
+      }
+     },
+     "copy": "<Range 'bytes1=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes2', [(0, 1)])",
+   "sha256": "d8a01de92c314fd65dca67e736c82b7b1f0a0ab5fa9b66c42b29f7cca4239655",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes2=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes2'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes2=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes2'"
+      }
+     },
+     "copy": "<Range 'bytes2=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes3', [(0, 1)])",
+   "sha256": "3cd7647f4adc21d8438526685b515db7c8e7c3fd9caeb03979f82e4c6e34fde6",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes3=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes3'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes3=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes3'"
+      }
+     },
+     "copy": "<Range 'bytes3=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes4', [(0, 1)])",
+   "sha256": "790f92fc88c5f72d6c23cb4953455f051cc77e8dfebaa02f2f4eb195125e415f",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes4=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes4'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes4=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes4'"
+      }
+     },
+     "copy": "<Range 'bytes4=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes5', [(0, 1)])",
+   "sha256": "5a5d041653f13f4381d5c1679bfb94308331cc79105b1e5b8f85f743e7bc027e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes5=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes5'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes5=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes5'"
+      }
+     },
+     "copy": "<Range 'bytes5=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes6', [(0, 1)])",
+   "sha256": "3f797ea3a6abdeec84b7766e09523caf29952eefe65e1261ed16bfdb6ce6c66b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes6=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes6'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes6=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes6'"
+      }
+     },
+     "copy": "<Range 'bytes6=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes7', [(0, 1)])",
+   "sha256": "26f3d4a1207f2103d08e134fe0ddd3c49aeae83337aac0bc71a325640c752ba8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes7=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes7'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes7=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes7'"
+      }
+     },
+     "copy": "<Range 'bytes7=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes8', [(0, 1)])",
+   "sha256": "a707f9619ae74b2cf8cf37f98ef90329a9604f8defdbd24a7065b113f261608e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes8=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes8'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes8=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes8'"
+      }
+     },
+     "copy": "<Range 'bytes8=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes9', [(0, 1)])",
+   "sha256": "34b2a604fd3ab6b11674f9ba4fd9c97899ed62c41d72884e1fdd5c5d415b2279",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes9=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes9'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes9=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes9'"
+      }
+     },
+     "copy": "<Range 'bytes9=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes10', [(0, 1)])",
+   "sha256": "d1cb320ff88368c30c9f0cc36f15d161482a82c49fda2193ed796739755d58d8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes10=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes10'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes10=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes10'"
+      }
+     },
+     "copy": "<Range 'bytes10=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes11', [(0, 1)])",
+   "sha256": "52e21b99a2a03bcb984a7c5428b32480abaf256c0d2417cad217cb3aec19a128",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes11=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes11'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes11=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes11'"
+      }
+     },
+     "copy": "<Range 'bytes11=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes12', [(0, 1)])",
+   "sha256": "9a793d6b184e2facb8488ab8f1ca4cd25a456286c8139ba93a1bd3b12498a022",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes12=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes12'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes12=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes12'"
+      }
+     },
+     "copy": "<Range 'bytes12=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes13', [(0, 1)])",
+   "sha256": "e566dcd8b42ff5e791585e179162b59d86fc3bbfe8297fee21789edf8fa6f38c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes13=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes13'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes13=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes13'"
+      }
+     },
+     "copy": "<Range 'bytes13=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes14', [(0, 1)])",
+   "sha256": "77013cb6d874c7cfe264616dc3a78a4714780d8097b1a165846e9f2b55cb0bf0",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes14=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes14'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes14=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes14'"
+      }
+     },
+     "copy": "<Range 'bytes14=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes15', [(0, 1)])",
+   "sha256": "061571290fd7c31bf654d1a1f7ecbad355b2176fcb7678c6b4ccb91479d570fd",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes15=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes15'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes15=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes15'"
+      }
+     },
+     "copy": "<Range 'bytes15=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes16', [(0, 1)])",
+   "sha256": "84970b3fb1dfe40ba601c006cacd7d984996a4eeb138b9491a16ea67d8c4176e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes16=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes16'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes16=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes16'"
+      }
+     },
+     "copy": "<Range 'bytes16=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes17', [(0, 1)])",
+   "sha256": "de03735e5cc8d55966e28d43aea7e8e8b365d18e344726eace3073041c2d10c0",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes17=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes17'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes17=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes17'"
+      }
+     },
+     "copy": "<Range 'bytes17=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes18', [(0, 1)])",
+   "sha256": "e97afd30142d55b682962a67aadf4a8e115789adf49063cc61d92df8a3bbc19b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes18=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes18'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes18=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes18'"
+      }
+     },
+     "copy": "<Range 'bytes18=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes19', [(0, 1)])",
+   "sha256": "ebf365cf054af42c950c3f7611804ad7ea51504af0e6c30027a3e9373a3bcc0a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes19=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes19'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes19=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes19'"
+      }
+     },
+     "copy": "<Range 'bytes19=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes20', [(0, 1)])",
+   "sha256": "dcc15a1be9b288852426101bfaca4d1b2c3d2162f0b253a4850b15de50d7e610",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes20=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes20'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes20=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes20'"
+      }
+     },
+     "copy": "<Range 'bytes20=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes21', [(0, 1)])",
+   "sha256": "0b481a46c0fc8c1ecbf3dbc12944f3b9b7ebc45b2b9ac155b1e2d8e08d8060c7",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes21=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes21'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes21=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes21'"
+      }
+     },
+     "copy": "<Range 'bytes21=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes22', [(0, 1)])",
+   "sha256": "23dd482607a3c9be0717691f43107a002752404b6a9df95f9927ae58a171c2ff",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes22=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes22'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes22=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes22'"
+      }
+     },
+     "copy": "<Range 'bytes22=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes23', [(0, 1)])",
+   "sha256": "da5da661b3cce7b1106f2167182c4d187fd7d7b5d0f0a6e9cd7008621531c90e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes23=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes23'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes23=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes23'"
+      }
+     },
+     "copy": "<Range 'bytes23=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes24', [(0, 1)])",
+   "sha256": "75ccd9a8951ec8e676adc22cf4730a757c1201b3e58f66c5776c16aabd64cce8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes24=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes24'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes24=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes24'"
+      }
+     },
+     "copy": "<Range 'bytes24=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes25', [(0, 1)])",
+   "sha256": "186aeb2f20350e96bd25008f3f63e6db6e079757751eb2ed30feac96b1a6d039",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes25=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes25'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes25=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes25'"
+      }
+     },
+     "copy": "<Range 'bytes25=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes26', [(0, 1)])",
+   "sha256": "bfeb1701f569010629f8f0ff6cbe6becda2afec01a6f5000a2cd7bd4775c495a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes26=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes26'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes26=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes26'"
+      }
+     },
+     "copy": "<Range 'bytes26=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes27', [(0, 1)])",
+   "sha256": "feee5a3420eb64c43de0cece1f9b1b1c319228d8673e2b213aad07b36fcd028a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes27=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes27'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes27=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes27'"
+      }
+     },
+     "copy": "<Range 'bytes27=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes28', [(0, 1)])",
+   "sha256": "83b0428ef75ae1744fcb63fd1753ac405ff9b5e5622a58b976ffb43cf724218f",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes28=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes28'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes28=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes28'"
+      }
+     },
+     "copy": "<Range 'bytes28=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes29', [(0, 1)])",
+   "sha256": "273f824bb38f0eb4e3cac0c40e53d589babf1a355280ee76d9eb4167774b126d",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes29=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes29'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes29=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes29'"
+      }
+     },
+     "copy": "<Range 'bytes29=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes30', [(0, 1)])",
+   "sha256": "bdb8a4fdc9e2c007bdf500ac100cbe0a9b992352847150fbb79ae9099df7eff3",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes30=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes30'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes30=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes30'"
+      }
+     },
+     "copy": "<Range 'bytes30=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes31', [(0, 1)])",
+   "sha256": "036d01bf123f652c734fffc4b05f1c2c21109b464e97ac72589e5027a4b982ac",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes31=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes31'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes31=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes31'"
+      }
+     },
+     "copy": "<Range 'bytes31=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes32', [(0, 1)])",
+   "sha256": "43c93d28cb30e0d8026d15fd8c96fc98b1f221c42e611097cf39c5bd33488d8a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes32=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes32'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes32=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes32'"
+      }
+     },
+     "copy": "<Range 'bytes32=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes33', [(0, 1)])",
+   "sha256": "b97e45d059bf99f493b866aca6571b9e039ae5820e6c50fff9ce3d4e4ec4fdbb",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes33=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes33'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes33=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes33'"
+      }
+     },
+     "copy": "<Range 'bytes33=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes34', [(0, 1)])",
+   "sha256": "848eb0d82d331b33398076dc6956e0fe56be1a312826dae4c929df2dc3834028",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes34=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes34'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes34=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes34'"
+      }
+     },
+     "copy": "<Range 'bytes34=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes35', [(0, 1)])",
+   "sha256": "d82c2ccd43c0e5fbb6de11cd244984db16c768e50598e8ed377e67c801915ced",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes35=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes35'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes35=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes35'"
+      }
+     },
+     "copy": "<Range 'bytes35=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes36', [(0, 1)])",
+   "sha256": "6eee7a04fea7f116a99d123f78d7d4e62ed82c6ee15488dc7a4bc5beb8963514",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes36=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes36'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes36=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes36'"
+      }
+     },
+     "copy": "<Range 'bytes36=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes37', [(0, 1)])",
+   "sha256": "74d47a6d790ebd7da4558e032d826f315c0e45add049603c435fa3a00f2b31e9",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes37=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes37'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes37=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes37'"
+      }
+     },
+     "copy": "<Range 'bytes37=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes38', [(0, 1)])",
+   "sha256": "6dad3bb618a66ed0baa2b516429f147d7b51decb9144ec62e691494f5a4a1345",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes38=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes38'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes38=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes38'"
+      }
+     },
+     "copy": "<Range 'bytes38=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes39', [(0, 1)])",
+   "sha256": "fd9d89a14566d53ffb9bde477e72f053f98ce325f86243cc4a8bf541c1eaf789",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes39=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes39'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes39=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes39'"
+      }
+     },
+     "copy": "<Range 'bytes39=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes40', [(0, 1)])",
+   "sha256": "6bc8f43efdfed483eee8dedddca300d82117f3adbcd427ac92a04c62b9a874f3",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes40=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes40'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes40=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes40'"
+      }
+     },
+     "copy": "<Range 'bytes40=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(1, 1)])",
+   "sha256": "83b7d9962a68fa2a2f85a4d662b961e752868231ade34cf1d257b6fc8aa4cbd0",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=1-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(1, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=1-0'>",
+      "attrs": {
+       "ranges": "[(1, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=1-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(2, 1)])",
+   "sha256": "2ab406d172309c7b70437677156fdd02a005a81cf0f5bca52d3307d3d023397a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=2-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(2, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=2-0'>",
+      "attrs": {
+       "ranges": "[(2, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=2-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(3, 1)])",
+   "sha256": "132c132a8c2e3467cd921acbf6be012b250e19ba1fd02e5657896580d0a43a85",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=3-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(3, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=3-0'>",
+      "attrs": {
+       "ranges": "[(3, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=3-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(4, 1)])",
+   "sha256": "dc5da69e598ca4fdb8c3ed358fb380d54c70b51db92a5fc90f1d3c40dd29d229",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=4-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(4, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=4-0'>",
+      "attrs": {
+       "ranges": "[(4, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=4-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(5, 1)])",
+   "sha256": "3f331dd372c61e5ff77772a30acb08830febcc44243e152e6cf6fe3a2fecc6f2",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=5-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(5, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=5-0'>",
+      "attrs": {
+       "ranges": "[(5, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=5-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(6, 1)])",
+   "sha256": "03ff6ebec601016306ed172e236693821746250e9aeca044a63e46ee6c75ff51",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=6-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(6, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=6-0'>",
+      "attrs": {
+       "ranges": "[(6, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=6-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(7, 1)])",
+   "sha256": "bc18df5f2b78fe2d4a13845c2db5c5dc2ac7c91e426007665db6022bed7ee13e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=7-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(7, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=7-0'>",
+      "attrs": {
+       "ranges": "[(7, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=7-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(8, 1)])",
+   "sha256": "3175d5687503e134759380d9d188088eb42aa318ead6980c459e6441e64f524d",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=8-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(8, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=8-0'>",
+      "attrs": {
+       "ranges": "[(8, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=8-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(9, 1)])",
+   "sha256": "2153fda5b80e49da5f0e4e7b54bc5c36e33a58d91fa9d1a09544126d72555cba",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=9-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(9, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=9-0'>",
+      "attrs": {
+       "ranges": "[(9, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=9-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(10, 1)])",
+   "sha256": "312cbaa41d500ca3ddd50f57eba08f16d9fdee963f324702c6fe8b3429de63ef",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=10-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(10, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=10-0'>",
+      "attrs": {
+       "ranges": "[(10, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=10-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(11, 1)])",
+   "sha256": "9eaaec3cc83efa2b5905eb8c4c72ac4c7c69c4c663eabf5bfb7938c38867acfa",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=11-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(11, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=11-0'>",
+      "attrs": {
+       "ranges": "[(11, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=11-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(12, 1)])",
+   "sha256": "360f16a4885ff97563d0a2ac5332b01e43a0f40fb8b5085654667f61513b7674",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=12-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(12, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=12-0'>",
+      "attrs": {
+       "ranges": "[(12, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=12-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(13, 1)])",
+   "sha256": "ecf20112311dd3550219515d58f0f8622a1af11522aa071a051ef5be569b62ee",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=13-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(13, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=13-0'>",
+      "attrs": {
+       "ranges": "[(13, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=13-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(14, 1)])",
+   "sha256": "ae3b1fcaf7321ec8d5aabda64d12a6300432485bc5a9d47ec5e7d4fd228e8e40",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=14-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(14, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=14-0'>",
+      "attrs": {
+       "ranges": "[(14, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=14-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(15, 1)])",
+   "sha256": "dcab7e5d1880fa658dad0feb0a928870f1da4c266e24496807e2d718ccf18075",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=15-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(15, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=15-0'>",
+      "attrs": {
+       "ranges": "[(15, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=15-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(16, 1)])",
+   "sha256": "b0089c44be1fdd660e3793d0077ea228fb27e854ab899bf63dd3b0d339d0706c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=16-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(16, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=16-0'>",
+      "attrs": {
+       "ranges": "[(16, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=16-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(17, 1)])",
+   "sha256": "bbd639e1c34507feee2e76245f7b3e8f6a4059401ffd2b8138e38b6722d56f58",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=17-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(17, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=17-0'>",
+      "attrs": {
+       "ranges": "[(17, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=17-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(18, 1)])",
+   "sha256": "ae0c6895b3407c33fa5eb596707ed024fbe16d7d5a3b39e3e3dfc12b284e64dc",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=18-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(18, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=18-0'>",
+      "attrs": {
+       "ranges": "[(18, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=18-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(19, 1)])",
+   "sha256": "cd62ff2ff63dcd3441c88f77e544c405eeb1c4f3d1b611e39bf15b78263fe543",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=19-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(19, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=19-0'>",
+      "attrs": {
+       "ranges": "[(19, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=19-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(20, 1)])",
+   "sha256": "1401c2d5023b36a08959df8751b1022e84fcbfd94b23a3117733c5e626310b72",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=20-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(20, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=20-0'>",
+      "attrs": {
+       "ranges": "[(20, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=20-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(21, 1)])",
+   "sha256": "fd06f841a9db98e0f8ff30537d87843e4ae2543dff0493dad06912970f194680",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=21-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(21, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=21-0'>",
+      "attrs": {
+       "ranges": "[(21, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=21-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(22, 1)])",
+   "sha256": "18459dd62f56275c190fa1084bea9c7bd3254b767cc5c00760b2c20cc5f862ef",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=22-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(22, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=22-0'>",
+      "attrs": {
+       "ranges": "[(22, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=22-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(23, 1)])",
+   "sha256": "ce2c5280a815d97982f11a4820958ab594264c7bd76db06775059005c07d69d0",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=23-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(23, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=23-0'>",
+      "attrs": {
+       "ranges": "[(23, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=23-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(24, 1)])",
+   "sha256": "665fbea558a0fcf6d897aa9e8a12e3a5d9eadcc453445d1812285d286dfcb135",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=24-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(24, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=24-0'>",
+      "attrs": {
+       "ranges": "[(24, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=24-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(25, 1)])",
+   "sha256": "2b9ce6936ba6ee10f8ad281e54d5512f8c4a60734fe7346dd092bdb0adf0a3e4",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=25-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(25, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=25-0'>",
+      "attrs": {
+       "ranges": "[(25, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=25-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(26, 1)])",
+   "sha256": "f2cc9a440711d95addeabc0e8f14dc2172e990bc7bdaef24f9998069728a64bb",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=26-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(26, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=26-0'>",
+      "attrs": {
+       "ranges": "[(26, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=26-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(27, 1)])",
+   "sha256": "317d413106418a0f3133e8c9dd0597fcb00078efb0cdc598ad2578ab97e07beb",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=27-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(27, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=27-0'>",
+      "attrs": {
+       "ranges": "[(27, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=27-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(28, 1)])",
+   "sha256": "3075cf41857c15ee24a603ac1089d4c96b9b73b93c867fb6bcf7b645def7b835",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=28-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(28, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=28-0'>",
+      "attrs": {
+       "ranges": "[(28, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=28-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(29, 1)])",
+   "sha256": "86639837c345098a432d3e8b55998fd520d00f67b60145a1db9c5ff662b007fd",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=29-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(29, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=29-0'>",
+      "attrs": {
+       "ranges": "[(29, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=29-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(30, 1)])",
+   "sha256": "24bad1a70d02d74fe0d86d31ea10e7934776b7b7017f0407cf5681f4aba73434",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=30-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(30, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=30-0'>",
+      "attrs": {
+       "ranges": "[(30, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=30-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(31, 1)])",
+   "sha256": "b78005a4cb0a39a6c635a680a96efb4c1c34f51bee0856204318dedb8ac12eb8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=31-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(31, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=31-0'>",
+      "attrs": {
+       "ranges": "[(31, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=31-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(32, 1)])",
+   "sha256": "f44b7f2cdb79192561643d31193407fc60d4ebc5352cf8dd7d3656450bf026cf",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=32-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(32, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=32-0'>",
+      "attrs": {
+       "ranges": "[(32, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=32-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(33, 1)])",
+   "sha256": "7ac8599aecac87d183dceb0f342fd307dff0c92c1ae1ce02b8d10bd6f4bc9626",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=33-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(33, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=33-0'>",
+      "attrs": {
+       "ranges": "[(33, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=33-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(34, 1)])",
+   "sha256": "b14a1757c6a99e31f5502a6a62d0b6125d85f8edbf514b1bc92f34f8525ac3d5",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=34-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(34, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=34-0'>",
+      "attrs": {
+       "ranges": "[(34, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=34-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(35, 1)])",
+   "sha256": "183ca6688cc575a37815f5345199601c68d182fc287e312c5e7b9f7c1cb94ddf",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=35-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(35, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=35-0'>",
+      "attrs": {
+       "ranges": "[(35, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=35-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(36, 1)])",
+   "sha256": "57b0f1491ccbedd66cec3b4644004837ed526e71dae84f20b73606ce7eea260c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=36-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(36, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=36-0'>",
+      "attrs": {
+       "ranges": "[(36, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=36-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(37, 1)])",
+   "sha256": "f700c620917e914bb9288eb849b3859e3064179eaad1f05c55ece518d295ab20",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=37-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(37, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=37-0'>",
+      "attrs": {
+       "ranges": "[(37, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=37-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(38, 1)])",
+   "sha256": "bc53b43ee93ab7f5895d468747c41fb007f08b78d1243c2ae6aaf498fe7356da",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=38-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(38, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=38-0'>",
+      "attrs": {
+       "ranges": "[(38, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=38-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(39, 1)])",
+   "sha256": "4d9655386ba126550a979ced4e123260d855bc6970b16641c96e845a275072f7",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=39-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(39, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=39-0'>",
+      "attrs": {
+       "ranges": "[(39, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=39-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(40, 1)])",
+   "sha256": "6d5ad559a434a7d858d58f21d16b044bc3bf521f9876ed490361a4f5db275470",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=40-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(40, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=40-0'>",
+      "attrs": {
+       "ranges": "[(40, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=40-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 2)])",
+   "sha256": "5e2ecb76361b6604de8d2f70d84369d07dc3b1ce934c17bf7e1a4ccd862302d0",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-1'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 2)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-1'>",
+      "attrs": {
+       "ranges": "[(0, 2)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-1'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 3)])",
+   "sha256": "9c0bd32f09046f4629180de14c9e710b08555bcc36fc9c51ba9b0ab11e326e9d",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-2'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 3)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-2'>",
+      "attrs": {
+       "ranges": "[(0, 3)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-2'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 4)])",
+   "sha256": "c9c20f68f55fe72ae865d2650ed4d45c02d2b6fbd2b24e30f2ce4a63fea3a7d7",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-3'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 4)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-3'>",
+      "attrs": {
+       "ranges": "[(0, 4)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-3'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 5)])",
+   "sha256": "810a726bb3ec589a931a7cd8501578dd5b4f0bbd695312d4527bc3ff410fd157",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-4'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 5)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-4'>",
+      "attrs": {
+       "ranges": "[(0, 5)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-4'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 6)])",
+   "sha256": "489d9bad781c99492b04798e94e25d2dc9e76b69809a9ce9149c4d02ff666d20",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-5'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 6)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-5'>",
+      "attrs": {
+       "ranges": "[(0, 6)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-5'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 7)])",
+   "sha256": "a8798ac940b13dc9ab25f9bf2b5b3632760dbd7b918c464598baf383d5efd476",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-6'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 7)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-6'>",
+      "attrs": {
+       "ranges": "[(0, 7)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-6'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 8)])",
+   "sha256": "d8b9d635a0b53ea6dbfe463cc1f8bc7b316f4bd0e881f9c640cace8987f47109",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-7'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 8)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-7'>",
+      "attrs": {
+       "ranges": "[(0, 8)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-7'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 9)])",
+   "sha256": "dab955a31974f0fb83a7fa9a9340fa4c4fce47c40cd6a208d6a28d62628af814",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-8'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 9)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-8'>",
+      "attrs": {
+       "ranges": "[(0, 9)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-8'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 10)])",
+   "sha256": "dcf98246a5f711f4764fcd8a5fb766cc7fbddeafc79397664f9bb390dcb0eeb2",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-9'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 10)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-9'>",
+      "attrs": {
+       "ranges": "[(0, 10)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-9'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 11)])",
+   "sha256": "7547f131b107b08c98b8f3a85552127bbb33e3bf77b6ead478f78cebef0121e5",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-10'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 11)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-10'>",
+      "attrs": {
+       "ranges": "[(0, 11)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-10'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 12)])",
+   "sha256": "c25b6eaca6001590588fbf90fb7f4d38107e71635ece5c065a770a2d3607e837",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-11'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 12)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-11'>",
+      "attrs": {
+       "ranges": "[(0, 12)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-11'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 13)])",
+   "sha256": "c7167e3c9ae3996c2ba4c847d7891be02a5739ee49a2bffdf36018527aea6c38",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-12'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 13)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-12'>",
+      "attrs": {
+       "ranges": "[(0, 13)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-12'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 14)])",
+   "sha256": "16870fb38bbede4f830e2bdd665b2fbf793f75687d641390ee30b66d01f632a8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-13'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 14)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-13'>",
+      "attrs": {
+       "ranges": "[(0, 14)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-13'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 15)])",
+   "sha256": "be436e2b4230714b821d0b43768a6bf0cdce54d1cb062c8fdf40eca201d86dc5",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-14'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 15)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-14'>",
+      "attrs": {
+       "ranges": "[(0, 15)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-14'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 16)])",
+   "sha256": "e9c9b2a0c7a72126862d94dc09af1fe20ac0d24dbf3cd966881c5e35b6e6965e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-15'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 16)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-15'>",
+      "attrs": {
+       "ranges": "[(0, 16)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-15'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 17)])",
+   "sha256": "bc3da27bb97042d0cd0a7161de53774c7fd276af47a6b519b53c2e04a99b7df9",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-16'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 17)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-16'>",
+      "attrs": {
+       "ranges": "[(0, 17)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-16'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 18)])",
+   "sha256": "5728891c4529b90f599e5d1d00f60de7cef6a4b04f302964dbe300db1fd07872",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-17'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 18)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-17'>",
+      "attrs": {
+       "ranges": "[(0, 18)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-17'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 19)])",
+   "sha256": "e8e764337e4b94f37e32284cd853d58dd78c42b8c9006847c51aaaace3b40599",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-18'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 19)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-18'>",
+      "attrs": {
+       "ranges": "[(0, 19)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-18'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 20)])",
+   "sha256": "4cff5010f72a6f6e66659bf23764b70ca62c1903d7cd333a16c7558054720f07",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-19'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 20)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-19'>",
+      "attrs": {
+       "ranges": "[(0, 20)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-19'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 21)])",
+   "sha256": "b551da9ca64f6d992a2a4d8b4c91d4309791b216b940b8dec5af171934464135",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-20'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 21)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-20'>",
+      "attrs": {
+       "ranges": "[(0, 21)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-20'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 22)])",
+   "sha256": "b6cc20ad7af3e81e08bd452b5022bdb1c9d9671de19d112953ec7144246806d2",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-21'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 22)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-21'>",
+      "attrs": {
+       "ranges": "[(0, 22)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-21'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 23)])",
+   "sha256": "59a7215156d1d77e1d440b61b697a9b48cf24a663c0c8ab77c8e4515cce3de22",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-22'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 23)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-22'>",
+      "attrs": {
+       "ranges": "[(0, 23)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-22'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 24)])",
+   "sha256": "ebbf0e0e0532eaba856f47ef53148b3cf2a9e4d4061745ff020ef7b8a6dba435",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-23'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 24)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-23'>",
+      "attrs": {
+       "ranges": "[(0, 24)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-23'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 25)])",
+   "sha256": "a8d2327930a029f948460e092cd9a84bc02bd77ec93145909b99c6dfbaa3d183",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-24'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 25)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-24'>",
+      "attrs": {
+       "ranges": "[(0, 25)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-24'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 26)])",
+   "sha256": "7d780f3aed9927993c6837560aad6f3e1cd8e5f4ef37892bf35e372045410739",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-25'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 26)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-25'>",
+      "attrs": {
+       "ranges": "[(0, 26)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-25'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 27)])",
+   "sha256": "19a1c1763d5ab58df49866dff8f14566157751fcc7271d18f009edfbadc37b2e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-26'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 27)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-26'>",
+      "attrs": {
+       "ranges": "[(0, 27)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-26'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 28)])",
+   "sha256": "5b37f94a1d1b11dbec3b41cfc42f5cf11473c85548c90f80522caaf338fc2b8d",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-27'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 28)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-27'>",
+      "attrs": {
+       "ranges": "[(0, 28)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-27'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 29)])",
+   "sha256": "cdfb0e97c04baeabd0b61f2e1c811af37c8c6d700073b835ea428fa66aaf063b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-28'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 29)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-28'>",
+      "attrs": {
+       "ranges": "[(0, 29)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-28'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 30)])",
+   "sha256": "2d9e5a081f86ad8c52242ee96537faa4a3a4714541b71bf5385c719904d63f84",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-29'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 30)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-29'>",
+      "attrs": {
+       "ranges": "[(0, 30)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-29'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 31)])",
+   "sha256": "f20d6e8db04be4f4b46f7eef6d2e283aabbfc5ca78f7c4b2c2e46907a6f43983",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-30'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 31)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-30'>",
+      "attrs": {
+       "ranges": "[(0, 31)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-30'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 32)])",
+   "sha256": "6b30b49cd0b04f0776c936fd8716152b1a8e6c10a548f56131f2896490ad0d70",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-31'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 32)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-31'>",
+      "attrs": {
+       "ranges": "[(0, 32)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-31'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 33)])",
+   "sha256": "ef5669660b508f9bc5d615cdc99643376e39b33538377c9f2c0ac52034af96b5",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-32'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 33)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-32'>",
+      "attrs": {
+       "ranges": "[(0, 33)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-32'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 34)])",
+   "sha256": "ac8327e80b4094ad51da01f0091c35d7765ad02a2352bcd5ab9fbf7acad0d84f",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-33'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 34)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-33'>",
+      "attrs": {
+       "ranges": "[(0, 34)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-33'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 35)])",
+   "sha256": "41ecebba442274cf76a7f648eb3fcaf32ccb4309f97f5d10719477027714b475",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-34'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 35)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-34'>",
+      "attrs": {
+       "ranges": "[(0, 35)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-34'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 36)])",
+   "sha256": "2d0e4cf3f75532b4017d537f8d98e1d61e44c8d296e107b1deaca5ae08c8dc61",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-35'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 36)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-35'>",
+      "attrs": {
+       "ranges": "[(0, 36)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-35'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 37)])",
+   "sha256": "cc045e87d043740e007230c594621310a5c6729800288dfa082a879619229229",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-36'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 37)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-36'>",
+      "attrs": {
+       "ranges": "[(0, 37)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-36'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 38)])",
+   "sha256": "844fd95ddcd2d2b680d5ea64268d865bb62a34af4fd1125658cff40547f17e71",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-37'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 38)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-37'>",
+      "attrs": {
+       "ranges": "[(0, 38)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-37'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 39)])",
+   "sha256": "199b9b19e7380e0536f1ac1aeea1284c5e90795c21d4bff42b5730f1da79f7cd",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-38'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 39)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-38'>",
+      "attrs": {
+       "ranges": "[(0, 39)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-38'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 40)])",
+   "sha256": "678e4f071cc29cd206832163654d8085531688934c165cb4fbc43ee138adf7f2",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-39'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 40)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-39'>",
+      "attrs": {
+       "ranges": "[(0, 40)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-39'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(0, 41)])",
+   "sha256": "bfa8c4077365d37810f429debc68ad21ce5960dae398e109d800b7f53118c9bb",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=0-40'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 41)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=0-40'>",
+      "attrs": {
+       "ranges": "[(0, 41)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=0-40'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes0', [(0, 1)])",
+   "sha256": "80c328039651634064478644674fd7ebbf95c658cd8683db84fc9afe5520c9e0",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes0=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes0'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes0=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes0'"
+      }
+     },
+     "copy": "<Range 'bytes0=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytesx', [(0, 1)])",
+   "sha256": "44d4e7f450455210e71e387471a03e52158dbadea29a2861c5ca9cb199f0b341",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytesx=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytesx'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytesx=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytesx'"
+      }
+     },
+     "copy": "<Range 'bytesx=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes y', [(0, 1)])",
+   "sha256": "03bba5f8682837695b5c8d8d9bb591a9a5c57facc9b26a3308ebc343b0db9cd3",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes y=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes y'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes y=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes y'"
+      }
+     },
+     "copy": "<Range 'bytes y=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes\u00e9', [(0, 1)])",
+   "sha256": "ffc7db8e78c4d5a37ba7b0f9163faac9fbafe258433640ff219ba4a815797f20",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes\u00e9=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes\u00e9'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes\u00e9=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes\u00e9'"
+      }
+     },
+     "copy": "<Range 'bytes\u00e9=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes?k=1', [(0, 1)])",
+   "sha256": "bac0e0e072af32e0cc4fcb5d63e8a92e7c8e6557552f62e82d1b7d02738704ad",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes?k=1=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes?k=1'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes?k=1=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes?k=1'"
+      }
+     },
+     "copy": "<Range 'bytes?k=1=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes#f', [(0, 1)])",
+   "sha256": "72569e040e767314eaf62d6b05cb914089f3500c15b087046c1544a2406520ac",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes#f=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes#f'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes#f=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes#f'"
+      }
+     },
+     "copy": "<Range 'bytes#f=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes/p', [(0, 1)])",
+   "sha256": "5e91d730470c752d0a0b3dc89a291d230d6c047d7baa0e3518e1423df026285b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes/p=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytes/p'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes/p=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytes/p'"
+      }
+     },
+     "copy": "<Range 'bytes/p=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytesbytes', [(0, 1)])",
+   "sha256": "f70a270db04b5c1376d3ca44a699fc1451c262f03a51050f1030c6a9481fd71e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytesbytes=0-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(0, 1)]",
+      "units": "'bytesbytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytesbytes=0-0'>",
+      "attrs": {
+       "ranges": "[(0, 1)]",
+       "units": "'bytesbytes'"
+      }
+     },
+     "copy": "<Range 'bytesbytes=0-0'>"
+    }
+   }
+  },
+  {
+   "expr": "cls('bytes', [(-1, 1)])",
+   "sha256": "09d35d1ba4ba3ef5b558eebcc50aa2521514aa6a73f418cb80f85a0d4da34035",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<Range 'bytes=-1-0'>",
+     "type": "Range",
+     "attrs": {
+      "ranges": "[(-1, 1)]",
+      "units": "'bytes'"
+     },
+     "pickle_roundtrip": {
+      "repr": "<Range 'bytes=-1-0'>",
+      "attrs": {
+       "ranges": "[(-1, 1)]",
+       "units": "'bytes'"
+      }
+     },
+     "copy": "<Range 'bytes=-1-0'>"
+    }
+   }
+  }
+ ]
+}

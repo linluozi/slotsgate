@@ -1,0 +1,3095 @@
+{
+ "variants": [
+  "cls('example.com', None)",
+  "cls('example.com1', None)",
+  "cls('example.com2', None)",
+  "cls('example.com3', None)",
+  "cls('example.com4', None)",
+  "cls('example.com5', None)",
+  "cls('example.com6', None)",
+  "cls('example.com7', None)",
+  "cls('example.com8', None)",
+  "cls('example.com9', None)",
+  "cls('example.com10', None)",
+  "cls('example.com11', None)",
+  "cls('example.com12', None)",
+  "cls('example.com13', None)",
+  "cls('example.com14', None)",
+  "cls('example.com15', None)",
+  "cls('example.com16', None)",
+  "cls('example.com17', None)",
+  "cls('example.com18', None)",
+  "cls('example.com19', None)",
+  "cls('example.com20', None)",
+  "cls('example.com21', None)",
+  "cls('example.com22', None)",
+  "cls('example.com23', None)",
+  "cls('example.com24', None)",
+  "cls('example.com25', None)",
+  "cls('example.com26', None)",
+  "cls('example.com27', None)",
+  "cls('example.com28', None)",
+  "cls('example.com29', None)",
+  "cls('example.com30', None)",
+  "cls('example.com31', None)",
+  "cls('example.com32', None)",
+  "cls('example.com33', None)",
+  "cls('example.com34', None)",
+  "cls('example.com35', None)",
+  "cls('example.com36', None)",
+  "cls('example.com37', None)",
+  "cls('example.com38', None)",
+  "cls('example.com39', None)",
+  "cls('example.com40', None)",
+  "cls('example.com0', None)",
+  "cls('example.comx', None)",
+  "cls('example.com y', None)",
+  "cls('example.com\u00e9', None)",
+  "cls('example.com?k=1', None)",
+  "cls('example.com#f', None)",
+  "cls('example.com/p', None)",
+  "cls('example.comexample.com', None)"
+ ],
+ "baseline": [
+  {
+   "expr": "cls('example.com', None)",
+   "sha256": "dad41f82411654e8bbbc1ed91f09458d3c4cd8f39bde23718f4afb4f1ab10ec3",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com'",
+      "host_format": "'example.com'",
+      "host_regex": "re.compile('^example\\\\.com$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com'",
+       "host_format": "'example.com'",
+       "host_regex": "re.compile('^example\\\\.com$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com1', None)",
+   "sha256": "d071c148dc38ae006285f1eb26063d0b98439a2edaab87b81e057e15b6007156",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com1', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com1'",
+      "host_format": "'example.com1'",
+      "host_regex": "re.compile('^example\\\\.com1$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com1', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com1'",
+       "host_format": "'example.com1'",
+       "host_regex": "re.compile('^example\\\\.com1$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com1', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com2', None)",
+   "sha256": "d33a69ddcb77d27b69ada97524c7f11cdc31115cae5ea12d695374c68df20336",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com2', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com2'",
+      "host_format": "'example.com2'",
+      "host_regex": "re.compile('^example\\\\.com2$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com2', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com2'",
+       "host_format": "'example.com2'",
+       "host_regex": "re.compile('^example\\\\.com2$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com2', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com3', None)",
+   "sha256": "6b23203f16a1749234387c3b6d619deb7996b618395a1725c080d3d43f9eb7cd",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com3', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com3'",
+      "host_format": "'example.com3'",
+      "host_regex": "re.compile('^example\\\\.com3$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com3', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com3'",
+       "host_format": "'example.com3'",
+       "host_regex": "re.compile('^example\\\\.com3$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com3', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com4', None)",
+   "sha256": "c63307fe4bae2e6e6defea25dfebb71eb1705d7f73b4a9e6934129df7074bdac",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com4', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com4'",
+      "host_format": "'example.com4'",
+      "host_regex": "re.compile('^example\\\\.com4$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com4', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com4'",
+       "host_format": "'example.com4'",
+       "host_regex": "re.compile('^example\\\\.com4$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com4', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com5', None)",
+   "sha256": "e5491d6b744d1a67a4267cc94f62550fb56ff7857cc065851b8bfcd64d7b7049",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com5', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com5'",
+      "host_format": "'example.com5'",
+      "host_regex": "re.compile('^example\\\\.com5$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com5', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com5'",
+       "host_format": "'example.com5'",
+       "host_regex": "re.compile('^example\\\\.com5$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com5', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com6', None)",
+   "sha256": "8c0cdcf16e81f32a082f132c4019469e46e395a2da9f89ff7832e307475af77a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com6', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com6'",
+      "host_format": "'example.com6'",
+      "host_regex": "re.compile('^example\\\\.com6$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com6', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com6'",
+       "host_format": "'example.com6'",
+       "host_regex": "re.compile('^example\\\\.com6$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com6', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com7', None)",
+   "sha256": "df10c2fbad45cc9f102aff88676bc7f3c839275104e7f9808b89ed187deebc25",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com7', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com7'",
+      "host_format": "'example.com7'",
+      "host_regex": "re.compile('^example\\\\.com7$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com7', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com7'",
+       "host_format": "'example.com7'",
+       "host_regex": "re.compile('^example\\\\.com7$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com7', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com8', None)",
+   "sha256": "fcc29973f81d7d8f4bfe6bf394a7941b6bc179ceddb1f8b3bc05544158fe8a22",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com8', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com8'",
+      "host_format": "'example.com8'",
+      "host_regex": "re.compile('^example\\\\.com8$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com8', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com8'",
+       "host_format": "'example.com8'",
+       "host_regex": "re.compile('^example\\\\.com8$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com8', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com9', None)",
+   "sha256": "36b631336368ae41a4a36b4bf40c2bc6b986079a4a17661651ef592ad23dd804",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com9', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com9'",
+      "host_format": "'example.com9'",
+      "host_regex": "re.compile('^example\\\\.com9$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com9', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com9'",
+       "host_format": "'example.com9'",
+       "host_regex": "re.compile('^example\\\\.com9$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com9', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com10', None)",
+   "sha256": "44bc122e2b9d94d5488a5a4fcdae65292c626a84284d85082a5cc79fc2b07e62",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com10', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com10'",
+      "host_format": "'example.com10'",
+      "host_regex": "re.compile('^example\\\\.com10$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com10', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com10'",
+       "host_format": "'example.com10'",
+       "host_regex": "re.compile('^example\\\\.com10$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com10', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com11', None)",
+   "sha256": "c17177d8687315db7323115c262d0a4cbfac4d3827b2c6b4017056a538ace04e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com11', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com11'",
+      "host_format": "'example.com11'",
+      "host_regex": "re.compile('^example\\\\.com11$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com11', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com11'",
+       "host_format": "'example.com11'",
+       "host_regex": "re.compile('^example\\\\.com11$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com11', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com12', None)",
+   "sha256": "1a3747fa65134efc5c5590eb19a615822113d512d399d85dc2b9ee62896bfa66",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com12', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com12'",
+      "host_format": "'example.com12'",
+      "host_regex": "re.compile('^example\\\\.com12$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com12', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com12'",
+       "host_format": "'example.com12'",
+       "host_regex": "re.compile('^example\\\\.com12$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com12', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com13', None)",
+   "sha256": "b837b8f25fd386b088ebab5691155e10782d387afd9a10c19d04fbe4c545201e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com13', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com13'",
+      "host_format": "'example.com13'",
+      "host_regex": "re.compile('^example\\\\.com13$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com13', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com13'",
+       "host_format": "'example.com13'",
+       "host_regex": "re.compile('^example\\\\.com13$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com13', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com14', None)",
+   "sha256": "eb08b393123e53ff177e33b6964ba462755c4088a98b44c2330f9dd9d6b70515",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com14', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com14'",
+      "host_format": "'example.com14'",
+      "host_regex": "re.compile('^example\\\\.com14$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com14', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com14'",
+       "host_format": "'example.com14'",
+       "host_regex": "re.compile('^example\\\\.com14$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com14', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com15', None)",
+   "sha256": "f8188c0f650f28f2c16094605ec8ff7e405bdc6c0b394d5bd0a8af04f2aa852c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com15', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com15'",
+      "host_format": "'example.com15'",
+      "host_regex": "re.compile('^example\\\\.com15$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com15', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com15'",
+       "host_format": "'example.com15'",
+       "host_regex": "re.compile('^example\\\\.com15$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com15', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com16', None)",
+   "sha256": "a4f0ce921129eb415d2e7bdbe93d64a687e684f70d7c2dcdae5d9eee25c0f78f",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com16', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com16'",
+      "host_format": "'example.com16'",
+      "host_regex": "re.compile('^example\\\\.com16$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com16', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com16'",
+       "host_format": "'example.com16'",
+       "host_regex": "re.compile('^example\\\\.com16$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com16', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com17', None)",
+   "sha256": "8f9f366b1cf5c0258abbc02803b3c7b9b81b20bd8807bacb9ff14047601abc89",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com17', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com17'",
+      "host_format": "'example.com17'",
+      "host_regex": "re.compile('^example\\\\.com17$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com17', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com17'",
+       "host_format": "'example.com17'",
+       "host_regex": "re.compile('^example\\\\.com17$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com17', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com18', None)",
+   "sha256": "854c750f0874b2794fd620ad21a20799cec6c282b2aac2da64600d1f9caf14c9",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com18', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com18'",
+      "host_format": "'example.com18'",
+      "host_regex": "re.compile('^example\\\\.com18$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com18', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com18'",
+       "host_format": "'example.com18'",
+       "host_regex": "re.compile('^example\\\\.com18$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com18', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com19', None)",
+   "sha256": "431cbb28a3e9dbd54fbece3d37ea2bccff57a7e1d37c014b59fb1f694e549f5a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com19', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com19'",
+      "host_format": "'example.com19'",
+      "host_regex": "re.compile('^example\\\\.com19$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com19', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com19'",
+       "host_format": "'example.com19'",
+       "host_regex": "re.compile('^example\\\\.com19$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com19', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com20', None)",
+   "sha256": "53677d71852e8ee2192224ded7ecdcbe1ee81a190753116cc4393bbd7d955a33",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com20', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com20'",
+      "host_format": "'example.com20'",
+      "host_regex": "re.compile('^example\\\\.com20$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com20', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com20'",
+       "host_format": "'example.com20'",
+       "host_regex": "re.compile('^example\\\\.com20$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com20', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com21', None)",
+   "sha256": "d1ab3d3df2d31b7049fd1780a4b3467dd86a0a610f6d12d543eff3af1f8c2821",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com21', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com21'",
+      "host_format": "'example.com21'",
+      "host_regex": "re.compile('^example\\\\.com21$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com21', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com21'",
+       "host_format": "'example.com21'",
+       "host_regex": "re.compile('^example\\\\.com21$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com21', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com22', None)",
+   "sha256": "13bfd1860d0184bc455869c94caaec06d3f5c6e45fa109bb34de7ef2b9ca8177",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com22', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com22'",
+      "host_format": "'example.com22'",
+      "host_regex": "re.compile('^example\\\\.com22$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com22', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com22'",
+       "host_format": "'example.com22'",
+       "host_regex": "re.compile('^example\\\\.com22$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com22', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com23', None)",
+   "sha256": "fdf4ed795965239f533894f8cac78e931b5ad4bea957c87aea65755719fb7c78",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com23', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com23'",
+      "host_format": "'example.com23'",
+      "host_regex": "re.compile('^example\\\\.com23$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com23', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com23'",
+       "host_format": "'example.com23'",
+       "host_regex": "re.compile('^example\\\\.com23$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com23', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com24', None)",
+   "sha256": "6893e129f5b9778402b2d0b3a69c61381ffdb994381e19b1240f7624d1c25dce",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com24', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com24'",
+      "host_format": "'example.com24'",
+      "host_regex": "re.compile('^example\\\\.com24$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com24', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com24'",
+       "host_format": "'example.com24'",
+       "host_regex": "re.compile('^example\\\\.com24$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com24', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com25', None)",
+   "sha256": "91698616064ec1642c248b41ce151b0e628eee57c6326af55ab26cfffdc8e13e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com25', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com25'",
+      "host_format": "'example.com25'",
+      "host_regex": "re.compile('^example\\\\.com25$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com25', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com25'",
+       "host_format": "'example.com25'",
+       "host_regex": "re.compile('^example\\\\.com25$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com25', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com26', None)",
+   "sha256": "a2b936d44189f74da8a1104473c565dbf38e7038d76508fe4db4ffc91ea3f52e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com26', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com26'",
+      "host_format": "'example.com26'",
+      "host_regex": "re.compile('^example\\\\.com26$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com26', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com26'",
+       "host_format": "'example.com26'",
+       "host_regex": "re.compile('^example\\\\.com26$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com26', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com27', None)",
+   "sha256": "71b2594e3dbf7e91d64975cb2e6b99aef842943a3707193f9633eac9d99be165",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com27', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com27'",
+      "host_format": "'example.com27'",
+      "host_regex": "re.compile('^example\\\\.com27$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com27', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com27'",
+       "host_format": "'example.com27'",
+       "host_regex": "re.compile('^example\\\\.com27$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com27', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com28', None)",
+   "sha256": "8ec0ae1c66d50e5c8aed415c4efd055ff1047fc36d9ed3a0730d78aac00bcbd5",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com28', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com28'",
+      "host_format": "'example.com28'",
+      "host_regex": "re.compile('^example\\\\.com28$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com28', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com28'",
+       "host_format": "'example.com28'",
+       "host_regex": "re.compile('^example\\\\.com28$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com28', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com29', None)",
+   "sha256": "7a378f0fc6f12508a6fe18a327b322751131750937ba49d5d82f626073c55ac8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com29', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com29'",
+      "host_format": "'example.com29'",
+      "host_regex": "re.compile('^example\\\\.com29$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com29', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com29'",
+       "host_format": "'example.com29'",
+       "host_regex": "re.compile('^example\\\\.com29$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com29', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com30', None)",
+   "sha256": "8ebe8615613a30fc1a234f684a60af442feac48135f1dc049a104b1747b595a7",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com30', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com30'",
+      "host_format": "'example.com30'",
+      "host_regex": "re.compile('^example\\\\.com30$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com30', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com30'",
+       "host_format": "'example.com30'",
+       "host_regex": "re.compile('^example\\\\.com30$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com30', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com31', None)",
+   "sha256": "545ce24626d3012cbf8acec04f4226b00086e3db1976b4494b714e5ada5f963c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com31', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com31'",
+      "host_format": "'example.com31'",
+      "host_regex": "re.compile('^example\\\\.com31$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com31', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com31'",
+       "host_format": "'example.com31'",
+       "host_regex": "re.compile('^example\\\\.com31$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com31', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com32', None)",
+   "sha256": "9d1fe7b0bddfdb036b2cdef7a450cbf5f04d1d071b4fd20d6229daa7b49ed82d",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com32', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com32'",
+      "host_format": "'example.com32'",
+      "host_regex": "re.compile('^example\\\\.com32$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com32', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com32'",
+       "host_format": "'example.com32'",
+       "host_regex": "re.compile('^example\\\\.com32$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com32', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com33', None)",
+   "sha256": "1671450c9deed2dab1568a45a67a8cb9921c4ec6efd798980e6d3c921b1f97dc",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com33', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com33'",
+      "host_format": "'example.com33'",
+      "host_regex": "re.compile('^example\\\\.com33$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com33', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com33'",
+       "host_format": "'example.com33'",
+       "host_regex": "re.compile('^example\\\\.com33$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com33', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com34', None)",
+   "sha256": "56adf95760e8f9583284d9f73fbd93f042fdd1a912b6ea5257596978700e82ad",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com34', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com34'",
+      "host_format": "'example.com34'",
+      "host_regex": "re.compile('^example\\\\.com34$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com34', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com34'",
+       "host_format": "'example.com34'",
+       "host_regex": "re.compile('^example\\\\.com34$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com34', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com35', None)",
+   "sha256": "4dddf58970e6093a915d850f9e53f60c777eeb9e4866a7e1187fdef62c59cfef",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com35', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com35'",
+      "host_format": "'example.com35'",
+      "host_regex": "re.compile('^example\\\\.com35$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com35', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com35'",
+       "host_format": "'example.com35'",
+       "host_regex": "re.compile('^example\\\\.com35$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com35', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com36', None)",
+   "sha256": "5b7d6e6cc7fb3579028342df855bd667338c960e35beb3ad51212ad114962cc8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com36', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com36'",
+      "host_format": "'example.com36'",
+      "host_regex": "re.compile('^example\\\\.com36$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com36', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com36'",
+       "host_format": "'example.com36'",
+       "host_regex": "re.compile('^example\\\\.com36$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com36', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com37', None)",
+   "sha256": "ca7481d004cd348cebaf3fd344e17aeaa3f9824c02deba42378327b6af5eb370",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com37', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com37'",
+      "host_format": "'example.com37'",
+      "host_regex": "re.compile('^example\\\\.com37$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com37', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com37'",
+       "host_format": "'example.com37'",
+       "host_regex": "re.compile('^example\\\\.com37$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com37', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com38', None)",
+   "sha256": "6a95a3a82f22f1a55a37224460dedd908f910d790742fc3695a7b44722b4d1a3",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com38', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com38'",
+      "host_format": "'example.com38'",
+      "host_regex": "re.compile('^example\\\\.com38$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com38', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com38'",
+       "host_format": "'example.com38'",
+       "host_regex": "re.compile('^example\\\\.com38$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com38', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com39', None)",
+   "sha256": "68089257fee5abdcf8cd63a648c721e9663a36f92b99597a235e88de1dc38c22",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com39', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com39'",
+      "host_format": "'example.com39'",
+      "host_regex": "re.compile('^example\\\\.com39$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com39', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com39'",
+       "host_format": "'example.com39'",
+       "host_regex": "re.compile('^example\\\\.com39$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com39', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com40', None)",
+   "sha256": "0917fc050088413792145bda3c99e1fd10e2235b8b97c4da4b80d4676ad628e2",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com40', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com40'",
+      "host_format": "'example.com40'",
+      "host_regex": "re.compile('^example\\\\.com40$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com40', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com40'",
+       "host_format": "'example.com40'",
+       "host_regex": "re.compile('^example\\\\.com40$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com40', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com0', None)",
+   "sha256": "cdd9280320909e0e68082d01433039ab966c3a923ac4de64c70d4ac084be2a1a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com0', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com0'",
+      "host_format": "'example.com0'",
+      "host_regex": "re.compile('^example\\\\.com0$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com0', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com0'",
+       "host_format": "'example.com0'",
+       "host_regex": "re.compile('^example\\\\.com0$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com0', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.comx', None)",
+   "sha256": "d662cfa2b7dcf2da7867e7a1ee82d10eb1d3079f83d4dc19dd45ea0d8353cd27",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.comx', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.comx'",
+      "host_format": "'example.comx'",
+      "host_regex": "re.compile('^example\\\\.comx$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.comx', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.comx'",
+       "host_format": "'example.comx'",
+       "host_regex": "re.compile('^example\\\\.comx$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.comx', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com y', None)",
+   "sha256": "f527fa3b2b3d15c909289a0de365f78732414e0671c08a590ff061779e7e3254",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com y', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com y'",
+      "host_format": "'example.com y'",
+      "host_regex": "re.compile('^example\\\\.com\\\\ y$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com y', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com y'",
+       "host_format": "'example.com y'",
+       "host_regex": "re.compile('^example\\\\.com\\\\ y$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com y', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com\u00e9', None)",
+   "sha256": "8674c822054b1500cce1a033c46aef69f05bd4267b0bdc03c292800e6fbbd955",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com\u00e9', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com\u00e9'",
+      "host_format": "'example.com\u00e9'",
+      "host_regex": "re.compile('^example\\\\.com\u00e9$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com\u00e9', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com\u00e9'",
+       "host_format": "'example.com\u00e9'",
+       "host_regex": "re.compile('^example\\\\.com\u00e9$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com\u00e9', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com?k=1', None)",
+   "sha256": "bd88ad63c60f2d5705387645e006858a166eff4bd23c13de0d2cc59edf7bcb3a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com?k=1', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com?k=1'",
+      "host_format": "'example.com?k=1'",
+      "host_regex": "re.compile('^example\\\\.com\\\\?k=1$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com?k=1', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com?k=1'",
+       "host_format": "'example.com?k=1'",
+       "host_regex": "re.compile('^example\\\\.com\\\\?k=1$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com?k=1', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com#f', None)",
+   "sha256": "6fe1c1bedcce372f8ffe4887f9754568f8a95f11289bddbaa1e6ea218960e957",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com#f', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com#f'",
+      "host_format": "'example.com#f'",
+      "host_regex": "re.compile('^example\\\\.com\\\\#f$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com#f', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com#f'",
+       "host_format": "'example.com#f'",
+       "host_regex": "re.compile('^example\\\\.com\\\\#f$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com#f', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com/p', None)",
+   "sha256": "fd69a2670549e797872b8522428d0b50b26183fa951a03934800ffb0772af7a0",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com/p', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com/p'",
+      "host_format": "'example.com/p'",
+      "host_regex": "re.compile('^example\\\\.com/p$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com/p', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com/p'",
+       "host_format": "'example.com/p'",
+       "host_regex": "re.compile('^example\\\\.com/p$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com/p', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.comexample.com', None)",
+   "sha256": "b07250d8778bdc0e46b0884b2e63c9ddfbac8980b19e52d2702e492be43cba23",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.comexample.com', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.comexample.com'",
+      "host_format": "'example.comexample.com'",
+      "host_regex": "re.compile('^example\\\\.comexample\\\\.com$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.comexample.com', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.comexample.com'",
+       "host_format": "'example.comexample.com'",
+       "host_regex": "re.compile('^example\\\\.comexample\\\\.com$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.comexample.com', name='', app=None)"
+    }
+   }
+  }
+ ],
+ "optimized": [
+  {
+   "expr": "cls('example.com', None)",
+   "sha256": "dad41f82411654e8bbbc1ed91f09458d3c4cd8f39bde23718f4afb4f1ab10ec3",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com'",
+      "host_format": "'example.com'",
+      "host_regex": "re.compile('^example\\\\.com$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com'",
+       "host_format": "'example.com'",
+       "host_regex": "re.compile('^example\\\\.com$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com1', None)",
+   "sha256": "d071c148dc38ae006285f1eb26063d0b98439a2edaab87b81e057e15b6007156",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com1', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com1'",
+      "host_format": "'example.com1'",
+      "host_regex": "re.compile('^example\\\\.com1$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com1', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com1'",
+       "host_format": "'example.com1'",
+       "host_regex": "re.compile('^example\\\\.com1$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com1', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com2', None)",
+   "sha256": "d33a69ddcb77d27b69ada97524c7f11cdc31115cae5ea12d695374c68df20336",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com2', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com2'",
+      "host_format": "'example.com2'",
+      "host_regex": "re.compile('^example\\\\.com2$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com2', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com2'",
+       "host_format": "'example.com2'",
+       "host_regex": "re.compile('^example\\\\.com2$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com2', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com3', None)",
+   "sha256": "6b23203f16a1749234387c3b6d619deb7996b618395a1725c080d3d43f9eb7cd",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com3', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com3'",
+      "host_format": "'example.com3'",
+      "host_regex": "re.compile('^example\\\\.com3$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com3', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com3'",
+       "host_format": "'example.com3'",
+       "host_regex": "re.compile('^example\\\\.com3$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com3', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com4', None)",
+   "sha256": "c63307fe4bae2e6e6defea25dfebb71eb1705d7f73b4a9e6934129df7074bdac",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com4', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com4'",
+      "host_format": "'example.com4'",
+      "host_regex": "re.compile('^example\\\\.com4$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com4', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com4'",
+       "host_format": "'example.com4'",
+       "host_regex": "re.compile('^example\\\\.com4$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com4', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com5', None)",
+   "sha256": "e5491d6b744d1a67a4267cc94f62550fb56ff7857cc065851b8bfcd64d7b7049",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com5', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com5'",
+      "host_format": "'example.com5'",
+      "host_regex": "re.compile('^example\\\\.com5$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com5', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com5'",
+       "host_format": "'example.com5'",
+       "host_regex": "re.compile('^example\\\\.com5$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com5', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com6', None)",
+   "sha256": "8c0cdcf16e81f32a082f132c4019469e46e395a2da9f89ff7832e307475af77a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com6', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com6'",
+      "host_format": "'example.com6'",
+      "host_regex": "re.compile('^example\\\\.com6$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com6', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com6'",
+       "host_format": "'example.com6'",
+       "host_regex": "re.compile('^example\\\\.com6$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com6', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com7', None)",
+   "sha256": "df10c2fbad45cc9f102aff88676bc7f3c839275104e7f9808b89ed187deebc25",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com7', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com7'",
+      "host_format": "'example.com7'",
+      "host_regex": "re.compile('^example\\\\.com7$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com7', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com7'",
+       "host_format": "'example.com7'",
+       "host_regex": "re.compile('^example\\\\.com7$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com7', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com8', None)",
+   "sha256": "fcc29973f81d7d8f4bfe6bf394a7941b6bc179ceddb1f8b3bc05544158fe8a22",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com8', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com8'",
+      "host_format": "'example.com8'",
+      "host_regex": "re.compile('^example\\\\.com8$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com8', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com8'",
+       "host_format": "'example.com8'",
+       "host_regex": "re.compile('^example\\\\.com8$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com8', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com9', None)",
+   "sha256": "36b631336368ae41a4a36b4bf40c2bc6b986079a4a17661651ef592ad23dd804",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com9', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com9'",
+      "host_format": "'example.com9'",
+      "host_regex": "re.compile('^example\\\\.com9$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com9', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com9'",
+       "host_format": "'example.com9'",
+       "host_regex": "re.compile('^example\\\\.com9$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com9', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com10', None)",
+   "sha256": "44bc122e2b9d94d5488a5a4fcdae65292c626a84284d85082a5cc79fc2b07e62",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com10', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com10'",
+      "host_format": "'example.com10'",
+      "host_regex": "re.compile('^example\\\\.com10$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com10', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com10'",
+       "host_format": "'example.com10'",
+       "host_regex": "re.compile('^example\\\\.com10$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com10', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com11', None)",
+   "sha256": "c17177d8687315db7323115c262d0a4cbfac4d3827b2c6b4017056a538ace04e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com11', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com11'",
+      "host_format": "'example.com11'",
+      "host_regex": "re.compile('^example\\\\.com11$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com11', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com11'",
+       "host_format": "'example.com11'",
+       "host_regex": "re.compile('^example\\\\.com11$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com11', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com12', None)",
+   "sha256": "1a3747fa65134efc5c5590eb19a615822113d512d399d85dc2b9ee62896bfa66",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com12', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com12'",
+      "host_format": "'example.com12'",
+      "host_regex": "re.compile('^example\\\\.com12$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com12', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com12'",
+       "host_format": "'example.com12'",
+       "host_regex": "re.compile('^example\\\\.com12$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com12', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com13', None)",
+   "sha256": "b837b8f25fd386b088ebab5691155e10782d387afd9a10c19d04fbe4c545201e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com13', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com13'",
+      "host_format": "'example.com13'",
+      "host_regex": "re.compile('^example\\\\.com13$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com13', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com13'",
+       "host_format": "'example.com13'",
+       "host_regex": "re.compile('^example\\\\.com13$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com13', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com14', None)",
+   "sha256": "eb08b393123e53ff177e33b6964ba462755c4088a98b44c2330f9dd9d6b70515",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com14', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com14'",
+      "host_format": "'example.com14'",
+      "host_regex": "re.compile('^example\\\\.com14$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com14', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com14'",
+       "host_format": "'example.com14'",
+       "host_regex": "re.compile('^example\\\\.com14$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com14', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com15', None)",
+   "sha256": "f8188c0f650f28f2c16094605ec8ff7e405bdc6c0b394d5bd0a8af04f2aa852c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com15', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com15'",
+      "host_format": "'example.com15'",
+      "host_regex": "re.compile('^example\\\\.com15$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com15', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com15'",
+       "host_format": "'example.com15'",
+       "host_regex": "re.compile('^example\\\\.com15$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com15', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com16', None)",
+   "sha256": "a4f0ce921129eb415d2e7bdbe93d64a687e684f70d7c2dcdae5d9eee25c0f78f",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com16', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com16'",
+      "host_format": "'example.com16'",
+      "host_regex": "re.compile('^example\\\\.com16$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com16', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com16'",
+       "host_format": "'example.com16'",
+       "host_regex": "re.compile('^example\\\\.com16$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com16', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com17', None)",
+   "sha256": "8f9f366b1cf5c0258abbc02803b3c7b9b81b20bd8807bacb9ff14047601abc89",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com17', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com17'",
+      "host_format": "'example.com17'",
+      "host_regex": "re.compile('^example\\\\.com17$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com17', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com17'",
+       "host_format": "'example.com17'",
+       "host_regex": "re.compile('^example\\\\.com17$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com17', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com18', None)",
+   "sha256": "854c750f0874b2794fd620ad21a20799cec6c282b2aac2da64600d1f9caf14c9",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com18', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com18'",
+      "host_format": "'example.com18'",
+      "host_regex": "re.compile('^example\\\\.com18$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com18', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com18'",
+       "host_format": "'example.com18'",
+       "host_regex": "re.compile('^example\\\\.com18$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com18', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com19', None)",
+   "sha256": "431cbb28a3e9dbd54fbece3d37ea2bccff57a7e1d37c014b59fb1f694e549f5a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com19', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com19'",
+      "host_format": "'example.com19'",
+      "host_regex": "re.compile('^example\\\\.com19$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com19', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com19'",
+       "host_format": "'example.com19'",
+       "host_regex": "re.compile('^example\\\\.com19$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com19', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com20', None)",
+   "sha256": "53677d71852e8ee2192224ded7ecdcbe1ee81a190753116cc4393bbd7d955a33",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com20', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com20'",
+      "host_format": "'example.com20'",
+      "host_regex": "re.compile('^example\\\\.com20$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com20', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com20'",
+       "host_format": "'example.com20'",
+       "host_regex": "re.compile('^example\\\\.com20$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com20', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com21', None)",
+   "sha256": "d1ab3d3df2d31b7049fd1780a4b3467dd86a0a610f6d12d543eff3af1f8c2821",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com21', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com21'",
+      "host_format": "'example.com21'",
+      "host_regex": "re.compile('^example\\\\.com21$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com21', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com21'",
+       "host_format": "'example.com21'",
+       "host_regex": "re.compile('^example\\\\.com21$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com21', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com22', None)",
+   "sha256": "13bfd1860d0184bc455869c94caaec06d3f5c6e45fa109bb34de7ef2b9ca8177",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com22', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com22'",
+      "host_format": "'example.com22'",
+      "host_regex": "re.compile('^example\\\\.com22$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com22', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com22'",
+       "host_format": "'example.com22'",
+       "host_regex": "re.compile('^example\\\\.com22$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com22', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com23', None)",
+   "sha256": "fdf4ed795965239f533894f8cac78e931b5ad4bea957c87aea65755719fb7c78",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com23', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com23'",
+      "host_format": "'example.com23'",
+      "host_regex": "re.compile('^example\\\\.com23$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com23', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com23'",
+       "host_format": "'example.com23'",
+       "host_regex": "re.compile('^example\\\\.com23$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com23', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com24', None)",
+   "sha256": "6893e129f5b9778402b2d0b3a69c61381ffdb994381e19b1240f7624d1c25dce",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com24', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com24'",
+      "host_format": "'example.com24'",
+      "host_regex": "re.compile('^example\\\\.com24$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com24', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com24'",
+       "host_format": "'example.com24'",
+       "host_regex": "re.compile('^example\\\\.com24$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com24', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com25', None)",
+   "sha256": "91698616064ec1642c248b41ce151b0e628eee57c6326af55ab26cfffdc8e13e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com25', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com25'",
+      "host_format": "'example.com25'",
+      "host_regex": "re.compile('^example\\\\.com25$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com25', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com25'",
+       "host_format": "'example.com25'",
+       "host_regex": "re.compile('^example\\\\.com25$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com25', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com26', None)",
+   "sha256": "a2b936d44189f74da8a1104473c565dbf38e7038d76508fe4db4ffc91ea3f52e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com26', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com26'",
+      "host_format": "'example.com26'",
+      "host_regex": "re.compile('^example\\\\.com26$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com26', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com26'",
+       "host_format": "'example.com26'",
+       "host_regex": "re.compile('^example\\\\.com26$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com26', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com27', None)",
+   "sha256": "71b2594e3dbf7e91d64975cb2e6b99aef842943a3707193f9633eac9d99be165",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com27', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com27'",
+      "host_format": "'example.com27'",
+      "host_regex": "re.compile('^example\\\\.com27$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com27', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com27'",
+       "host_format": "'example.com27'",
+       "host_regex": "re.compile('^example\\\\.com27$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com27', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com28', None)",
+   "sha256": "8ec0ae1c66d50e5c8aed415c4efd055ff1047fc36d9ed3a0730d78aac00bcbd5",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com28', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com28'",
+      "host_format": "'example.com28'",
+      "host_regex": "re.compile('^example\\\\.com28$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com28', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com28'",
+       "host_format": "'example.com28'",
+       "host_regex": "re.compile('^example\\\\.com28$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com28', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com29', None)",
+   "sha256": "7a378f0fc6f12508a6fe18a327b322751131750937ba49d5d82f626073c55ac8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com29', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com29'",
+      "host_format": "'example.com29'",
+      "host_regex": "re.compile('^example\\\\.com29$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com29', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com29'",
+       "host_format": "'example.com29'",
+       "host_regex": "re.compile('^example\\\\.com29$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com29', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com30', None)",
+   "sha256": "8ebe8615613a30fc1a234f684a60af442feac48135f1dc049a104b1747b595a7",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com30', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com30'",
+      "host_format": "'example.com30'",
+      "host_regex": "re.compile('^example\\\\.com30$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com30', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com30'",
+       "host_format": "'example.com30'",
+       "host_regex": "re.compile('^example\\\\.com30$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com30', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com31', None)",
+   "sha256": "545ce24626d3012cbf8acec04f4226b00086e3db1976b4494b714e5ada5f963c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com31', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com31'",
+      "host_format": "'example.com31'",
+      "host_regex": "re.compile('^example\\\\.com31$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com31', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com31'",
+       "host_format": "'example.com31'",
+       "host_regex": "re.compile('^example\\\\.com31$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com31', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com32', None)",
+   "sha256": "9d1fe7b0bddfdb036b2cdef7a450cbf5f04d1d071b4fd20d6229daa7b49ed82d",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com32', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com32'",
+      "host_format": "'example.com32'",
+      "host_regex": "re.compile('^example\\\\.com32$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com32', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com32'",
+       "host_format": "'example.com32'",
+       "host_regex": "re.compile('^example\\\\.com32$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com32', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com33', None)",
+   "sha256": "1671450c9deed2dab1568a45a67a8cb9921c4ec6efd798980e6d3c921b1f97dc",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com33', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com33'",
+      "host_format": "'example.com33'",
+      "host_regex": "re.compile('^example\\\\.com33$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com33', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com33'",
+       "host_format": "'example.com33'",
+       "host_regex": "re.compile('^example\\\\.com33$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com33', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com34', None)",
+   "sha256": "56adf95760e8f9583284d9f73fbd93f042fdd1a912b6ea5257596978700e82ad",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com34', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com34'",
+      "host_format": "'example.com34'",
+      "host_regex": "re.compile('^example\\\\.com34$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com34', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com34'",
+       "host_format": "'example.com34'",
+       "host_regex": "re.compile('^example\\\\.com34$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com34', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com35', None)",
+   "sha256": "4dddf58970e6093a915d850f9e53f60c777eeb9e4866a7e1187fdef62c59cfef",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com35', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com35'",
+      "host_format": "'example.com35'",
+      "host_regex": "re.compile('^example\\\\.com35$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com35', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com35'",
+       "host_format": "'example.com35'",
+       "host_regex": "re.compile('^example\\\\.com35$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com35', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com36', None)",
+   "sha256": "5b7d6e6cc7fb3579028342df855bd667338c960e35beb3ad51212ad114962cc8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com36', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com36'",
+      "host_format": "'example.com36'",
+      "host_regex": "re.compile('^example\\\\.com36$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com36', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com36'",
+       "host_format": "'example.com36'",
+       "host_regex": "re.compile('^example\\\\.com36$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com36', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com37', None)",
+   "sha256": "ca7481d004cd348cebaf3fd344e17aeaa3f9824c02deba42378327b6af5eb370",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com37', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com37'",
+      "host_format": "'example.com37'",
+      "host_regex": "re.compile('^example\\\\.com37$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com37', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com37'",
+       "host_format": "'example.com37'",
+       "host_regex": "re.compile('^example\\\\.com37$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com37', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com38', None)",
+   "sha256": "6a95a3a82f22f1a55a37224460dedd908f910d790742fc3695a7b44722b4d1a3",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com38', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com38'",
+      "host_format": "'example.com38'",
+      "host_regex": "re.compile('^example\\\\.com38$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com38', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com38'",
+       "host_format": "'example.com38'",
+       "host_regex": "re.compile('^example\\\\.com38$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com38', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com39', None)",
+   "sha256": "68089257fee5abdcf8cd63a648c721e9663a36f92b99597a235e88de1dc38c22",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com39', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com39'",
+      "host_format": "'example.com39'",
+      "host_regex": "re.compile('^example\\\\.com39$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com39', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com39'",
+       "host_format": "'example.com39'",
+       "host_regex": "re.compile('^example\\\\.com39$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com39', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com40', None)",
+   "sha256": "0917fc050088413792145bda3c99e1fd10e2235b8b97c4da4b80d4676ad628e2",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com40', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com40'",
+      "host_format": "'example.com40'",
+      "host_regex": "re.compile('^example\\\\.com40$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com40', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com40'",
+       "host_format": "'example.com40'",
+       "host_regex": "re.compile('^example\\\\.com40$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com40', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com0', None)",
+   "sha256": "cdd9280320909e0e68082d01433039ab966c3a923ac4de64c70d4ac084be2a1a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com0', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com0'",
+      "host_format": "'example.com0'",
+      "host_regex": "re.compile('^example\\\\.com0$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com0', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com0'",
+       "host_format": "'example.com0'",
+       "host_regex": "re.compile('^example\\\\.com0$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com0', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.comx', None)",
+   "sha256": "d662cfa2b7dcf2da7867e7a1ee82d10eb1d3079f83d4dc19dd45ea0d8353cd27",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.comx', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.comx'",
+      "host_format": "'example.comx'",
+      "host_regex": "re.compile('^example\\\\.comx$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.comx', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.comx'",
+       "host_format": "'example.comx'",
+       "host_regex": "re.compile('^example\\\\.comx$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.comx', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com y', None)",
+   "sha256": "f527fa3b2b3d15c909289a0de365f78732414e0671c08a590ff061779e7e3254",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com y', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com y'",
+      "host_format": "'example.com y'",
+      "host_regex": "re.compile('^example\\\\.com\\\\ y$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com y', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com y'",
+       "host_format": "'example.com y'",
+       "host_regex": "re.compile('^example\\\\.com\\\\ y$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com y', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com\u00e9', None)",
+   "sha256": "8674c822054b1500cce1a033c46aef69f05bd4267b0bdc03c292800e6fbbd955",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com\u00e9', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com\u00e9'",
+      "host_format": "'example.com\u00e9'",
+      "host_regex": "re.compile('^example\\\\.com\u00e9$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com\u00e9', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com\u00e9'",
+       "host_format": "'example.com\u00e9'",
+       "host_regex": "re.compile('^example\\\\.com\u00e9$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com\u00e9', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com?k=1', None)",
+   "sha256": "bd88ad63c60f2d5705387645e006858a166eff4bd23c13de0d2cc59edf7bcb3a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com?k=1', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com?k=1'",
+      "host_format": "'example.com?k=1'",
+      "host_regex": "re.compile('^example\\\\.com\\\\?k=1$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com?k=1', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com?k=1'",
+       "host_format": "'example.com?k=1'",
+       "host_regex": "re.compile('^example\\\\.com\\\\?k=1$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com?k=1', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com#f', None)",
+   "sha256": "6fe1c1bedcce372f8ffe4887f9754568f8a95f11289bddbaa1e6ea218960e957",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com#f', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com#f'",
+      "host_format": "'example.com#f'",
+      "host_regex": "re.compile('^example\\\\.com\\\\#f$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com#f', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com#f'",
+       "host_format": "'example.com#f'",
+       "host_regex": "re.compile('^example\\\\.com\\\\#f$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com#f', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.com/p', None)",
+   "sha256": "fd69a2670549e797872b8522428d0b50b26183fa951a03934800ffb0772af7a0",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.com/p', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.com/p'",
+      "host_format": "'example.com/p'",
+      "host_regex": "re.compile('^example\\\\.com/p$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.com/p', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.com/p'",
+       "host_format": "'example.com/p'",
+       "host_regex": "re.compile('^example\\\\.com/p$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.com/p', name='', app=None)"
+    }
+   }
+  },
+  {
+   "expr": "cls('example.comexample.com', None)",
+   "sha256": "b07250d8778bdc0e46b0884b2e63c9ddfbac8980b19e52d2702e492be43cba23",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "Host(host='example.comexample.com', name='', app=None)",
+     "type": "Host",
+     "attrs": {
+      "app": "None",
+      "host": "'example.comexample.com'",
+      "host_format": "'example.comexample.com'",
+      "host_regex": "re.compile('^example\\\\.comexample\\\\.com$', re.IGNORECASE)",
+      "name": "None",
+      "param_convertors": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "Host(host='example.comexample.com', name='', app=None)",
+      "attrs": {
+       "app": "None",
+       "host": "'example.comexample.com'",
+       "host_format": "'example.comexample.com'",
+       "host_regex": "re.compile('^example\\\\.comexample\\\\.com$', re.IGNORECASE)",
+       "name": "None",
+       "param_convertors": "{}"
+      }
+     },
+     "copy": "Host(host='example.comexample.com', name='', app=None)"
+    }
+   }
+  }
+ ]
+}

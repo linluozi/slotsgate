@@ -1,0 +1,59 @@
+{
+ "variants": [
+  "cls()"
+ ],
+ "baseline": [
+  {
+   "expr": "cls()",
+   "sha256": "c9b4a3ee15021300b1dc56ab8282c7003a0acc807457c93ba7c11b17597283af",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETagSet ''>",
+     "type": "ETagSet",
+     "attrs": {
+      "_strong": "frozenset()",
+      "_weak": "frozenset()",
+      "star_tag": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETagSet ''>",
+      "attrs": {
+       "_strong": "frozenset()",
+       "_weak": "frozenset()",
+       "star_tag": "False"
+      }
+     },
+     "copy": "<ETagSet ''>"
+    }
+   }
+  }
+ ],
+ "optimized": [
+  {
+   "expr": "cls()",
+   "sha256": "c9b4a3ee15021300b1dc56ab8282c7003a0acc807457c93ba7c11b17597283af",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETagSet ''>",
+     "type": "ETagSet",
+     "attrs": {
+      "_strong": "frozenset()",
+      "_weak": "frozenset()",
+      "star_tag": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETagSet ''>",
+      "attrs": {
+       "_strong": "frozenset()",
+       "_weak": "frozenset()",
+       "star_tag": "False"
+      }
+     },
+     "copy": "<ETagSet ''>"
+    }
+   }
+  }
+ ]
+}

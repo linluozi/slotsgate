@@ -1,0 +1,55 @@
+{
+ "variants": [
+  "cls()"
+ ],
+ "baseline": [
+  {
+   "expr": "cls()",
+   "sha256": "fecc9e0883bb8c28cf4cd022ed43b29990144a6667d2b3936ea824bbb0c965bf",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<tomli._parser.Flags object at 0xADDR>",
+     "type": "Flags",
+     "attrs": {
+      "_flags": "{}",
+      "_pending_flags": "set()"
+     },
+     "pickle_roundtrip": {
+      "repr": "<tomli._parser.Flags object at 0xADDR>",
+      "attrs": {
+       "_flags": "{}",
+       "_pending_flags": "set()"
+      }
+     },
+     "copy": "<tomli._parser.Flags object at 0xADDR>"
+    }
+   }
+  }
+ ],
+ "optimized": [
+  {
+   "expr": "cls()",
+   "sha256": "fecc9e0883bb8c28cf4cd022ed43b29990144a6667d2b3936ea824bbb0c965bf",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<tomli._parser.Flags object at 0xADDR>",
+     "type": "Flags",
+     "attrs": {
+      "_flags": "{}",
+      "_pending_flags": "set()"
+     },
+     "pickle_roundtrip": {
+      "repr": "<tomli._parser.Flags object at 0xADDR>",
+      "attrs": {
+       "_flags": "{}",
+       "_pending_flags": "set()"
+      }
+     },
+     "copy": "<tomli._parser.Flags object at 0xADDR>"
+    }
+   }
+  }
+ ]
+}

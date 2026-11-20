@@ -1,0 +1,55 @@
+{
+ "variants": [
+  "cls()"
+ ],
+ "baseline": [
+  {
+   "expr": "cls()",
+   "sha256": "37b4f46e58a2f381e3a90e56337b12654dfa0013f4409787376fbaec6c59e754",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<tomli._parser.Output object at 0xADDR>",
+     "type": "Output",
+     "attrs": {
+      "data": "<tomli._parser.NestedDict object at 0xADDR>",
+      "flags": "<tomli._parser.Flags object at 0xADDR>"
+     },
+     "pickle_roundtrip": {
+      "repr": "<tomli._parser.Output object at 0xADDR>",
+      "attrs": {
+       "data": "<tomli._parser.NestedDict object at 0xADDR>",
+       "flags": "<tomli._parser.Flags object at 0xADDR>"
+      }
+     },
+     "copy": "<tomli._parser.Output object at 0xADDR>"
+    }
+   }
+  }
+ ],
+ "optimized": [
+  {
+   "expr": "cls()",
+   "sha256": "37b4f46e58a2f381e3a90e56337b12654dfa0013f4409787376fbaec6c59e754",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<tomli._parser.Output object at 0xADDR>",
+     "type": "Output",
+     "attrs": {
+      "data": "<tomli._parser.NestedDict object at 0xADDR>",
+      "flags": "<tomli._parser.Flags object at 0xADDR>"
+     },
+     "pickle_roundtrip": {
+      "repr": "<tomli._parser.Output object at 0xADDR>",
+      "attrs": {
+       "data": "<tomli._parser.NestedDict object at 0xADDR>",
+       "flags": "<tomli._parser.Flags object at 0xADDR>"
+      }
+     },
+     "copy": "<tomli._parser.Output object at 0xADDR>"
+    }
+   }
+  }
+ ]
+}

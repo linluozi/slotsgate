@@ -11,7 +11,7 @@ Upstream: none
 
 This repository is the tool plus a measured trial on four real PyPI projects.
 Targets:
-- `Kludex/starlette` @ `271c277` (BSD-3-Clause): 5 measured classes + `BaseRoute` patched as required base
+- `Kludex/starlette` @ `271c277` (BSD-3-Clause): 6 classes
 - `more-itertools/more-itertools` @ `e3f79f4` (MIT): 5 classes
 - `pallets/werkzeug` @ `0f43c6e` (BSD-3-Clause): 5 classes
 - `hukkin/tomli` @ `43a86ad` (MIT): 4 classes
@@ -65,7 +65,7 @@ raised the saving to the value in the table.
 | --- | --- | --- |
 | G1 upstream suites | PASS (0 new failures) | starlette `4 failed / 1419 passed` both pristine and patched (same httpx2 header assertions); more-itertools `772 passed` both; tomli `17 passed / 1 skipped` both; werkzeug focused `100 passed` both. pyparsing `16 failed` vs pristine `0` → target rejected. |
 | G2 history dedup | PASS | `0` commits in the last 24 months add `__slots__` inside a selected class; GitHub search: 6 issue/PR mentions of `__slots__` across the four repos, **0** of them patch a selected class (`results/gate.json`). |
-| G2b byte differential | NOT RUN | this is a rewrite tool, not an `-opt-lab`; behaviour evidence is the upstream suites and the 13 tool unit tests, not a synthetic 1000-case serializer differential. Stated explicitly, not claimed. |
+| G2b behaviour differential | PASS | `results/diffcheck.json`: **1,029 unique factory variants** (literal sweeps, not repeated calls) across the 19 classes, pristine vs patched, **0 mismatches**. Each transcript compares `repr`, every slot value, `pickle.loads(pickle.dumps(...))` state and `copy.copy` state; `time_limited._start_time` is masked because it is a `time.monotonic()` reading. |
 | G3 speedup | N/A | no speed claim; throughput is reported only to prove no regression (median 1.002x). |
 | G4 large scale | N/A | heap measured at one fixed live-set size (10,000 objects per class). |
 | G5 memory | PASS | heap reduction per class in the table; raw samples under `results/raw/`. |
@@ -133,5 +133,8 @@ tests/test_slotsgate.py  13 unit tests (analyzer, patch, history)
 - `patch.diff` is the concatenation of four independent target patches
   (196 lines total; per target 38–62 lines). The 80-line cap applies to a
   single upstream patch; these are four separate upstreams, each under the cap.
+- The differential covers 1,029 unique constructor variants; 15 classes have literal
+  variants, the four no-argument tomli classes contribute one each. Raw
+  transcripts are under `benchmark/raw/diff-*.json`.
 - `pyparsing` shows the gate working: the analyzer accepted five internal cache
   classes, but upstream tests caught behaviour the static rules cannot see.

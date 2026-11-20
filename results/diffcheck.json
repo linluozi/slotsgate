@@ -1,0 +1,141 @@
+{
+  "libraries": [
+    {
+      "name": "starlette",
+      "classes": [
+        {
+          "class": "datastructures.URL",
+          "variants": 49,
+          "mismatches": 0,
+          "examples": []
+        },
+        {
+          "class": "datastructures.Secret",
+          "variants": 49,
+          "mismatches": 0,
+          "examples": []
+        },
+        {
+          "class": "routing.Host",
+          "variants": 49,
+          "mismatches": 0,
+          "examples": []
+        },
+        {
+          "class": "background.BackgroundTask",
+          "variants": 1,
+          "mismatches": 0,
+          "examples": []
+        },
+        {
+          "class": "authentication.AuthCredentials",
+          "variants": 49,
+          "mismatches": 0,
+          "examples": []
+        }
+      ]
+    },
+    {
+      "name": "more-itertools",
+      "classes": [
+        {
+          "class": "more.peekable",
+          "variants": 130,
+          "mismatches": 0,
+          "examples": []
+        },
+        {
+          "class": "more.seekable",
+          "variants": 130,
+          "mismatches": 0,
+          "examples": []
+        },
+        {
+          "class": "more.bucket",
+          "variants": 1,
+          "mismatches": 0,
+          "examples": []
+        },
+        {
+          "class": "more.countable",
+          "variants": 130,
+          "mismatches": 0,
+          "examples": []
+        },
+        {
+          "class": "more.time_limited",
+          "variants": 130,
+          "mismatches": 0,
+          "examples": []
+        }
+      ]
+    },
+    {
+      "name": "werkzeug",
+      "classes": [
+        {
+          "class": "datastructures.ETag",
+          "variants": 48,
+          "mismatches": 0,
+          "examples": []
+        },
+        {
+          "class": "datastructures.ETagSet",
+          "variants": 1,
+          "mismatches": 0,
+          "examples": []
+        },
+        {
+          "class": "datastructures.Range",
+          "variants": 130,
+          "mismatches": 0,
+          "examples": []
+        },
+        {
+          "class": "datastructures.ContentRange",
+          "variants": 127,
+          "mismatches": 0,
+          "examples": []
+        },
+        {
+          "class": "datastructures.IfRange",
+          "variants": 1,
+          "mismatches": 0,
+          "examples": []
+        }
+      ]
+    },
+    {
+      "name": "tomli",
+      "classes": [
+        {
+          "class": "_parser.Flags",
+          "variants": 1,
+          "mismatches": 0,
+          "examples": []
+        },
+        {
+          "class": "_parser.NestedDict",
+          "variants": 1,
+          "mismatches": 0,
+          "examples": []
+        },
+        {
+          "class": "_parser.Output",
+          "variants": 1,
+          "mismatches": 0,
+          "examples": []
+        },
+        {
+          "class": "_parser.DEPRECATED_DEFAULT",
+          "variants": 1,
+          "mismatches": 0,
+          "examples": []
+        }
+      ]
+    }
+  ],
+  "total_samples": 1029,
+  "total_comparisons": 1029,
+  "mismatches": 0
+}

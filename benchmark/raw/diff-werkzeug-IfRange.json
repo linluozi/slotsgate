@@ -1,0 +1,55 @@
+{
+ "variants": [
+  "cls()"
+ ],
+ "baseline": [
+  {
+   "expr": "cls()",
+   "sha256": "50db4413ab0f3ff722b8b4334095fbb2d7466f836cfe561734c8d44565900e23",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<IfRange ''>",
+     "type": "IfRange",
+     "attrs": {
+      "date": "None",
+      "etag": "None"
+     },
+     "pickle_roundtrip": {
+      "repr": "<IfRange ''>",
+      "attrs": {
+       "date": "None",
+       "etag": "None"
+      }
+     },
+     "copy": "<IfRange ''>"
+    }
+   }
+  }
+ ],
+ "optimized": [
+  {
+   "expr": "cls()",
+   "sha256": "50db4413ab0f3ff722b8b4334095fbb2d7466f836cfe561734c8d44565900e23",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<IfRange ''>",
+     "type": "IfRange",
+     "attrs": {
+      "date": "None",
+      "etag": "None"
+     },
+     "pickle_roundtrip": {
+      "repr": "<IfRange ''>",
+      "attrs": {
+       "date": "None",
+       "etag": "None"
+      }
+     },
+     "copy": "<IfRange ''>"
+    }
+   }
+  }
+ ]
+}

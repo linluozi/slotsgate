@@ -1,0 +1,47 @@
+{
+ "variants": [
+  "cls(noop0)"
+ ],
+ "baseline": [
+  {
+   "expr": "cls(noop0)",
+   "sha256": "4a76b47065c98d75b14458b654846e154bdfe7aae52f4ee3e5783e2580801de1",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<starlette.background.BackgroundTask object at 0xADDR>",
+     "type": "BackgroundTask",
+     "attrs": {
+      "args": "()",
+      "func": "<function noop0 at 0xADDR>",
+      "is_async": "False",
+      "kwargs": "{}"
+     },
+     "pickle_error": "PicklingError: Can't pickle <function noop0 at 0xADDR>: attribute lookup noop0 on __main__ failed",
+     "copy": "<starlette.background.BackgroundTask object at 0xADDR>"
+    }
+   }
+  }
+ ],
+ "optimized": [
+  {
+   "expr": "cls(noop0)",
+   "sha256": "4a76b47065c98d75b14458b654846e154bdfe7aae52f4ee3e5783e2580801de1",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<starlette.background.BackgroundTask object at 0xADDR>",
+     "type": "BackgroundTask",
+     "attrs": {
+      "args": "()",
+      "func": "<function noop0 at 0xADDR>",
+      "is_async": "False",
+      "kwargs": "{}"
+     },
+     "pickle_error": "PicklingError: Can't pickle <function noop0 at 0xADDR>: attribute lookup noop0 on __main__ failed",
+     "copy": "<starlette.background.BackgroundTask object at 0xADDR>"
+    }
+   }
+  }
+ ]
+}

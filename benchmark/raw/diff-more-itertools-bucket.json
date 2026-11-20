@@ -1,0 +1,47 @@
+{
+ "variants": [
+  "cls([], key)"
+ ],
+ "baseline": [
+  {
+   "expr": "cls([], key)",
+   "sha256": "676ce9b5bf3e953f5e06c801b1ce2cef35434b404e376c0be3601c3ebda14bc6",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<more_itertools.more.bucket object at 0xADDR>",
+     "type": "bucket",
+     "attrs": {
+      "_cache": "defaultdict(<class 'collections.deque'>, {})",
+      "_it": "<list_iterator object at 0xADDR>",
+      "_key": "<function key at 0xADDR>",
+      "_validator": "<function bucket.__init__.<locals>.<lambda> at 0xADDR>"
+     },
+     "pickle_error": "PicklingError: Can't pickle <function key at 0xADDR>: attribute lookup key on __main__ failed",
+     "copy": "<more_itertools.more.bucket object at 0xADDR>"
+    }
+   }
+  }
+ ],
+ "optimized": [
+  {
+   "expr": "cls([], key)",
+   "sha256": "676ce9b5bf3e953f5e06c801b1ce2cef35434b404e376c0be3601c3ebda14bc6",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<more_itertools.more.bucket object at 0xADDR>",
+     "type": "bucket",
+     "attrs": {
+      "_cache": "defaultdict(<class 'collections.deque'>, {})",
+      "_it": "<list_iterator object at 0xADDR>",
+      "_key": "<function key at 0xADDR>",
+      "_validator": "<function bucket.__init__.<locals>.<lambda> at 0xADDR>"
+     },
+     "pickle_error": "PicklingError: Can't pickle <function key at 0xADDR>: attribute lookup key on __main__ failed",
+     "copy": "<more_itertools.more.bucket object at 0xADDR>"
+    }
+   }
+  }
+ ]
+}

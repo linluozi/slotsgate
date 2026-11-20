@@ -1,0 +1,2311 @@
+{
+ "variants": [
+  "cls('https://example.com/a/b?c=1')",
+  "cls('https://example.com/a/b?c=11')",
+  "cls('https://example.com/a/b?c=12')",
+  "cls('https://example.com/a/b?c=13')",
+  "cls('https://example.com/a/b?c=14')",
+  "cls('https://example.com/a/b?c=15')",
+  "cls('https://example.com/a/b?c=16')",
+  "cls('https://example.com/a/b?c=17')",
+  "cls('https://example.com/a/b?c=18')",
+  "cls('https://example.com/a/b?c=19')",
+  "cls('https://example.com/a/b?c=110')",
+  "cls('https://example.com/a/b?c=111')",
+  "cls('https://example.com/a/b?c=112')",
+  "cls('https://example.com/a/b?c=113')",
+  "cls('https://example.com/a/b?c=114')",
+  "cls('https://example.com/a/b?c=115')",
+  "cls('https://example.com/a/b?c=116')",
+  "cls('https://example.com/a/b?c=117')",
+  "cls('https://example.com/a/b?c=118')",
+  "cls('https://example.com/a/b?c=119')",
+  "cls('https://example.com/a/b?c=120')",
+  "cls('https://example.com/a/b?c=121')",
+  "cls('https://example.com/a/b?c=122')",
+  "cls('https://example.com/a/b?c=123')",
+  "cls('https://example.com/a/b?c=124')",
+  "cls('https://example.com/a/b?c=125')",
+  "cls('https://example.com/a/b?c=126')",
+  "cls('https://example.com/a/b?c=127')",
+  "cls('https://example.com/a/b?c=128')",
+  "cls('https://example.com/a/b?c=129')",
+  "cls('https://example.com/a/b?c=130')",
+  "cls('https://example.com/a/b?c=131')",
+  "cls('https://example.com/a/b?c=132')",
+  "cls('https://example.com/a/b?c=133')",
+  "cls('https://example.com/a/b?c=134')",
+  "cls('https://example.com/a/b?c=135')",
+  "cls('https://example.com/a/b?c=136')",
+  "cls('https://example.com/a/b?c=137')",
+  "cls('https://example.com/a/b?c=138')",
+  "cls('https://example.com/a/b?c=139')",
+  "cls('https://example.com/a/b?c=140')",
+  "cls('https://example.com/a/b?c=10')",
+  "cls('https://example.com/a/b?c=1x')",
+  "cls('https://example.com/a/b?c=1 y')",
+  "cls('https://example.com/a/b?c=1\u00e9')",
+  "cls('https://example.com/a/b?c=1?k=1')",
+  "cls('https://example.com/a/b?c=1#f')",
+  "cls('https://example.com/a/b?c=1/p')",
+  "cls('https://example.com/a/b?c=1https://example.com/a/b?c=1')"
+ ],
+ "baseline": [
+  {
+   "expr": "cls('https://example.com/a/b?c=1')",
+   "sha256": "693becfdc90604faab71ec54b0714fc7aa3b5fb26d0cc2a5665b1aef266e796a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=1')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1', fragment='')",
+      "_url": "'https://example.com/a/b?c=1'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=1')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1', fragment='')",
+       "_url": "'https://example.com/a/b?c=1'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=1')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=11')",
+   "sha256": "4f898d0f51de57755b81f943e5dab242df436f80947c0a6c1a288a05c4bda9f3",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=11')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=11', fragment='')",
+      "_url": "'https://example.com/a/b?c=11'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=11')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=11', fragment='')",
+       "_url": "'https://example.com/a/b?c=11'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=11')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=12')",
+   "sha256": "f7798326766428a35987a6078d1ee9a2e2289517940b6dca8c3a2305eeff755c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=12')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=12', fragment='')",
+      "_url": "'https://example.com/a/b?c=12'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=12')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=12', fragment='')",
+       "_url": "'https://example.com/a/b?c=12'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=12')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=13')",
+   "sha256": "0788ea8b1a3958f52f802581bfb6d3c3e3bef1123eca4df6ee0a9f5605637bf2",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=13')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=13', fragment='')",
+      "_url": "'https://example.com/a/b?c=13'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=13')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=13', fragment='')",
+       "_url": "'https://example.com/a/b?c=13'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=13')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=14')",
+   "sha256": "d1d2c8ade6f3f89409b7671ad90eb357a95f2c9a0f975c70d9729e81c471804b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=14')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=14', fragment='')",
+      "_url": "'https://example.com/a/b?c=14'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=14')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=14', fragment='')",
+       "_url": "'https://example.com/a/b?c=14'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=14')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=15')",
+   "sha256": "081616fc1c17c8c98ef6a9ff2c4cf34cd0132371d0945872e909bc9b06fc6d59",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=15')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=15', fragment='')",
+      "_url": "'https://example.com/a/b?c=15'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=15')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=15', fragment='')",
+       "_url": "'https://example.com/a/b?c=15'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=15')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=16')",
+   "sha256": "4b8729dec5944a67eb9c6b568c3c4892d33b3be0bca7d82d2fc16f79d0b17057",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=16')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=16', fragment='')",
+      "_url": "'https://example.com/a/b?c=16'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=16')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=16', fragment='')",
+       "_url": "'https://example.com/a/b?c=16'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=16')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=17')",
+   "sha256": "926f4f289993628ac6c16071d5851cab22291487305eff2db909551e15f95108",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=17')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=17', fragment='')",
+      "_url": "'https://example.com/a/b?c=17'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=17')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=17', fragment='')",
+       "_url": "'https://example.com/a/b?c=17'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=17')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=18')",
+   "sha256": "c6ed7e70cbc79b9073959e124bba10b31785fe4db1065d7001b5fec9b6177612",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=18')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=18', fragment='')",
+      "_url": "'https://example.com/a/b?c=18'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=18')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=18', fragment='')",
+       "_url": "'https://example.com/a/b?c=18'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=18')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=19')",
+   "sha256": "345d1c8c09d5d19c84e265416735d3fea4d61917952fc6572f0dd2da01963e3c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=19')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=19', fragment='')",
+      "_url": "'https://example.com/a/b?c=19'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=19')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=19', fragment='')",
+       "_url": "'https://example.com/a/b?c=19'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=19')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=110')",
+   "sha256": "aac6108ac54cc99bf9a1683d25b9489e8c7cfa6f13006ab673c2b82cd6ff88e8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=110')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=110', fragment='')",
+      "_url": "'https://example.com/a/b?c=110'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=110')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=110', fragment='')",
+       "_url": "'https://example.com/a/b?c=110'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=110')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=111')",
+   "sha256": "fc44675603a7e695f83b411a24ae23c376e024a2a3ecea808afc7f442ddfddd2",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=111')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=111', fragment='')",
+      "_url": "'https://example.com/a/b?c=111'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=111')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=111', fragment='')",
+       "_url": "'https://example.com/a/b?c=111'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=111')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=112')",
+   "sha256": "b0dc473f70b57e3141e2e1e66efd388218eedf02e0ac18f35be4620a0e052ec1",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=112')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=112', fragment='')",
+      "_url": "'https://example.com/a/b?c=112'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=112')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=112', fragment='')",
+       "_url": "'https://example.com/a/b?c=112'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=112')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=113')",
+   "sha256": "a4fef00c52a63f0508dc1fc4204e0719c3645ef1c479356a9aeca273ea01569a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=113')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=113', fragment='')",
+      "_url": "'https://example.com/a/b?c=113'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=113')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=113', fragment='')",
+       "_url": "'https://example.com/a/b?c=113'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=113')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=114')",
+   "sha256": "02d09bc26f8b32a4d7284aef2a9fe73c0d08e98ade2df8cf5dc346ef86c79017",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=114')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=114', fragment='')",
+      "_url": "'https://example.com/a/b?c=114'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=114')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=114', fragment='')",
+       "_url": "'https://example.com/a/b?c=114'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=114')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=115')",
+   "sha256": "b2d96aed7a6b9cebd5394a12260086d58cc768a3a038d7e40ce907e37f4a8a32",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=115')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=115', fragment='')",
+      "_url": "'https://example.com/a/b?c=115'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=115')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=115', fragment='')",
+       "_url": "'https://example.com/a/b?c=115'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=115')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=116')",
+   "sha256": "297cffcf352fba3532e399dfd33b3366bfb25c6fe1ffd3be2313babeaa9e7a49",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=116')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=116', fragment='')",
+      "_url": "'https://example.com/a/b?c=116'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=116')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=116', fragment='')",
+       "_url": "'https://example.com/a/b?c=116'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=116')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=117')",
+   "sha256": "90f8ff9a9a77b3ad3f94bbe9646bfa9714dbeb1b5c28d53575509d18e83985eb",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=117')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=117', fragment='')",
+      "_url": "'https://example.com/a/b?c=117'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=117')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=117', fragment='')",
+       "_url": "'https://example.com/a/b?c=117'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=117')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=118')",
+   "sha256": "408cf50f1be2ea28130b3edbdd24e688b7871047bec719c66d94ee46e43e5db7",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=118')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=118', fragment='')",
+      "_url": "'https://example.com/a/b?c=118'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=118')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=118', fragment='')",
+       "_url": "'https://example.com/a/b?c=118'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=118')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=119')",
+   "sha256": "a56ae5d717861ef32572ffe1650b65fc2c5ce59fcb9abebe1a55eff9dca1e1f3",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=119')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=119', fragment='')",
+      "_url": "'https://example.com/a/b?c=119'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=119')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=119', fragment='')",
+       "_url": "'https://example.com/a/b?c=119'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=119')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=120')",
+   "sha256": "818b7bf96d7e257525ac16c16f19d212fffb957fb8acfc147ecf07f2fb4c06a8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=120')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=120', fragment='')",
+      "_url": "'https://example.com/a/b?c=120'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=120')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=120', fragment='')",
+       "_url": "'https://example.com/a/b?c=120'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=120')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=121')",
+   "sha256": "6e793645c6b28372295e50d5f1f2bcfdf8aa0e89eaea48f89ad37d78a3526c36",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=121')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=121', fragment='')",
+      "_url": "'https://example.com/a/b?c=121'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=121')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=121', fragment='')",
+       "_url": "'https://example.com/a/b?c=121'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=121')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=122')",
+   "sha256": "6d59357a0936e7fa4e42476db846338106817b0a135f46fda4310ed0b39de4ba",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=122')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=122', fragment='')",
+      "_url": "'https://example.com/a/b?c=122'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=122')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=122', fragment='')",
+       "_url": "'https://example.com/a/b?c=122'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=122')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=123')",
+   "sha256": "5c183ba4769c1354621e56bd4feaf13bf901f0c2761041baaab1feebe58c080c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=123')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=123', fragment='')",
+      "_url": "'https://example.com/a/b?c=123'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=123')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=123', fragment='')",
+       "_url": "'https://example.com/a/b?c=123'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=123')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=124')",
+   "sha256": "b5bd343ce8a9f6307b2411b1dc10162870fc821077f17f5aa5fef491e7607431",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=124')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=124', fragment='')",
+      "_url": "'https://example.com/a/b?c=124'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=124')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=124', fragment='')",
+       "_url": "'https://example.com/a/b?c=124'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=124')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=125')",
+   "sha256": "83ba3a54525f765f14ca2918344e040dd79d33402d07650cfc7efc8741534495",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=125')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=125', fragment='')",
+      "_url": "'https://example.com/a/b?c=125'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=125')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=125', fragment='')",
+       "_url": "'https://example.com/a/b?c=125'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=125')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=126')",
+   "sha256": "dd51883ca1f8adee4de6bab4132e05257bfdbcd411346eb85dacc9493ed44269",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=126')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=126', fragment='')",
+      "_url": "'https://example.com/a/b?c=126'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=126')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=126', fragment='')",
+       "_url": "'https://example.com/a/b?c=126'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=126')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=127')",
+   "sha256": "35d8eec25e0172e67e2b33fed89bd2127c82d6951c400cda181a49ae54abd9c3",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=127')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=127', fragment='')",
+      "_url": "'https://example.com/a/b?c=127'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=127')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=127', fragment='')",
+       "_url": "'https://example.com/a/b?c=127'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=127')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=128')",
+   "sha256": "b760c923ef0be9aca257a8fccceab30054b727a2177a757f16b77bd047f47fca",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=128')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=128', fragment='')",
+      "_url": "'https://example.com/a/b?c=128'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=128')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=128', fragment='')",
+       "_url": "'https://example.com/a/b?c=128'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=128')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=129')",
+   "sha256": "cb6033d50ecdbeaaedead5e312043125d7ac6f05f635c27df5017fde1174987b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=129')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=129', fragment='')",
+      "_url": "'https://example.com/a/b?c=129'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=129')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=129', fragment='')",
+       "_url": "'https://example.com/a/b?c=129'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=129')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=130')",
+   "sha256": "040d73ecdb0df9fd45b196ddcf016df3a6557ec044edff8bdb85080b4ed03a31",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=130')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=130', fragment='')",
+      "_url": "'https://example.com/a/b?c=130'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=130')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=130', fragment='')",
+       "_url": "'https://example.com/a/b?c=130'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=130')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=131')",
+   "sha256": "b2cde3de7f995bcac86c8ff79cb6e50ebab37b7d37123deebd50da71a4d0ae61",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=131')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=131', fragment='')",
+      "_url": "'https://example.com/a/b?c=131'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=131')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=131', fragment='')",
+       "_url": "'https://example.com/a/b?c=131'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=131')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=132')",
+   "sha256": "ccbd20c56809f56c98bef0fa53eca8ebf6885fe97e86f37298851be7d1f7fc1e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=132')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=132', fragment='')",
+      "_url": "'https://example.com/a/b?c=132'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=132')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=132', fragment='')",
+       "_url": "'https://example.com/a/b?c=132'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=132')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=133')",
+   "sha256": "19b5067eb651f8d98d1aa29c7ff635905d9164510b34eb6eb4cde5a0c7f5f378",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=133')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=133', fragment='')",
+      "_url": "'https://example.com/a/b?c=133'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=133')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=133', fragment='')",
+       "_url": "'https://example.com/a/b?c=133'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=133')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=134')",
+   "sha256": "251b59cb1c69341559d6ec32c859c397df490c7bc351d3deabfb55b827ec47cb",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=134')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=134', fragment='')",
+      "_url": "'https://example.com/a/b?c=134'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=134')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=134', fragment='')",
+       "_url": "'https://example.com/a/b?c=134'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=134')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=135')",
+   "sha256": "803c0c91a4a51a0ec4d7bf7463657b0d588c9690de3b3ec8c884b44a78c9a22b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=135')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=135', fragment='')",
+      "_url": "'https://example.com/a/b?c=135'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=135')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=135', fragment='')",
+       "_url": "'https://example.com/a/b?c=135'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=135')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=136')",
+   "sha256": "59d1c0a3b52a42183e8fdc97a014befbdfac8ad7de417ddf5a63e7186540822b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=136')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=136', fragment='')",
+      "_url": "'https://example.com/a/b?c=136'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=136')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=136', fragment='')",
+       "_url": "'https://example.com/a/b?c=136'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=136')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=137')",
+   "sha256": "82138e2c93c3e33e9025a0eb84fc646451cec4a5495b990c55c231dba4d7b9ce",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=137')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=137', fragment='')",
+      "_url": "'https://example.com/a/b?c=137'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=137')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=137', fragment='')",
+       "_url": "'https://example.com/a/b?c=137'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=137')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=138')",
+   "sha256": "ac474917880b89e0dbbec46856f3ba8da45bc26b0666fbd97c60ae604a455141",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=138')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=138', fragment='')",
+      "_url": "'https://example.com/a/b?c=138'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=138')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=138', fragment='')",
+       "_url": "'https://example.com/a/b?c=138'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=138')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=139')",
+   "sha256": "e3947ed51abfcc1da9b3906e86ec23a15e23f6a10c5722360cacb88ffcde1e2b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=139')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=139', fragment='')",
+      "_url": "'https://example.com/a/b?c=139'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=139')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=139', fragment='')",
+       "_url": "'https://example.com/a/b?c=139'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=139')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=140')",
+   "sha256": "ad510967c2ee02c63b041541c426f0a469ff810c744040f896d02ff52edc083e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=140')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=140', fragment='')",
+      "_url": "'https://example.com/a/b?c=140'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=140')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=140', fragment='')",
+       "_url": "'https://example.com/a/b?c=140'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=140')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=10')",
+   "sha256": "9df2b0a7952b98d4c515b3f9555faf3d70b143d6cabe9b4e935757d3e4da3c7b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=10')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=10', fragment='')",
+      "_url": "'https://example.com/a/b?c=10'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=10')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=10', fragment='')",
+       "_url": "'https://example.com/a/b?c=10'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=10')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=1x')",
+   "sha256": "2a38ba4938bcb5d33f74739989d2e65ad173813800fb9886e0e4c447970e2fea",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=1x')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1x', fragment='')",
+      "_url": "'https://example.com/a/b?c=1x'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=1x')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1x', fragment='')",
+       "_url": "'https://example.com/a/b?c=1x'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=1x')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=1 y')",
+   "sha256": "891124246b56f59825123a0acc9c55a8a86ac783c9b1b4bef319791907094df9",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=1 y')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1 y', fragment='')",
+      "_url": "'https://example.com/a/b?c=1 y'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=1 y')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1 y', fragment='')",
+       "_url": "'https://example.com/a/b?c=1 y'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=1 y')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=1\u00e9')",
+   "sha256": "82d4cb3f34d2a1d971a73944f2b1dcb8f88c0231492b50a85c31ea0f3e57fe54",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=1\u00e9')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1\u00e9', fragment='')",
+      "_url": "'https://example.com/a/b?c=1\u00e9'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=1\u00e9')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1\u00e9', fragment='')",
+       "_url": "'https://example.com/a/b?c=1\u00e9'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=1\u00e9')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=1?k=1')",
+   "sha256": "a04591a15a33bce7bf31a8e3786d7a44584999d8471ea45791a5de9a6921ad41",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=1?k=1')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1?k=1', fragment='')",
+      "_url": "'https://example.com/a/b?c=1?k=1'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=1?k=1')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1?k=1', fragment='')",
+       "_url": "'https://example.com/a/b?c=1?k=1'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=1?k=1')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=1#f')",
+   "sha256": "6a6e15f8005bf0797acd191a3b3e21c9dc732ff512b44c2afc0276617f35adaf",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=1#f')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1', fragment='f')",
+      "_url": "'https://example.com/a/b?c=1#f'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=1#f')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1', fragment='f')",
+       "_url": "'https://example.com/a/b?c=1#f'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=1#f')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=1/p')",
+   "sha256": "31636d607bdb90299a882975e78a1be7bda489f5cc044915bac552960ea490c1",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=1/p')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1/p', fragment='')",
+      "_url": "'https://example.com/a/b?c=1/p'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=1/p')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1/p', fragment='')",
+       "_url": "'https://example.com/a/b?c=1/p'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=1/p')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=1https://example.com/a/b?c=1')",
+   "sha256": "a668e830f373a8d7f616c999ea6647df297c14e11d5b7c716ffe46a035724168",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=1https://example.com/a/b?c=1')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1https://example.com/a/b?c=1', fragment='')",
+      "_url": "'https://example.com/a/b?c=1https://example.com/a/b?c=1'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=1https://example.com/a/b?c=1')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1https://example.com/a/b?c=1', fragment='')",
+       "_url": "'https://example.com/a/b?c=1https://example.com/a/b?c=1'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=1https://example.com/a/b?c=1')"
+    }
+   }
+  }
+ ],
+ "optimized": [
+  {
+   "expr": "cls('https://example.com/a/b?c=1')",
+   "sha256": "693becfdc90604faab71ec54b0714fc7aa3b5fb26d0cc2a5665b1aef266e796a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=1')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1', fragment='')",
+      "_url": "'https://example.com/a/b?c=1'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=1')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1', fragment='')",
+       "_url": "'https://example.com/a/b?c=1'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=1')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=11')",
+   "sha256": "4f898d0f51de57755b81f943e5dab242df436f80947c0a6c1a288a05c4bda9f3",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=11')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=11', fragment='')",
+      "_url": "'https://example.com/a/b?c=11'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=11')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=11', fragment='')",
+       "_url": "'https://example.com/a/b?c=11'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=11')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=12')",
+   "sha256": "f7798326766428a35987a6078d1ee9a2e2289517940b6dca8c3a2305eeff755c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=12')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=12', fragment='')",
+      "_url": "'https://example.com/a/b?c=12'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=12')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=12', fragment='')",
+       "_url": "'https://example.com/a/b?c=12'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=12')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=13')",
+   "sha256": "0788ea8b1a3958f52f802581bfb6d3c3e3bef1123eca4df6ee0a9f5605637bf2",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=13')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=13', fragment='')",
+      "_url": "'https://example.com/a/b?c=13'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=13')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=13', fragment='')",
+       "_url": "'https://example.com/a/b?c=13'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=13')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=14')",
+   "sha256": "d1d2c8ade6f3f89409b7671ad90eb357a95f2c9a0f975c70d9729e81c471804b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=14')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=14', fragment='')",
+      "_url": "'https://example.com/a/b?c=14'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=14')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=14', fragment='')",
+       "_url": "'https://example.com/a/b?c=14'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=14')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=15')",
+   "sha256": "081616fc1c17c8c98ef6a9ff2c4cf34cd0132371d0945872e909bc9b06fc6d59",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=15')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=15', fragment='')",
+      "_url": "'https://example.com/a/b?c=15'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=15')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=15', fragment='')",
+       "_url": "'https://example.com/a/b?c=15'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=15')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=16')",
+   "sha256": "4b8729dec5944a67eb9c6b568c3c4892d33b3be0bca7d82d2fc16f79d0b17057",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=16')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=16', fragment='')",
+      "_url": "'https://example.com/a/b?c=16'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=16')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=16', fragment='')",
+       "_url": "'https://example.com/a/b?c=16'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=16')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=17')",
+   "sha256": "926f4f289993628ac6c16071d5851cab22291487305eff2db909551e15f95108",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=17')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=17', fragment='')",
+      "_url": "'https://example.com/a/b?c=17'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=17')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=17', fragment='')",
+       "_url": "'https://example.com/a/b?c=17'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=17')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=18')",
+   "sha256": "c6ed7e70cbc79b9073959e124bba10b31785fe4db1065d7001b5fec9b6177612",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=18')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=18', fragment='')",
+      "_url": "'https://example.com/a/b?c=18'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=18')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=18', fragment='')",
+       "_url": "'https://example.com/a/b?c=18'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=18')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=19')",
+   "sha256": "345d1c8c09d5d19c84e265416735d3fea4d61917952fc6572f0dd2da01963e3c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=19')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=19', fragment='')",
+      "_url": "'https://example.com/a/b?c=19'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=19')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=19', fragment='')",
+       "_url": "'https://example.com/a/b?c=19'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=19')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=110')",
+   "sha256": "aac6108ac54cc99bf9a1683d25b9489e8c7cfa6f13006ab673c2b82cd6ff88e8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=110')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=110', fragment='')",
+      "_url": "'https://example.com/a/b?c=110'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=110')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=110', fragment='')",
+       "_url": "'https://example.com/a/b?c=110'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=110')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=111')",
+   "sha256": "fc44675603a7e695f83b411a24ae23c376e024a2a3ecea808afc7f442ddfddd2",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=111')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=111', fragment='')",
+      "_url": "'https://example.com/a/b?c=111'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=111')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=111', fragment='')",
+       "_url": "'https://example.com/a/b?c=111'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=111')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=112')",
+   "sha256": "b0dc473f70b57e3141e2e1e66efd388218eedf02e0ac18f35be4620a0e052ec1",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=112')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=112', fragment='')",
+      "_url": "'https://example.com/a/b?c=112'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=112')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=112', fragment='')",
+       "_url": "'https://example.com/a/b?c=112'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=112')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=113')",
+   "sha256": "a4fef00c52a63f0508dc1fc4204e0719c3645ef1c479356a9aeca273ea01569a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=113')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=113', fragment='')",
+      "_url": "'https://example.com/a/b?c=113'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=113')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=113', fragment='')",
+       "_url": "'https://example.com/a/b?c=113'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=113')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=114')",
+   "sha256": "02d09bc26f8b32a4d7284aef2a9fe73c0d08e98ade2df8cf5dc346ef86c79017",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=114')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=114', fragment='')",
+      "_url": "'https://example.com/a/b?c=114'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=114')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=114', fragment='')",
+       "_url": "'https://example.com/a/b?c=114'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=114')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=115')",
+   "sha256": "b2d96aed7a6b9cebd5394a12260086d58cc768a3a038d7e40ce907e37f4a8a32",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=115')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=115', fragment='')",
+      "_url": "'https://example.com/a/b?c=115'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=115')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=115', fragment='')",
+       "_url": "'https://example.com/a/b?c=115'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=115')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=116')",
+   "sha256": "297cffcf352fba3532e399dfd33b3366bfb25c6fe1ffd3be2313babeaa9e7a49",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=116')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=116', fragment='')",
+      "_url": "'https://example.com/a/b?c=116'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=116')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=116', fragment='')",
+       "_url": "'https://example.com/a/b?c=116'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=116')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=117')",
+   "sha256": "90f8ff9a9a77b3ad3f94bbe9646bfa9714dbeb1b5c28d53575509d18e83985eb",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=117')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=117', fragment='')",
+      "_url": "'https://example.com/a/b?c=117'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=117')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=117', fragment='')",
+       "_url": "'https://example.com/a/b?c=117'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=117')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=118')",
+   "sha256": "408cf50f1be2ea28130b3edbdd24e688b7871047bec719c66d94ee46e43e5db7",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=118')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=118', fragment='')",
+      "_url": "'https://example.com/a/b?c=118'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=118')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=118', fragment='')",
+       "_url": "'https://example.com/a/b?c=118'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=118')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=119')",
+   "sha256": "a56ae5d717861ef32572ffe1650b65fc2c5ce59fcb9abebe1a55eff9dca1e1f3",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=119')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=119', fragment='')",
+      "_url": "'https://example.com/a/b?c=119'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=119')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=119', fragment='')",
+       "_url": "'https://example.com/a/b?c=119'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=119')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=120')",
+   "sha256": "818b7bf96d7e257525ac16c16f19d212fffb957fb8acfc147ecf07f2fb4c06a8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=120')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=120', fragment='')",
+      "_url": "'https://example.com/a/b?c=120'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=120')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=120', fragment='')",
+       "_url": "'https://example.com/a/b?c=120'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=120')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=121')",
+   "sha256": "6e793645c6b28372295e50d5f1f2bcfdf8aa0e89eaea48f89ad37d78a3526c36",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=121')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=121', fragment='')",
+      "_url": "'https://example.com/a/b?c=121'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=121')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=121', fragment='')",
+       "_url": "'https://example.com/a/b?c=121'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=121')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=122')",
+   "sha256": "6d59357a0936e7fa4e42476db846338106817b0a135f46fda4310ed0b39de4ba",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=122')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=122', fragment='')",
+      "_url": "'https://example.com/a/b?c=122'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=122')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=122', fragment='')",
+       "_url": "'https://example.com/a/b?c=122'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=122')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=123')",
+   "sha256": "5c183ba4769c1354621e56bd4feaf13bf901f0c2761041baaab1feebe58c080c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=123')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=123', fragment='')",
+      "_url": "'https://example.com/a/b?c=123'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=123')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=123', fragment='')",
+       "_url": "'https://example.com/a/b?c=123'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=123')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=124')",
+   "sha256": "b5bd343ce8a9f6307b2411b1dc10162870fc821077f17f5aa5fef491e7607431",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=124')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=124', fragment='')",
+      "_url": "'https://example.com/a/b?c=124'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=124')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=124', fragment='')",
+       "_url": "'https://example.com/a/b?c=124'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=124')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=125')",
+   "sha256": "83ba3a54525f765f14ca2918344e040dd79d33402d07650cfc7efc8741534495",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=125')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=125', fragment='')",
+      "_url": "'https://example.com/a/b?c=125'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=125')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=125', fragment='')",
+       "_url": "'https://example.com/a/b?c=125'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=125')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=126')",
+   "sha256": "dd51883ca1f8adee4de6bab4132e05257bfdbcd411346eb85dacc9493ed44269",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=126')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=126', fragment='')",
+      "_url": "'https://example.com/a/b?c=126'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=126')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=126', fragment='')",
+       "_url": "'https://example.com/a/b?c=126'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=126')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=127')",
+   "sha256": "35d8eec25e0172e67e2b33fed89bd2127c82d6951c400cda181a49ae54abd9c3",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=127')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=127', fragment='')",
+      "_url": "'https://example.com/a/b?c=127'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=127')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=127', fragment='')",
+       "_url": "'https://example.com/a/b?c=127'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=127')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=128')",
+   "sha256": "b760c923ef0be9aca257a8fccceab30054b727a2177a757f16b77bd047f47fca",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=128')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=128', fragment='')",
+      "_url": "'https://example.com/a/b?c=128'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=128')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=128', fragment='')",
+       "_url": "'https://example.com/a/b?c=128'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=128')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=129')",
+   "sha256": "cb6033d50ecdbeaaedead5e312043125d7ac6f05f635c27df5017fde1174987b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=129')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=129', fragment='')",
+      "_url": "'https://example.com/a/b?c=129'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=129')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=129', fragment='')",
+       "_url": "'https://example.com/a/b?c=129'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=129')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=130')",
+   "sha256": "040d73ecdb0df9fd45b196ddcf016df3a6557ec044edff8bdb85080b4ed03a31",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=130')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=130', fragment='')",
+      "_url": "'https://example.com/a/b?c=130'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=130')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=130', fragment='')",
+       "_url": "'https://example.com/a/b?c=130'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=130')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=131')",
+   "sha256": "b2cde3de7f995bcac86c8ff79cb6e50ebab37b7d37123deebd50da71a4d0ae61",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=131')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=131', fragment='')",
+      "_url": "'https://example.com/a/b?c=131'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=131')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=131', fragment='')",
+       "_url": "'https://example.com/a/b?c=131'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=131')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=132')",
+   "sha256": "ccbd20c56809f56c98bef0fa53eca8ebf6885fe97e86f37298851be7d1f7fc1e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=132')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=132', fragment='')",
+      "_url": "'https://example.com/a/b?c=132'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=132')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=132', fragment='')",
+       "_url": "'https://example.com/a/b?c=132'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=132')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=133')",
+   "sha256": "19b5067eb651f8d98d1aa29c7ff635905d9164510b34eb6eb4cde5a0c7f5f378",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=133')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=133', fragment='')",
+      "_url": "'https://example.com/a/b?c=133'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=133')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=133', fragment='')",
+       "_url": "'https://example.com/a/b?c=133'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=133')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=134')",
+   "sha256": "251b59cb1c69341559d6ec32c859c397df490c7bc351d3deabfb55b827ec47cb",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=134')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=134', fragment='')",
+      "_url": "'https://example.com/a/b?c=134'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=134')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=134', fragment='')",
+       "_url": "'https://example.com/a/b?c=134'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=134')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=135')",
+   "sha256": "803c0c91a4a51a0ec4d7bf7463657b0d588c9690de3b3ec8c884b44a78c9a22b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=135')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=135', fragment='')",
+      "_url": "'https://example.com/a/b?c=135'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=135')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=135', fragment='')",
+       "_url": "'https://example.com/a/b?c=135'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=135')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=136')",
+   "sha256": "59d1c0a3b52a42183e8fdc97a014befbdfac8ad7de417ddf5a63e7186540822b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=136')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=136', fragment='')",
+      "_url": "'https://example.com/a/b?c=136'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=136')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=136', fragment='')",
+       "_url": "'https://example.com/a/b?c=136'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=136')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=137')",
+   "sha256": "82138e2c93c3e33e9025a0eb84fc646451cec4a5495b990c55c231dba4d7b9ce",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=137')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=137', fragment='')",
+      "_url": "'https://example.com/a/b?c=137'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=137')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=137', fragment='')",
+       "_url": "'https://example.com/a/b?c=137'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=137')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=138')",
+   "sha256": "ac474917880b89e0dbbec46856f3ba8da45bc26b0666fbd97c60ae604a455141",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=138')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=138', fragment='')",
+      "_url": "'https://example.com/a/b?c=138'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=138')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=138', fragment='')",
+       "_url": "'https://example.com/a/b?c=138'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=138')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=139')",
+   "sha256": "e3947ed51abfcc1da9b3906e86ec23a15e23f6a10c5722360cacb88ffcde1e2b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=139')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=139', fragment='')",
+      "_url": "'https://example.com/a/b?c=139'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=139')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=139', fragment='')",
+       "_url": "'https://example.com/a/b?c=139'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=139')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=140')",
+   "sha256": "ad510967c2ee02c63b041541c426f0a469ff810c744040f896d02ff52edc083e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=140')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=140', fragment='')",
+      "_url": "'https://example.com/a/b?c=140'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=140')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=140', fragment='')",
+       "_url": "'https://example.com/a/b?c=140'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=140')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=10')",
+   "sha256": "9df2b0a7952b98d4c515b3f9555faf3d70b143d6cabe9b4e935757d3e4da3c7b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=10')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=10', fragment='')",
+      "_url": "'https://example.com/a/b?c=10'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=10')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=10', fragment='')",
+       "_url": "'https://example.com/a/b?c=10'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=10')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=1x')",
+   "sha256": "2a38ba4938bcb5d33f74739989d2e65ad173813800fb9886e0e4c447970e2fea",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=1x')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1x', fragment='')",
+      "_url": "'https://example.com/a/b?c=1x'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=1x')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1x', fragment='')",
+       "_url": "'https://example.com/a/b?c=1x'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=1x')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=1 y')",
+   "sha256": "891124246b56f59825123a0acc9c55a8a86ac783c9b1b4bef319791907094df9",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=1 y')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1 y', fragment='')",
+      "_url": "'https://example.com/a/b?c=1 y'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=1 y')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1 y', fragment='')",
+       "_url": "'https://example.com/a/b?c=1 y'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=1 y')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=1\u00e9')",
+   "sha256": "82d4cb3f34d2a1d971a73944f2b1dcb8f88c0231492b50a85c31ea0f3e57fe54",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=1\u00e9')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1\u00e9', fragment='')",
+      "_url": "'https://example.com/a/b?c=1\u00e9'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=1\u00e9')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1\u00e9', fragment='')",
+       "_url": "'https://example.com/a/b?c=1\u00e9'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=1\u00e9')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=1?k=1')",
+   "sha256": "a04591a15a33bce7bf31a8e3786d7a44584999d8471ea45791a5de9a6921ad41",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=1?k=1')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1?k=1', fragment='')",
+      "_url": "'https://example.com/a/b?c=1?k=1'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=1?k=1')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1?k=1', fragment='')",
+       "_url": "'https://example.com/a/b?c=1?k=1'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=1?k=1')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=1#f')",
+   "sha256": "6a6e15f8005bf0797acd191a3b3e21c9dc732ff512b44c2afc0276617f35adaf",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=1#f')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1', fragment='f')",
+      "_url": "'https://example.com/a/b?c=1#f'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=1#f')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1', fragment='f')",
+       "_url": "'https://example.com/a/b?c=1#f'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=1#f')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=1/p')",
+   "sha256": "31636d607bdb90299a882975e78a1be7bda489f5cc044915bac552960ea490c1",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=1/p')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1/p', fragment='')",
+      "_url": "'https://example.com/a/b?c=1/p'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=1/p')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1/p', fragment='')",
+       "_url": "'https://example.com/a/b?c=1/p'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=1/p')"
+    }
+   }
+  },
+  {
+   "expr": "cls('https://example.com/a/b?c=1https://example.com/a/b?c=1')",
+   "sha256": "a668e830f373a8d7f616c999ea6647df297c14e11d5b7c716ffe46a035724168",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "URL('https://example.com/a/b?c=1https://example.com/a/b?c=1')",
+     "type": "URL",
+     "attrs": {
+      "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1https://example.com/a/b?c=1', fragment='')",
+      "_url": "'https://example.com/a/b?c=1https://example.com/a/b?c=1'"
+     },
+     "pickle_roundtrip": {
+      "repr": "URL('https://example.com/a/b?c=1https://example.com/a/b?c=1')",
+      "attrs": {
+       "_components": "SplitResult(scheme='https', netloc='example.com', path='/a/b', query='c=1https://example.com/a/b?c=1', fragment='')",
+       "_url": "'https://example.com/a/b?c=1https://example.com/a/b?c=1'"
+      }
+     },
+     "copy": "URL('https://example.com/a/b?c=1https://example.com/a/b?c=1')"
+    }
+   }
+  }
+ ]
+}

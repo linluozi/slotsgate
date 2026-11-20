@@ -1,0 +1,51 @@
+{
+ "variants": [
+  "cls()"
+ ],
+ "baseline": [
+  {
+   "expr": "cls()",
+   "sha256": "0f1d226d6367987f566dfa8459b5f861458ece6cda1e49ff2ba28d1e7e03b80a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<tomli._parser.NestedDict object at 0xADDR>",
+     "type": "NestedDict",
+     "attrs": {
+      "dict": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "<tomli._parser.NestedDict object at 0xADDR>",
+      "attrs": {
+       "dict": "{}"
+      }
+     },
+     "copy": "<tomli._parser.NestedDict object at 0xADDR>"
+    }
+   }
+  }
+ ],
+ "optimized": [
+  {
+   "expr": "cls()",
+   "sha256": "0f1d226d6367987f566dfa8459b5f861458ece6cda1e49ff2ba28d1e7e03b80a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<tomli._parser.NestedDict object at 0xADDR>",
+     "type": "NestedDict",
+     "attrs": {
+      "dict": "{}"
+     },
+     "pickle_roundtrip": {
+      "repr": "<tomli._parser.NestedDict object at 0xADDR>",
+      "attrs": {
+       "dict": "{}"
+      }
+     },
+     "copy": "<tomli._parser.NestedDict object at 0xADDR>"
+    }
+   }
+  }
+ ]
+}

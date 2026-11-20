@@ -95,7 +95,10 @@
           "attr": "more.time_limited",
           "factory": "cls(1.0, [1, 2, 3])",
           "touch": [],
-          "public": true
+          "public": true,
+          "volatile": [
+            "_start_time"
+          ]
         }
       ],
       "setup": "def key(x):\n    return x"

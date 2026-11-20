@@ -1,0 +1,43 @@
+{
+ "variants": [
+  "cls()"
+ ],
+ "baseline": [
+  {
+   "expr": "cls()",
+   "sha256": "878eb70d4881f11668760ad45b8d8bba1c4f3bf41ce74cd495969640e11789f0",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<tomli._parser.DEPRECATED_DEFAULT object at 0xADDR>",
+     "type": "DEPRECATED_DEFAULT",
+     "attrs": {},
+     "pickle_roundtrip": {
+      "repr": "<tomli._parser.DEPRECATED_DEFAULT object at 0xADDR>",
+      "attrs": {}
+     },
+     "copy": "<tomli._parser.DEPRECATED_DEFAULT object at 0xADDR>"
+    }
+   }
+  }
+ ],
+ "optimized": [
+  {
+   "expr": "cls()",
+   "sha256": "878eb70d4881f11668760ad45b8d8bba1c4f3bf41ce74cd495969640e11789f0",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<tomli._parser.DEPRECATED_DEFAULT object at 0xADDR>",
+     "type": "DEPRECATED_DEFAULT",
+     "attrs": {},
+     "pickle_roundtrip": {
+      "repr": "<tomli._parser.DEPRECATED_DEFAULT object at 0xADDR>",
+      "attrs": {}
+     },
+     "copy": "<tomli._parser.DEPRECATED_DEFAULT object at 0xADDR>"
+    }
+   }
+  }
+ ]
+}

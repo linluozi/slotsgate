@@ -1,0 +1,2264 @@
+{
+ "variants": [
+  "cls('x')",
+  "cls('x1')",
+  "cls('x2')",
+  "cls('x3')",
+  "cls('x4')",
+  "cls('x5')",
+  "cls('x6')",
+  "cls('x7')",
+  "cls('x8')",
+  "cls('x9')",
+  "cls('x10')",
+  "cls('x11')",
+  "cls('x12')",
+  "cls('x13')",
+  "cls('x14')",
+  "cls('x15')",
+  "cls('x16')",
+  "cls('x17')",
+  "cls('x18')",
+  "cls('x19')",
+  "cls('x20')",
+  "cls('x21')",
+  "cls('x22')",
+  "cls('x23')",
+  "cls('x24')",
+  "cls('x25')",
+  "cls('x26')",
+  "cls('x27')",
+  "cls('x28')",
+  "cls('x29')",
+  "cls('x30')",
+  "cls('x31')",
+  "cls('x32')",
+  "cls('x33')",
+  "cls('x34')",
+  "cls('x35')",
+  "cls('x36')",
+  "cls('x37')",
+  "cls('x38')",
+  "cls('x39')",
+  "cls('x40')",
+  "cls('x0')",
+  "cls('xx')",
+  "cls('x y')",
+  "cls('x\u00e9')",
+  "cls('x?k=1')",
+  "cls('x#f')",
+  "cls('x/p')"
+ ],
+ "baseline": [
+  {
+   "expr": "cls('x')",
+   "sha256": "7ece3e707412e62ce3e515d9ed8c2566d679d29e6b6941f90b6f58a017f86bcc",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x' strong>",
+      "attrs": {
+       "_value": "'x'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x1')",
+   "sha256": "5295df607bdcdea021503177a9eb46dd4e6c901206dbe0a2cbd16fa626a6c54b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x1' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x1'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x1' strong>",
+      "attrs": {
+       "_value": "'x1'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x1' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x2')",
+   "sha256": "f416348a5c3d69579f24b45c0da35b4db1b1d6aaecf0399960389335cddc6100",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x2' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x2'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x2' strong>",
+      "attrs": {
+       "_value": "'x2'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x2' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x3')",
+   "sha256": "656939e329cd9476a5756a4726340b89827001b1505a5fc03cb8450e1c308c42",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x3' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x3'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x3' strong>",
+      "attrs": {
+       "_value": "'x3'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x3' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x4')",
+   "sha256": "8228f8300888aa720c1d6827927616be764b84bfa1e5a8f9d0ad8f7a2782cb89",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x4' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x4'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x4' strong>",
+      "attrs": {
+       "_value": "'x4'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x4' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x5')",
+   "sha256": "5eec2b68823e9e88c8cf29b9ab84625028b5bb883405952acdacc1f322fb4e25",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x5' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x5'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x5' strong>",
+      "attrs": {
+       "_value": "'x5'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x5' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x6')",
+   "sha256": "ea0331ac85d5348bbb8286405243dd0ade12611a5bb9ab3948f9be3cd697818e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x6' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x6'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x6' strong>",
+      "attrs": {
+       "_value": "'x6'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x6' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x7')",
+   "sha256": "59a0ea18158b326ba0396e27d1244c01cde0c1c85774b55b1c45534d01552c65",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x7' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x7'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x7' strong>",
+      "attrs": {
+       "_value": "'x7'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x7' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x8')",
+   "sha256": "5fb8beead787a7bb3c9dfcf6e6480971571896e32e0459493afe6e0ad6ef6158",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x8' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x8'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x8' strong>",
+      "attrs": {
+       "_value": "'x8'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x8' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x9')",
+   "sha256": "7bdd1d1ba7033d2b80afa79d0fb6c22587b8927ce6ddb19e3082fbdd76acf137",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x9' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x9'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x9' strong>",
+      "attrs": {
+       "_value": "'x9'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x9' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x10')",
+   "sha256": "784781af7dc16ca50262ac0462381a95895c4fe9fca2c0123a8a24096c2d82c9",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x10' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x10'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x10' strong>",
+      "attrs": {
+       "_value": "'x10'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x10' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x11')",
+   "sha256": "a6878f8574e7a7c73fc230d79b47316949cb011478d1065d9024f2922575e352",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x11' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x11'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x11' strong>",
+      "attrs": {
+       "_value": "'x11'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x11' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x12')",
+   "sha256": "71fcb9b63377f60b938bd9f54a8216b2fb84c40709fd31e9814256b9f7466f43",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x12' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x12'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x12' strong>",
+      "attrs": {
+       "_value": "'x12'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x12' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x13')",
+   "sha256": "a4eda6b892bd031f73c13a783a5e5ca4d2ca8277e8792809bf0c6e18e3051207",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x13' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x13'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x13' strong>",
+      "attrs": {
+       "_value": "'x13'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x13' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x14')",
+   "sha256": "38cc18d62685f336d3e6ab9d8d9756596aba5c759fc5213ea4514b77871657a6",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x14' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x14'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x14' strong>",
+      "attrs": {
+       "_value": "'x14'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x14' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x15')",
+   "sha256": "f0f726a39574cbd061164056f7701b072e11f03041e19e672ae8225ed20085a2",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x15' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x15'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x15' strong>",
+      "attrs": {
+       "_value": "'x15'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x15' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x16')",
+   "sha256": "51fe7e096278ee4622f7c16e8f64a2035fe02b16208f69642e31a8dc39188926",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x16' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x16'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x16' strong>",
+      "attrs": {
+       "_value": "'x16'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x16' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x17')",
+   "sha256": "067e02a9cecadcd99f2e1edee0b0c9e26793547f59a8764cf87ee3507beff8ca",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x17' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x17'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x17' strong>",
+      "attrs": {
+       "_value": "'x17'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x17' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x18')",
+   "sha256": "12230cac2bd27e12a390b0f81acb05ef4ac32e32783acd786e0297710db7c2a3",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x18' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x18'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x18' strong>",
+      "attrs": {
+       "_value": "'x18'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x18' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x19')",
+   "sha256": "ac2f1c684474cd4359b5a0f52af7cb487ae86a33eba5c7f147c80748c54682da",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x19' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x19'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x19' strong>",
+      "attrs": {
+       "_value": "'x19'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x19' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x20')",
+   "sha256": "8684dee8f6f9625e6e110b1a2fc88c50722ac01b7c66005ea6b5b6b97c4a5547",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x20' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x20'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x20' strong>",
+      "attrs": {
+       "_value": "'x20'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x20' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x21')",
+   "sha256": "c28987ca1bf2576dc37eb1f6cc96f531cd3db254550b4fde346a0e7691796c3b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x21' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x21'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x21' strong>",
+      "attrs": {
+       "_value": "'x21'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x21' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x22')",
+   "sha256": "f8b4112e30e09cc8eda1df6511791e2808b82baec7b9f4cb8bacc73aec60779a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x22' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x22'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x22' strong>",
+      "attrs": {
+       "_value": "'x22'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x22' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x23')",
+   "sha256": "3cacd3d0a7095166df6e3c26445481b9fd91c7504bba655c4d212553a8c36d6e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x23' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x23'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x23' strong>",
+      "attrs": {
+       "_value": "'x23'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x23' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x24')",
+   "sha256": "af8c4de397e3b97df573362c9cc14d70ffb95376f6b666cad35a0d44abb2d0bd",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x24' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x24'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x24' strong>",
+      "attrs": {
+       "_value": "'x24'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x24' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x25')",
+   "sha256": "ddbabe627b2b0840142a9c92d6dade2409dd26921a3f4a3563a918085d2ba0c7",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x25' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x25'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x25' strong>",
+      "attrs": {
+       "_value": "'x25'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x25' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x26')",
+   "sha256": "df5a87862752d1e622283b01d35e0000e7f9da2c7bdf56ca4c811a4456ddf3d6",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x26' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x26'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x26' strong>",
+      "attrs": {
+       "_value": "'x26'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x26' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x27')",
+   "sha256": "11a9e150dee9e753bb201ffbfda40a309cb8bf4e2a771bbeccacbdb141d0b56d",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x27' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x27'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x27' strong>",
+      "attrs": {
+       "_value": "'x27'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x27' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x28')",
+   "sha256": "6a5429193b039059a1088c8011a5ba3de91fe3149e3ef2507cde8867dc886b3c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x28' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x28'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x28' strong>",
+      "attrs": {
+       "_value": "'x28'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x28' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x29')",
+   "sha256": "55e7b4bd4771b5a0e684dcbca76f81bd77e5f912453e81343d2594ffe8bbbd20",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x29' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x29'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x29' strong>",
+      "attrs": {
+       "_value": "'x29'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x29' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x30')",
+   "sha256": "eea5fa4b7ff280201c21392d93734630a8382f97e9e397209da662ee90fb7b37",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x30' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x30'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x30' strong>",
+      "attrs": {
+       "_value": "'x30'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x30' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x31')",
+   "sha256": "5183fc4e4bbb200d2217fcb90d1367f97534797e0de5371f526e9c23ee4aeb04",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x31' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x31'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x31' strong>",
+      "attrs": {
+       "_value": "'x31'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x31' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x32')",
+   "sha256": "871dffaed832993214f381dcf8c55a20fca32622a731b27cb3db1453c7dbc702",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x32' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x32'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x32' strong>",
+      "attrs": {
+       "_value": "'x32'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x32' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x33')",
+   "sha256": "99578bd1afdc5a6e18d5f4eda301ca7bc455a1795d8c39db5b279aa0b4cd23d1",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x33' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x33'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x33' strong>",
+      "attrs": {
+       "_value": "'x33'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x33' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x34')",
+   "sha256": "85f8857858e4de6d06acb504d2861dd8081a7ea46f93598c49c64c9d2e496ddd",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x34' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x34'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x34' strong>",
+      "attrs": {
+       "_value": "'x34'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x34' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x35')",
+   "sha256": "ff4d1826d3a99a6dfb4022196291f1dd45aaa8612719f9af48f9ca46abfda4d9",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x35' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x35'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x35' strong>",
+      "attrs": {
+       "_value": "'x35'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x35' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x36')",
+   "sha256": "604ef566d9d5a7156b411d73458354910b1df326220cd05a70daa6e9b7d7bb7d",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x36' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x36'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x36' strong>",
+      "attrs": {
+       "_value": "'x36'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x36' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x37')",
+   "sha256": "530ff85e3aa1ea1307b99cfaeea2fe93135c115ae999c68362b879f9dd3564a5",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x37' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x37'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x37' strong>",
+      "attrs": {
+       "_value": "'x37'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x37' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x38')",
+   "sha256": "600d54a6e127f57ff394bc12a05ef435d8135574c512e41b15edbfc4d3de1c07",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x38' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x38'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x38' strong>",
+      "attrs": {
+       "_value": "'x38'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x38' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x39')",
+   "sha256": "a4ba0ae902bfca49299fdfa3df36ca9019112d23ed6f443fca557b55f7bb22b0",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x39' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x39'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x39' strong>",
+      "attrs": {
+       "_value": "'x39'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x39' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x40')",
+   "sha256": "e4fb54e67990f878ce2f300b662ea2b339e29d40c490b190e36eac9a361a6235",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x40' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x40'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x40' strong>",
+      "attrs": {
+       "_value": "'x40'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x40' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x0')",
+   "sha256": "a46b20261247ebfda9f6f6cbd45dd54570ba7a221b3a937fd15f2d803046e0f8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x0' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x0'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x0' strong>",
+      "attrs": {
+       "_value": "'x0'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x0' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('xx')",
+   "sha256": "937b5615abf06b405124f4dc0cc30ed75e9554c58d74d534e2f6a2e25c6d6709",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'xx' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'xx'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'xx' strong>",
+      "attrs": {
+       "_value": "'xx'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'xx' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x y')",
+   "sha256": "544470b244153d0fbf53aa0156e19050c1ed37895713316d0a5ea17cd6025aa2",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x y' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x y'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x y' strong>",
+      "attrs": {
+       "_value": "'x y'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x y' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x\u00e9')",
+   "sha256": "0934c83962ba8dbeeb1726b5318ec29b5af6dfe7de90ad9ef042774b98d74e37",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x\u00e9' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x\u00e9'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x\u00e9' strong>",
+      "attrs": {
+       "_value": "'x\u00e9'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x\u00e9' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x?k=1')",
+   "sha256": "a8717d7a654ca36f7a240a1d850f20af8f8568da4c93b551684bd10c12fb042c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x?k=1' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x?k=1'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x?k=1' strong>",
+      "attrs": {
+       "_value": "'x?k=1'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x?k=1' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x#f')",
+   "sha256": "b3e37ae41c01ff537e81d693877255bb854d4146da8eb8cb78abdb268c1ecbca",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x#f' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x#f'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x#f' strong>",
+      "attrs": {
+       "_value": "'x#f'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x#f' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x/p')",
+   "sha256": "b568b71c9a88f600947573a2b581e6eb3c87dcd50ea18fa668319286777b8b67",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x/p' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x/p'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x/p' strong>",
+      "attrs": {
+       "_value": "'x/p'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x/p' strong>"
+    }
+   }
+  }
+ ],
+ "optimized": [
+  {
+   "expr": "cls('x')",
+   "sha256": "7ece3e707412e62ce3e515d9ed8c2566d679d29e6b6941f90b6f58a017f86bcc",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x' strong>",
+      "attrs": {
+       "_value": "'x'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x1')",
+   "sha256": "5295df607bdcdea021503177a9eb46dd4e6c901206dbe0a2cbd16fa626a6c54b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x1' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x1'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x1' strong>",
+      "attrs": {
+       "_value": "'x1'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x1' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x2')",
+   "sha256": "f416348a5c3d69579f24b45c0da35b4db1b1d6aaecf0399960389335cddc6100",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x2' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x2'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x2' strong>",
+      "attrs": {
+       "_value": "'x2'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x2' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x3')",
+   "sha256": "656939e329cd9476a5756a4726340b89827001b1505a5fc03cb8450e1c308c42",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x3' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x3'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x3' strong>",
+      "attrs": {
+       "_value": "'x3'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x3' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x4')",
+   "sha256": "8228f8300888aa720c1d6827927616be764b84bfa1e5a8f9d0ad8f7a2782cb89",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x4' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x4'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x4' strong>",
+      "attrs": {
+       "_value": "'x4'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x4' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x5')",
+   "sha256": "5eec2b68823e9e88c8cf29b9ab84625028b5bb883405952acdacc1f322fb4e25",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x5' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x5'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x5' strong>",
+      "attrs": {
+       "_value": "'x5'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x5' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x6')",
+   "sha256": "ea0331ac85d5348bbb8286405243dd0ade12611a5bb9ab3948f9be3cd697818e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x6' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x6'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x6' strong>",
+      "attrs": {
+       "_value": "'x6'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x6' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x7')",
+   "sha256": "59a0ea18158b326ba0396e27d1244c01cde0c1c85774b55b1c45534d01552c65",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x7' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x7'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x7' strong>",
+      "attrs": {
+       "_value": "'x7'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x7' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x8')",
+   "sha256": "5fb8beead787a7bb3c9dfcf6e6480971571896e32e0459493afe6e0ad6ef6158",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x8' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x8'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x8' strong>",
+      "attrs": {
+       "_value": "'x8'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x8' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x9')",
+   "sha256": "7bdd1d1ba7033d2b80afa79d0fb6c22587b8927ce6ddb19e3082fbdd76acf137",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x9' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x9'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x9' strong>",
+      "attrs": {
+       "_value": "'x9'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x9' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x10')",
+   "sha256": "784781af7dc16ca50262ac0462381a95895c4fe9fca2c0123a8a24096c2d82c9",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x10' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x10'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x10' strong>",
+      "attrs": {
+       "_value": "'x10'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x10' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x11')",
+   "sha256": "a6878f8574e7a7c73fc230d79b47316949cb011478d1065d9024f2922575e352",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x11' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x11'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x11' strong>",
+      "attrs": {
+       "_value": "'x11'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x11' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x12')",
+   "sha256": "71fcb9b63377f60b938bd9f54a8216b2fb84c40709fd31e9814256b9f7466f43",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x12' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x12'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x12' strong>",
+      "attrs": {
+       "_value": "'x12'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x12' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x13')",
+   "sha256": "a4eda6b892bd031f73c13a783a5e5ca4d2ca8277e8792809bf0c6e18e3051207",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x13' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x13'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x13' strong>",
+      "attrs": {
+       "_value": "'x13'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x13' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x14')",
+   "sha256": "38cc18d62685f336d3e6ab9d8d9756596aba5c759fc5213ea4514b77871657a6",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x14' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x14'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x14' strong>",
+      "attrs": {
+       "_value": "'x14'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x14' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x15')",
+   "sha256": "f0f726a39574cbd061164056f7701b072e11f03041e19e672ae8225ed20085a2",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x15' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x15'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x15' strong>",
+      "attrs": {
+       "_value": "'x15'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x15' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x16')",
+   "sha256": "51fe7e096278ee4622f7c16e8f64a2035fe02b16208f69642e31a8dc39188926",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x16' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x16'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x16' strong>",
+      "attrs": {
+       "_value": "'x16'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x16' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x17')",
+   "sha256": "067e02a9cecadcd99f2e1edee0b0c9e26793547f59a8764cf87ee3507beff8ca",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x17' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x17'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x17' strong>",
+      "attrs": {
+       "_value": "'x17'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x17' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x18')",
+   "sha256": "12230cac2bd27e12a390b0f81acb05ef4ac32e32783acd786e0297710db7c2a3",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x18' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x18'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x18' strong>",
+      "attrs": {
+       "_value": "'x18'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x18' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x19')",
+   "sha256": "ac2f1c684474cd4359b5a0f52af7cb487ae86a33eba5c7f147c80748c54682da",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x19' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x19'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x19' strong>",
+      "attrs": {
+       "_value": "'x19'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x19' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x20')",
+   "sha256": "8684dee8f6f9625e6e110b1a2fc88c50722ac01b7c66005ea6b5b6b97c4a5547",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x20' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x20'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x20' strong>",
+      "attrs": {
+       "_value": "'x20'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x20' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x21')",
+   "sha256": "c28987ca1bf2576dc37eb1f6cc96f531cd3db254550b4fde346a0e7691796c3b",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x21' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x21'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x21' strong>",
+      "attrs": {
+       "_value": "'x21'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x21' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x22')",
+   "sha256": "f8b4112e30e09cc8eda1df6511791e2808b82baec7b9f4cb8bacc73aec60779a",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x22' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x22'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x22' strong>",
+      "attrs": {
+       "_value": "'x22'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x22' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x23')",
+   "sha256": "3cacd3d0a7095166df6e3c26445481b9fd91c7504bba655c4d212553a8c36d6e",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x23' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x23'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x23' strong>",
+      "attrs": {
+       "_value": "'x23'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x23' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x24')",
+   "sha256": "af8c4de397e3b97df573362c9cc14d70ffb95376f6b666cad35a0d44abb2d0bd",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x24' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x24'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x24' strong>",
+      "attrs": {
+       "_value": "'x24'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x24' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x25')",
+   "sha256": "ddbabe627b2b0840142a9c92d6dade2409dd26921a3f4a3563a918085d2ba0c7",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x25' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x25'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x25' strong>",
+      "attrs": {
+       "_value": "'x25'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x25' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x26')",
+   "sha256": "df5a87862752d1e622283b01d35e0000e7f9da2c7bdf56ca4c811a4456ddf3d6",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x26' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x26'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x26' strong>",
+      "attrs": {
+       "_value": "'x26'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x26' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x27')",
+   "sha256": "11a9e150dee9e753bb201ffbfda40a309cb8bf4e2a771bbeccacbdb141d0b56d",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x27' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x27'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x27' strong>",
+      "attrs": {
+       "_value": "'x27'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x27' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x28')",
+   "sha256": "6a5429193b039059a1088c8011a5ba3de91fe3149e3ef2507cde8867dc886b3c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x28' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x28'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x28' strong>",
+      "attrs": {
+       "_value": "'x28'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x28' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x29')",
+   "sha256": "55e7b4bd4771b5a0e684dcbca76f81bd77e5f912453e81343d2594ffe8bbbd20",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x29' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x29'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x29' strong>",
+      "attrs": {
+       "_value": "'x29'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x29' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x30')",
+   "sha256": "eea5fa4b7ff280201c21392d93734630a8382f97e9e397209da662ee90fb7b37",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x30' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x30'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x30' strong>",
+      "attrs": {
+       "_value": "'x30'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x30' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x31')",
+   "sha256": "5183fc4e4bbb200d2217fcb90d1367f97534797e0de5371f526e9c23ee4aeb04",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x31' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x31'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x31' strong>",
+      "attrs": {
+       "_value": "'x31'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x31' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x32')",
+   "sha256": "871dffaed832993214f381dcf8c55a20fca32622a731b27cb3db1453c7dbc702",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x32' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x32'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x32' strong>",
+      "attrs": {
+       "_value": "'x32'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x32' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x33')",
+   "sha256": "99578bd1afdc5a6e18d5f4eda301ca7bc455a1795d8c39db5b279aa0b4cd23d1",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x33' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x33'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x33' strong>",
+      "attrs": {
+       "_value": "'x33'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x33' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x34')",
+   "sha256": "85f8857858e4de6d06acb504d2861dd8081a7ea46f93598c49c64c9d2e496ddd",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x34' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x34'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x34' strong>",
+      "attrs": {
+       "_value": "'x34'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x34' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x35')",
+   "sha256": "ff4d1826d3a99a6dfb4022196291f1dd45aaa8612719f9af48f9ca46abfda4d9",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x35' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x35'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x35' strong>",
+      "attrs": {
+       "_value": "'x35'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x35' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x36')",
+   "sha256": "604ef566d9d5a7156b411d73458354910b1df326220cd05a70daa6e9b7d7bb7d",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x36' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x36'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x36' strong>",
+      "attrs": {
+       "_value": "'x36'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x36' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x37')",
+   "sha256": "530ff85e3aa1ea1307b99cfaeea2fe93135c115ae999c68362b879f9dd3564a5",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x37' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x37'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x37' strong>",
+      "attrs": {
+       "_value": "'x37'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x37' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x38')",
+   "sha256": "600d54a6e127f57ff394bc12a05ef435d8135574c512e41b15edbfc4d3de1c07",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x38' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x38'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x38' strong>",
+      "attrs": {
+       "_value": "'x38'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x38' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x39')",
+   "sha256": "a4ba0ae902bfca49299fdfa3df36ca9019112d23ed6f443fca557b55f7bb22b0",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x39' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x39'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x39' strong>",
+      "attrs": {
+       "_value": "'x39'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x39' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x40')",
+   "sha256": "e4fb54e67990f878ce2f300b662ea2b339e29d40c490b190e36eac9a361a6235",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x40' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x40'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x40' strong>",
+      "attrs": {
+       "_value": "'x40'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x40' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x0')",
+   "sha256": "a46b20261247ebfda9f6f6cbd45dd54570ba7a221b3a937fd15f2d803046e0f8",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x0' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x0'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x0' strong>",
+      "attrs": {
+       "_value": "'x0'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x0' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('xx')",
+   "sha256": "937b5615abf06b405124f4dc0cc30ed75e9554c58d74d534e2f6a2e25c6d6709",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'xx' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'xx'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'xx' strong>",
+      "attrs": {
+       "_value": "'xx'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'xx' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x y')",
+   "sha256": "544470b244153d0fbf53aa0156e19050c1ed37895713316d0a5ea17cd6025aa2",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x y' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x y'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x y' strong>",
+      "attrs": {
+       "_value": "'x y'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x y' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x\u00e9')",
+   "sha256": "0934c83962ba8dbeeb1726b5318ec29b5af6dfe7de90ad9ef042774b98d74e37",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x\u00e9' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x\u00e9'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x\u00e9' strong>",
+      "attrs": {
+       "_value": "'x\u00e9'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x\u00e9' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x?k=1')",
+   "sha256": "a8717d7a654ca36f7a240a1d850f20af8f8568da4c93b551684bd10c12fb042c",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x?k=1' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x?k=1'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x?k=1' strong>",
+      "attrs": {
+       "_value": "'x?k=1'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x?k=1' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x#f')",
+   "sha256": "b3e37ae41c01ff537e81d693877255bb854d4146da8eb8cb78abdb268c1ecbca",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x#f' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x#f'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x#f' strong>",
+      "attrs": {
+       "_value": "'x#f'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x#f' strong>"
+    }
+   }
+  },
+  {
+   "expr": "cls('x/p')",
+   "sha256": "b568b71c9a88f600947573a2b581e6eb3c87dcd50ea18fa668319286777b8b67",
+   "record": {
+    "ok": true,
+    "value": {
+     "repr": "<ETag 'x/p' strong>",
+     "type": "ETag",
+     "attrs": {
+      "_value": "'x/p'",
+      "_weak": "False"
+     },
+     "pickle_roundtrip": {
+      "repr": "<ETag 'x/p' strong>",
+      "attrs": {
+       "_value": "'x/p'",
+       "_weak": "False"
+      }
+     },
+     "copy": "<ETag 'x/p' strong>"
+    }
+   }
+  }
+ ]
+}
